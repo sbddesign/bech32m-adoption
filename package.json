@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@bitcoin-design/bitcoin-icons-react": "^0.1.9",
+    "@heroicons/react": "^1.0.6",
     "next": "12.2.4",
     "react": "18.2.0",
     "react-dom": "18.2.0"
