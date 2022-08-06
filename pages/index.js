@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import {BitcoinIcon} from '@bitcoin-design/bitcoin-icons-react/filled'
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <main className={styles.main}>
         <h1 className="text-4xl font-bold underline">
           Welcome to <a href="https://nextjs.org">Next.js!</a>
+          <BitcoinIcon style={{height: "30px", width: "30px", color: '#F7931A' }} />
         </h1>
 
         <p className={styles.description}>
