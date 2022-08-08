@@ -5,7 +5,15 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    fontFamily: {
+      'sans': ['Roboto', 'ui-sans-serif', 'system-ui'],
+      'display': ['Sniglet', 'ui-sans-serif', 'system-ui']
+    },
+    extend: {
+      dropShadow: {
+        'hard': '16px 16px 0 rgba(6,28,54,0.20)'
+      }
+    },
   },
   plugins: [],
 }
