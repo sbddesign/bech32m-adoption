@@ -103,9 +103,13 @@ export default function Home() {
         </div>
 
         <div className="container mx-auto p-8">
-          <h2>The state of taproot support</h2>
+          <h2 className="text-center md:text-4xl xl:text-5xl 2xl:text-6xl">
+            The state of taproot support
+          </h2>
           
-          <strong>[WALLET SUPPORT TABLE]</strong>
+          <p className="text-center mx-auto">
+            <strong>[WALLET SUPPORT TABLE]</strong>
+          </p>
         </div>
 
         {/* Get Involved */}
