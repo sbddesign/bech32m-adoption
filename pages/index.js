@@ -1,7 +1,4 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
-import {BitcoinIcon} from '@bitcoin-design/bitcoin-icons-react/filled'
-import {BeakerIcon} from '@heroicons/react/solid'
 import { faTwitter, faGithub, faSlack } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
