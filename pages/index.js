@@ -14,7 +14,7 @@ export default function Home() {
       <main>
         {/* Hero */}
         <div className="wtr-bg min-h-[90vh] flex items-center justify-center p-8">
-          <div className="bg-white p-8 rounded-3xl drop-shadow-hard">
+          <div className="bg-white p-8 rounded-3xl drop-shadow-hard lg:w-3/5">
             <div className="hero pb-8 md:w-3/5 mx-auto">
               <svg width="763" height="467" viewBox="0 0 763 467" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M38.8275 400.576C39.0061 399.508 39.4495 398.621 40.1598 397.915C40.8688 397.211 41.7349 396.718 42.7585 396.438C43.6346 396.198 44.5524 396.183 45.5127 396.391C46.4718 396.599 47.3382 397.109 48.1096 397.917C51.307 401.282 54.3189 404.755 57.1456 408.338C59.9708 411.922 62.9413 415.525 66.0526 419.149C66.2579 412.733 66.3013 406.579 66.1792 400.683C66.0553 394.79 65.9945 388.977 65.9969 383.245C65.9868 381.207 66.3378 379.756 67.0439 378.896C67.7501 378.035 68.7964 377.413 70.1846 377.033C71.426 376.693 72.5432 376.762 73.5374 377.234C74.53 377.711 75.1873 378.532 75.5069 379.699C75.7671 380.649 75.9845 382.376 76.1604 384.879C76.3341 387.383 76.4644 390.291 76.5479 393.604C76.6304 396.919 76.6947 400.453 76.7427 404.209C76.7882 407.965 76.7963 411.575 76.763 415.038C76.73 418.503 76.6712 421.658 76.5878 424.507C76.5033 427.357 76.4238 429.499 76.3455 430.933C76.2208 432.774 75.8724 434.224 75.2988 435.283C74.7236 436.342 73.5989 437.103 71.9194 437.562C70.3856 437.982 68.9414 437.73 67.5899 436.805C66.2362 435.88 64.8934 434.699 63.5567 433.257C63.1038 432.753 62.36 431.897 61.3221 430.689C60.2856 429.483 59.0501 428.054 57.6172 426.404C56.1831 424.756 54.6272 422.945 52.9496 420.97C51.2706 418.997 49.5635 416.991 47.828 414.953C47.3725 417.591 46.888 420.197 46.3761 422.77C45.8632 425.344 45.3976 427.73 44.9787 429.923C44.5587 432.12 44.1921 434.008 43.8787 435.583C43.5634 437.162 43.3404 438.283 43.2096 438.946C42.793 440.867 42.2568 442.564 41.6009 444.039C40.9447 445.514 39.8122 446.472 38.2068 446.911C35.6493 447.612 33.2551 446.462 31.0203 443.461C30.1489 442.287 28.9561 440.513 27.4436 438.14C25.9294 435.769 24.2961 433.096 22.5388 430.12C20.7832 427.148 18.9912 424.046 17.1653 420.817C15.3388 417.588 13.6581 414.534 12.1246 411.656C10.5902 408.78 9.28545 406.233 8.20709 404.015C7.12908 401.797 6.45019 400.178 6.17009 399.155C5.83018 397.913 5.8959 396.797 6.37101 395.802C6.84392 394.809 7.73888 394.131 9.05308 393.772C10.5135 393.372 11.7853 393.358 12.8691 393.729C13.9516 394.1 15.0088 395.165 16.0399 396.923C18.9603 401.856 21.8692 406.888 24.7671 412.022C27.6645 417.158 30.8363 422.432 34.2825 427.848C34.9279 423.902 35.5355 419.811 36.1028 415.573C36.6692 411.336 37.5777 406.335 38.8275 400.576L38.8275 400.576Z" fill="black"/>
@@ -106,7 +106,8 @@ export default function Home() {
           <strong>[WALLET SUPPORT TABLE]</strong>
         </div>
 
-        <div className="container mx-auto p-8">
+        {/* Get Involved */}
+        <div className="container mx-auto p-8 max-w-2xl">
           <h2>Get Involved</h2>
           
           <p>
@@ -120,12 +121,12 @@ export default function Home() {
               above list.
             </li>
             <li className="pl-4">
-              Try sending bitcoin to a bech32 address. If you’re not familiar with bech32m, you can generate a bech32
+              Try sending bitcoin to a bech32m address. If you’re not familiar with bech32m, you can generate a bech32
               address using [insert a recommended bitcoin wallet here].
             </li>
             <li className="pl-4">
-              Now try receiving to a bech32 address. When you choose to receive, it should give you an address that
-              begins with “bc1q”. If it does not....
+              Now try receiving to a bech32m address. When you choose to receive, it should give you an address that
+              begins with “bc1p”. If it does not....
             </li>
             <li className="pl-4">
               Bitcoin ipsum dolor sit amet. Transaction satoshis peer-to-peer electronic cash ...
@@ -133,8 +134,8 @@ export default function Home() {
           </ol>
         </div>
         
-        <div className="mx-auto wtr-bg px-8 py-16">
-          <div className="bg-white px-8 py-12 rounded-3xl drop-shadow-hard">
+        <div className="mx-auto wtr-bg px-8 py-16 flex items-center justify-center lg:min-h-[75vh]">
+          <div className="bg-white px-8 py-12 rounded-3xl drop-shadow-hard lg:w-3/5">
             <div className="footer-img md:w-2/5 mx-auto">
               <svg width="338" height="315" viewBox="0 0 338 315" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M52.4332 165.08C60.3027 126.355 79.1868 110.676 99.5938 105.913C124.86 100.016 138.853 102.899 158.533 121.361C200.06 160.322 187.124 235.09 132.706 247.79C78.2869 260.491 44.5636 203.806 52.4332 165.08Z" fill="#C8E8F2"/>
@@ -165,13 +166,13 @@ export default function Home() {
               </svg>
             </div>
 
-            <h2 className="text-center text-2xl md:text-3xl">Join the discussion</h2>
+            <h2 className="text-center text-2xl md:text-3xl lg:text-4xl">Join the discussion</h2>
 
-            <ul className="text-xl space-y-8 text-center md:flex items-center justify-center md:space-y-0 md:space-x-16">
+            <ul className="text-xl space-y-8 text-center md:flex items-center justify-center md:space-y-0 md:space-x-16 lg:text-2xl">
               <li>
                 <a href="https://bitcoindesign.slack.com/archives/C03ND8N72PL" className="flex items-center justify-center space-x-4">
                   <FontAwesomeIcon icon={faSlack} className="w-8 h-8" />
-                  <span>Slack <span className="sr-only lg:not-sr-only">Channel</span></span>
+                  <span>Slack <span className="sr-only xl:not-sr-only">Channel</span></span>
                 </a>
               </li>
               <li>
