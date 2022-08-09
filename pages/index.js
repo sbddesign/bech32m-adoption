@@ -55,7 +55,7 @@ export default function Home() {
 
             </div>
             <h1 className="pb-4 absolute left-[-999rem]">When taproot?</h1>
-            <p className="text-xl">
+            <p className="text-xl xl:text-2xl">
               Taproot has been live since November 2021, yet the bitcoin industry has not seen widespread adoption of
               bech32m. What gives? Bunny is sad. <strong>When&nbsp;taproot?</strong>
             </p>
@@ -66,7 +66,7 @@ export default function Home() {
         <div className="container mx-auto p-8">
           <h2 className="text-center">Benefits of taproot</h2>
           <div className="space-y-8 md:flex md:flex-wrap md:space-y-0">
-            <div className="md:basis-1/2 md:p-8">
+            <div className="md:basis-1/2 md:p-8 xl:basis-1/4">
               <div className="w-32 h-32 bg-slate-400 rounded-full mx-auto mb-4"></div>
               <h3 className="mb-4 text-center">Lighter, more private multisig</h3>
               <p>
@@ -74,21 +74,21 @@ export default function Home() {
                 outputs will look the same as single-sig outputs!
               </p>
             </div>
-            <div className="md:basis-1/2 md:p-8">
+            <div className="md:basis-1/2 md:p-8 xl:basis-1/4">
               <div className="w-32 h-32 bg-slate-400 rounded-full mx-auto mb-4"></div>
               <h3 className="mb-4 text-center">Cheaper inputs, more expensive outputs</h3>
               <p>
                 P2TR outputs offer better aligned incentives. Receiving and stacking in P2TR is cheaper to spend later!
               </p>
             </div>
-            <div className="md:basis-1/2 md:p-8">
+            <div className="md:basis-1/2 md:p-8 xl:basis-1/4">
               <div className="w-32 h-32 bg-slate-400 rounded-full mx-auto mb-4"></div>
               <h3 className="mb-4 text-center">More powerful single-sig</h3>
               <p>
                 Use wallet descriptors to add fallback spending conditions to your single-sig outputs.
               </p>
             </div>
-            <div className="md:basis-1/2 md:p-8">
+            <div className="md:basis-1/2 md:p-8 xl:basis-1/4">
               <div className="w-32 h-32 bg-slate-400 rounded-full mx-auto mb-4"></div>
               <h3 className="mb-4 text-center">Improved privacy on Lightning</h3>
               <p>
@@ -97,7 +97,9 @@ export default function Home() {
             </div>
           </div>
           
-          <p>When we wait to adopt P2TR, we slow down adoption of all these great benefits</p>
+          <p className="font-display mb-4 mt-16 text-2xl text-center max-w-3xl mx-auto md:text-3xl lg:text-4xl">
+            When we wait to adopt P2TR, we slow down adoption of all these great benefits
+          </p>
         </div>
 
         <div className="container mx-auto p-8">
