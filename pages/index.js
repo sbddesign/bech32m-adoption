@@ -135,7 +135,7 @@ export default function Home() {
         </div>
         
         <div className="container mx-auto wtr-bg p-8">
-          <div className="bg-white p-8 rounded-3xl drop-shadow-hard">
+          <div className="bg-white px-8 py-12 rounded-3xl drop-shadow-hard">
             <div className="footer-img">
               <svg width="338" height="315" viewBox="0 0 338 315" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M52.4332 165.08C60.3027 126.355 79.1868 110.676 99.5938 105.913C124.86 100.016 138.853 102.899 158.533 121.361C200.06 160.322 187.124 235.09 132.706 247.79C78.2869 260.491 44.5636 203.806 52.4332 165.08Z" fill="#C8E8F2"/>
