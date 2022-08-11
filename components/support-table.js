@@ -29,10 +29,10 @@ export default function SupportTable() {
               Name
             </th>
             <th className="font-normal border border-slate-400 p-2 min-w-[100px]">
-              <SendIcon className="w-4 h-4 md:w-6 md:h-6 mx-auto md:inline" /> Send to Bech32m
+              <SendIcon className="w-4 h-4 md:w-6 md:h-6 mx-auto md:inline" aria-hidden="true" /> Send to Bech32m
             </th>
             <th className="font-normal border border-slate-400 p-2 p-2 min-w-[100px]">
-              <ReceiveIcon className="w-4 h-4 md:w-6 md:h-6 mx-auto md:inline" /> Receive to P2TR
+              <ReceiveIcon className="w-4 h-4 md:w-6 md:h-6 mx-auto md:inline" aria-hidden="true" /> Receive to P2TR
             </th>
             <th className="font-normal border border-slate-400 p-2 min-w-[80px]">
               Issue Link
