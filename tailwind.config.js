@@ -12,7 +12,13 @@ module.exports = {
     extend: {
       dropShadow: {
         'hard': '16px 16px 0 rgba(6,28,54,0.20)'
-      }
+      },
+      colors: {
+        'status-yes': '#C8EED3',
+        'status-no': '#FFD7D7',
+        'status-planned': '#CBDDFF',
+        'status-unknown': '#FAFCBE',
+      },
     },
   },
   plugins: [],

@@ -40,3 +40,30 @@ h4 {
 .hero svg, .footer-img svg {
     @apply w-full h-auto;
 }
+
+.skip-content:focus {
+    @apply not-sr-only drop-shadow-hard;
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    text-align: center;
+    padding: 1rem;
+    background: #fff;
+    z-index: 999;
+}
+
+td.status-yes {
+    @apply bg-status-yes;
+}
+
+td.status-no {
+    @apply bg-status-no;
+}
+
+td.status-planned {
+    @apply bg-status-planned;
+}
+
+td.status-unknown {
+    @apply bg-status-unknown;
+}
