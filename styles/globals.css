@@ -51,3 +51,19 @@ h4 {
     background: #fff;
     z-index: 999;
 }
+
+td.status-yes {
+    @apply bg-status-yes;
+}
+
+td.status-no {
+    @apply bg-status-no;
+}
+
+td.status-planned {
+    @apply bg-status-planned;
+}
+
+td.status-unknown {
+    @apply bg-status-unknown;
+}

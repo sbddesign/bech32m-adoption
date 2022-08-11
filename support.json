@@ -1,7 +1,22 @@
 [
   {
     "wallet": {
-      "name": "Test",
+      "name": "Bitcoin-ipsum dolor-sit-amet",
+      "uri": "https://bitcoin.design/"
+    },
+    "send_bech32m": "yes",
+    "receive_p2tr": "no",
+    "creates_bip21": "no",
+    "notes": "",
+    "issue_link": "https://twitter.com/Pellicceama/status/1436324051803414535",
+    "credit": {
+      "name": "@sbddesign",
+      "uri": "https://github.com/sbddesign"
+    }
+  },
+  {
+    "wallet": {
+      "name": "Consensus-mining blocksize-address",
       "uri": "https://bitcoin.design/"
     },
     "send_bech32m": "no",
@@ -16,11 +31,11 @@
   },
   {
     "wallet": {
-      "name": "Test",
+      "name": "Hard-fork-transaction full-node",
       "uri": "https://bitcoin.design/"
     },
-    "send_bech32m": "no",
-    "receive_p2tr": "no",
+    "send_bech32m": "yes",
+    "receive_p2tr": "unknown",
     "creates_bip21": "no",
     "notes": "",
     "issue_link": "https://twitter.com/Pellicceama/status/1436324051803414535",
@@ -31,11 +46,11 @@
   },
   {
     "wallet": {
-      "name": "Test",
+      "name": "Double-spend problem",
       "uri": "https://bitcoin.design/"
     },
-    "send_bech32m": "no",
-    "receive_p2tr": "no",
+    "send_bech32m": "planned",
+    "receive_p2tr": "unknown",
     "creates_bip21": "no",
     "notes": "",
     "issue_link": "https://twitter.com/Pellicceama/status/1436324051803414535",
