@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import { faTwitter, faGithub, faSlack } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import SupportTable from '../components/support-table';
 
 export default function Home() {
   return (
@@ -61,7 +62,6 @@ export default function Home() {
                 <path d="M323.874 12.4828C276.235 -17.5192 239.533 83.8567 227.137 138.295L244.229 149.854C290.627 116.564 371.514 42.4849 323.874 12.4828Z" fill="#C8E8F2"/>
                 <path d="M305.967 31.7064C280.783 12.9485 250.702 80.6277 237.462 120.565C236.627 123.083 237.61 125.829 239.824 127.29L242.17 128.837C244.328 130.261 247.156 130.133 249.143 128.478C280.518 102.333 331.153 50.4654 305.967 31.7064Z" fill="#F1D0CC"/>
               </svg>
-
             </div>
             <h1 className="sr-only">When taproot?</h1>
             <p className="text-xl xl:text-2xl">
@@ -115,10 +115,8 @@ export default function Home() {
           <h2 className="text-center md:text-4xl xl:text-5xl 2xl:text-6xl">
             The state of taproot support
           </h2>
-          
-          <p className="text-center mx-auto">
-            <strong>[WALLET SUPPORT TABLE]</strong>
-          </p>
+
+          <SupportTable />
         </div>
 
         {/* Get Involved */}

@@ -1,0 +1,47 @@
+[
+  {
+    "wallet": {
+      "name": "Test",
+      "uri": "https://bitcoin.design/"
+    },
+    "send_bech32m": "no",
+    "receive_p2tr": "no",
+    "creates_bip21": "no",
+    "notes": "",
+    "issue_link": "https://twitter.com/Pellicceama/status/1436324051803414535",
+    "credit": {
+      "name": "@sbddesign",
+      "uri": "https://github.com/sbddesign"
+    }
+  },
+  {
+    "wallet": {
+      "name": "Test",
+      "uri": "https://bitcoin.design/"
+    },
+    "send_bech32m": "no",
+    "receive_p2tr": "no",
+    "creates_bip21": "no",
+    "notes": "",
+    "issue_link": "https://twitter.com/Pellicceama/status/1436324051803414535",
+    "credit": {
+      "name": "@sbddesign",
+      "uri": "https://github.com/sbddesign"
+    }
+  },
+  {
+    "wallet": {
+      "name": "Test",
+      "uri": "https://bitcoin.design/"
+    },
+    "send_bech32m": "no",
+    "receive_p2tr": "no",
+    "creates_bip21": "no",
+    "notes": "",
+    "issue_link": "https://twitter.com/Pellicceama/status/1436324051803414535",
+    "credit": {
+      "name": "@sbddesign",
+      "uri": "https://github.com/sbddesign"
+    }
+  }
+]
