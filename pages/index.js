@@ -63,7 +63,7 @@ export default function Home() {
               </svg>
 
             </div>
-            <h1 className="pb-4 absolute left-[-999rem]">When taproot?</h1>
+            <h1 className="sr-only">When taproot?</h1>
             <p className="text-xl xl:text-2xl">
               Taproot has been live since November 2021, yet the bitcoin industry has not seen widespread adoption of
               bech32m. What gives? Bunny is sad. <strong>When&nbsp;taproot?</strong>
