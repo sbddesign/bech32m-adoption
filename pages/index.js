@@ -12,7 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       
-      <a href="#start-of-main-content" className="sr-only">Skip to content</a>
+      <a href="#start-of-main-content" className="sr-only skip-content">Skip to content</a>
       
       <nav role="navigation">
         
