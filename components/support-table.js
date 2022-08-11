@@ -21,7 +21,7 @@ export default function SupportTable() {
   }
   
   return(
-    <div className="w-full overflow-x-scroll py-4">
+    <div className="w-full overflow-x-scroll md:overflow-x-auto py-4">
       <table className="w-full mx-auto text-xs lg:text-base">
         <thead className="font-display">
           <tr>
