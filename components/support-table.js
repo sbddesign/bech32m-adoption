@@ -1,4 +1,4 @@
-import support from '../support.json'
+import support from '../data/formatted/software-wallets.json'
 import {CheckIcon, CrossIcon, InfoIcon, QuestionIcon, SendIcon, ReceiveIcon} from '@bitcoin-design/bitcoin-icons-react/filled';
 
 export default function SupportTable() {
@@ -15,6 +15,9 @@ export default function SupportTable() {
       case 'unknown':
         return <QuestionIcon className={classes} aria-hidden="true" />
         break
+      case 'evaluating':
+        return <QuestionIcon className={classes} aria-hidden="true" />
+        break
       case 'planned':
         return <InfoIcon className={classes} aria-hidden="true" />
     }
@@ -22,16 +25,16 @@ export default function SupportTable() {
   
   return(
     <div className="w-full overflow-x-scroll md:overflow-x-auto py-4">
-      <table className="w-full mx-auto text-xs lg:text-base">
+      <table className="w-full mx-auto text-xs 3xl:text-base">
         <thead className="font-display">
           <tr>
             <th className="font-normal border border-slate-400 p-2 p-2 min-w-[148px] text-left">
               Name
             </th>
-            <th className="font-normal border border-slate-400 p-2 min-w-[100px]">
+            <th className="font-normal border border-slate-400 p-2 min-w-[60px]">
               <SendIcon className="w-4 h-4 md:w-6 md:h-6 mx-auto md:inline" aria-hidden="true" /> Send to Bech32m
             </th>
-            <th className="font-normal border border-slate-400 p-2 p-2 min-w-[100px]">
+            <th className="font-normal border border-slate-400 p-2 p-2 min-w-[60px]">
               <ReceiveIcon className="w-4 h-4 md:w-6 md:h-6 mx-auto md:inline" aria-hidden="true" /> Receive to P2TR
             </th>
             <th className="font-normal border border-slate-400 p-2 min-w-[80px]">
@@ -40,27 +43,33 @@ export default function SupportTable() {
             <th className="font-normal border border-slate-400 p-2 min-w-[148px]">
               Credit
             </th>
+            <th className="font-normal border border-slate-400 p-2 min-w-[148px] max-w-[200px]">
+              Notes
+            </th>
           </tr>
         </thead>
         <tbody>
         {support.map((s, key)=>(
           <tr key={key}>
-            <td className="border border-slate-400 p-2">
-              {s.wallet.name}
+            <td className="border border-slate-400 font-bold p-2">
+              {s.wallet.uri ? <a href={s.wallet.uri}>{s.wallet.name}</a> : s.wallet.name}
             </td>
-            <td className={"status-" + s.send_bech32m + " border border-slate-400 p-2 text-center"}>
-              <div className="flex justify-center items-center w-full h-full">
-                {selectIcon(s.send_bech32m)}
-                <span>
-                  {s.send_bech32m.substring(0,1).toUpperCase() + s.send_bech32m.substring(1).toLowerCase()}
-                </span>
+            <td className={"status-" + s.send_to_bech32m.status + " border border-slate-400 p-2 text-center"}>
+              <div className="flex justify-center items-center align-center w-full h-full flex-wrap mb-1">
+                {selectIcon(s.send_to_bech32m.status)}
+                <p className="font-bold text-left">
+                  {s.send_to_bech32m.status.substring(0,1).toUpperCase() + s.send_to_bech32m.status.substring(1).toLowerCase()}
+                </p>
               </div>
+                <p className="basis-1/1">
+                  {s.send_to_bech32m.detail}
+                </p>
             </td>
-            <td className={"status-" + s.receive_p2tr + " border border-slate-400 p-2 text-center"}>
+            <td className={"status-" + s.receive_to_p2tr.status + " border border-slate-400 p-2 text-center"}>
               <div className="flex justify-center items-center w-full h-full">
-                {selectIcon(s.receive_p2tr)}
+                {selectIcon(s.receive_to_p2tr.status)}
                 <span>
-                  {s.receive_p2tr.substring(0,1).toUpperCase() + s.receive_p2tr.substring(1).toLowerCase()}
+                  {s.receive_to_p2tr.status.substring(0,1).toUpperCase() + s.receive_to_p2tr.status.substring(1).toLowerCase()}
                 </span>
               </div>
             </td>
@@ -69,6 +78,9 @@ export default function SupportTable() {
             </td>
             <td className="border border-slate-400 p-2 text-center">
               <a href={s.credit.uri}>{s.credit.name}</a>
+            </td>
+            <td className="border border-slate-400 p-2 text-center max-w-[200px] overflow-hidden">
+              {s.notes && s.notes.status ? s.notes.status : ''}
             </td>
           </tr>
         ))}

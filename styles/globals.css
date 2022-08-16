@@ -64,6 +64,6 @@ td.status-planned {
     @apply bg-status-planned;
 }
 
-td.status-unknown {
+td.status-unknown, td.status-evaluating {
     @apply bg-status-unknown;
 }
