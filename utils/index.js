@@ -65,7 +65,7 @@ fs.readFile(args['i'], 'utf8', (err,data)=>{
       entries.push(entry);
     });
     
-    fs.writeFile('../data/formatted/software-wallets.json', JSON.stringify(entries), (err2)=>{
+    fs.writeFile(args['o'], JSON.stringify(entries), (err2)=>{
       console.log(err2);
       return;
     });
