@@ -28,8 +28,6 @@ fs.readFile(args['i'], 'utf8', (err,data)=>{
             let trimmed = rawLine[i].replace(/\| /, '');
             let uri = trimmed.replace(/ .+]/, '').replace(/\[/, '');
             let name = trimmed.replace(/\[.+ /, '').replace(/\]/, '');
-            console.log(uri);
-            console.log(name);
             columnObject = {
               name,
               uri
@@ -41,7 +39,6 @@ fs.readFile(args['i'], 'utf8', (err,data)=>{
             };
           }
           formattedLine.push(columnObject);
-          // formattedLine.push(rawLine[i].replace(/\| /, ''));
         }
         else {
           let trimmed = rawLine[i].replace(/[{}]/g, '');
