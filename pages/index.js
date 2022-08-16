@@ -134,7 +134,7 @@ export default function Home() {
               above list.
             </li>
             <li className="pl-4">
-              Try sending bitcoin to a bech32m address. If you’re not familiar with bech32m, you can generate a bech32
+              Try sending a small amount of bitcoin to a bech32m address.. If you’re not familiar with bech32m, you can generate a bech32m
               address using [insert a recommended bitcoin wallet here].
             </li>
             <li className="pl-4">
