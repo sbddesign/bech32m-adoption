@@ -2,8 +2,24 @@ import Head from 'next/head'
 import { faTwitter, faGithub, faSlack } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import SupportTable from '../components/support-table';
+import { CopyBlock,dracula } from "react-code-blocks"
 
 export default function Home() {
+  let pythonSample = `def decode(hrp, addr):
+    """Decode a segwit address (Bech32/Bech32m)."""
+    hrpgot, data = decode_string(addr)
+    if hrpgot != hrp:
+        return (None, None)
+    constant = bech32_checksum_constant(hrp, data)
+
+    version = data[0] if data else None
+    if version == 0 and constant != 1 or version != 0 and constant != 0x2bc830a3:
+        return (None, None)
+    witprog = convert_decoded_bits(data)
+    if not validate_witness_program(version, witprog):
+        return (None, None)
+  `
+
   return (
     <div>
       <Head>
@@ -145,6 +161,27 @@ export default function Home() {
               Bitcoin ipsum dolor sit amet. Transaction satoshis peer-to-peer electronic cash ...
             </li>
           </ol>
+        </div>
+
+        {/*Instructions */}
+        <div className="container mx-auto px-8 pb-8">
+          <div className="container mx-auto p-8 max-w-2xl">
+            <h2>Adding P2TR support</h2>
+  
+            <p>
+              Implementing support for bech32m in your app should be simple. With a <a href="https://github.com/jesseposner/bech32/commit/d8a50fac83c20691833781a660bb4fbb513c3850">small refactor</a>  to the Python reference implementation of bech32, the change for sending to bech32m can be described with <a href="https://github.com/jesseposner/bech32/commit/cc1cc2cc501f7da51305cbf43eef3f6258892cdb#diff-f226c2590ba87b0b57a874d7eecacac232f0d39a7896c08cf6167c258b0b31a1L132-L143">just a few lines of code:</a>
+            </p>
+          </div>
+            
+          <div className="text-xs my-8">
+            <CopyBlock
+              text={pythonSample}
+              language='python'
+              showLineNumbers='true'
+              wrapLines
+              theme={dracula}
+            />
+          </div>
         </div>
         
         <div className="mx-auto wtr-bg px-8 py-16 flex items-center justify-center lg:min-h-[75vh]">
