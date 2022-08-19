@@ -1,0 +1,412 @@
+[
+  {
+    "wallet": {
+      "name": "bitaps.com"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "yes"
+    },
+    "notes": {
+      "status": "https://bitaps.com"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Bitflyer"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "yes"
+    },
+    "notes": {
+      "status": "https://chainflyer.bitflyer.jp"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Blockbook"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "yes"
+    },
+    "notes": {
+      "status": "https://btc1.trezor.io"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "blockchain.com"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "yes"
+    },
+    "notes": {
+      "status": "https://www.blockchain.com/explorer"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Blockchair"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes",
+      "detail": "Ready, but old txns not reindexed yet"
+    },
+    "receive_to_p2tr": {
+      "status": "yes",
+      "detail": "Ready, but old txns not reindexed yet"
+    },
+    "notes": {
+      "status": "https://github.com/blockchair/blockchair.support/issues/567#issuecomment-966393097, https://twitter.com/blockchair/status/1458817396433731585"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Blockcypher"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "no"
+    },
+    "notes": {
+      "status": "https://live.blockcypher.com/btc"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Blockonomics"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": " yes"
+    },
+    "notes": {
+      "status": "https://www.blockonomics.co"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Blockpath"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "no"
+    },
+    "receive_to_p2tr": {
+      "status": "no"
+    },
+    "notes": {
+      "status": "https://blockpath.com"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "BTC.com"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "yes"
+    },
+    "notes": {
+      "status": "https://btc.com"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Esplora"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "yes"
+    },
+    "notes": {
+      "status": "open source explorer, instances are https://blockstream.info/ and https://www.localbitcoinschain.com/. [https://github.com/blockstream/esplora/issues/323 issue] for bip350 support."
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Insight"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "no"
+    },
+    "receive_to_p2tr": {
+      "status": "no"
+    },
+    "notes": {
+      "status": "open source explorer, instances include https://insight.bitpay.com/"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Mempool"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "yes"
+    },
+    "notes": {
+      "status": "open source explorer, instances include https://mempool.space https://mempool.ninja https://mempool.emzy.de https://mempool.bisq.services https://mempool.bitcoin.ninja https://mempool.bitaroo.net/"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "OKLink"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "yes"
+    },
+    "notes": {
+      "status": "https://www.oklink.com"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "OXT"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "yes"
+    },
+    "notes": {
+      "status": "https://oxt.me/"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Tradeblock"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "no"
+    },
+    "receive_to_p2tr": {
+      "status": "no"
+    },
+    "notes": {
+      "status": "https://tradeblock.com/bitcoin"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "WalletExplorer"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "yes"
+    },
+    "notes": {
+      "status": "https://walletexplorer.com/"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Bitcoin Explorer"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "yes"
+    },
+    "notes": {
+      "status": "https://bitcoinexplorer.org, https://twitter.com/bitcoinexplorer/status/1425148093977309187"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  }
+]

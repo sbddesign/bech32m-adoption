@@ -1,0 +1,1367 @@
+[
+  {
+    "wallet": {
+      "name": "1Fox"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "no"
+    },
+    "send_to_bech32m": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "notes": {
+      "status": "https://1fox.com/?c=en/content/blog&id=12"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "[[AgoraDesk]",
+      "uri": "[AgoraDesk]]"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "yes "
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Anycoin Direct"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "no"
+    },
+    "send_to_bech32m": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "notes": {
+      "status": "https://anycoindirect.eu/en/news/details/segwit-activated"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Binance"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "no"
+    },
+    "receive_to_p2tr": {
+      "status": "no"
+    },
+    "notes": {
+      "status": "https://twitter.com/colemaktypo/status/1460337599499882502"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Bitaroo"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "no "
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "BitBargain.co.uk"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "no"
+    },
+    "send_to_bech32m": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "?? "
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Bitcoin.de"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "no"
+    },
+    "send_to_bech32m": {
+      "status": "no"
+    },
+    "receive_to_p2tr": {
+      "status": "no"
+    },
+    "notes": {
+      "status": "https://twitter.com/ben_dewaal/status/1460464528181936130"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Bitfinex"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "no"
+    },
+    "send_to_bech32m": {
+      "status": "planned"
+    },
+    "receive_to_p2tr": {
+      "status": "no"
+    },
+    "notes": {
+      "status": "https://twitter.com/paoloardoino/status/1460620727342796800"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "BitMEX"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "notes": {
+      "status": "https://twitter.com/bitmexresearch/status/1492152557044654082"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Bitonic"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "send_to_bech32m": {
+      "status": "no"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "notes": {
+      "status": "https://twitter.com/bitcoinennl/status/1460284373291384833"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Bitpanda"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "notes": {
+      "status": "https://twitter.com/christiant5r/status/1461369956252139520"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Bittrex"
+    },
+    "send_to_bech32": {
+      "status": "no"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "no"
+    },
+    "send_to_bech32m": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "notes": {
+      "status": "https://www.reddit.com/r/bitcoin/comments/gqt1m6/bittrex_does_not_even_support_withdrawals_to/"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Bittylicious"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "no"
+    },
+    "send_to_bech32m": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "notes": {
+      "status": "https://twitter.com/bittylicious_/status/998881327347888128"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Bitstamp"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "planned"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "notes": {
+      "status": "https://www.bitstamp.net/article/weve-added-support-bech32-bitcoin-addresses-bitsta/"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Bitso"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "no"
+    },
+    "send_to_bech32m": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "notes": {
+      "status": "https://twitter.com/bitso/status/1203784055340314624"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Bitwage"
+    },
+    "send_to_bech32": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "no"
+    },
+    "send_to_bech32m": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "?? "
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Bitwala"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "?? "
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Bottlepay"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "no"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "notes": {
+      "status": "https://help.bottlepay.com/en/articles/4909780-what-bitcoin-addresses-do-you-support-for-on-chain-withdrawals, https://twitter.com/stack_russel_uk/status/1460330265751044097"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "BSDEX"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "no"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "no "
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Bull Bitcoin"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "planned"
+    },
+    "notes": {
+      "status": "https://twitter.com/francispouliot_/status/1464264391155666950"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "CardCoins.co"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "no deposits"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "no deposits"
+    },
+    "notes": {
+      "status": "https://twitter.com/cardcoinsco/status/1452680654030872589"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "CEX.IO"
+    },
+    "send_to_bech32": {
+      "status": "no"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "no"
+    },
+    "send_to_bech32m": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "?? "
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Coinbase.com"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "no"
+    },
+    "send_to_bech32m": {
+      "status": "no",
+      "detail": "Not a priority currently"
+    },
+    "receive_to_p2tr": {
+      "status": "no "
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "CoinCorner"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "notes": {
+      "status": "https://twitter.com/coincorner/status/1461360995746545667"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "CoinFalcon"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "no"
+    },
+    "send_to_bech32m": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "?? "
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Coinmate.io",
+      "uri": "https://coinmate.io"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "notes": {
+      "status": "https://coinmate.io/blog/important-coinmate-update/"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Coinsbank.com"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "?? "
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Coinygram"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "no"
+    },
+    "send_to_bech32m": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "?? "
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Flyp.me"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "no"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "?? "
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "FTX US Derivatives"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "notes": {
+      "status": "formerly ledgerx"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "GDax"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "no"
+    },
+    "send_to_bech32m": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "notes": {
+      "status": "https://www.reddit.com/r/bitcoin/comments/8c738k/coinbase_gdax_already_allows_sending_to_bc1/"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Gemini"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "no"
+    },
+    "receive_to_p2tr": {
+      "status": "no"
+    },
+    "notes": {
+      "status": "https://np.reddit.com/r/bitcoin/comments/b66n0v/psa_gemini_is_full_on_with_native_segwit_and_uses/"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Genesis"
+    },
+    "send_to_bech32": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "no"
+    },
+    "send_to_bech32m": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "?? "
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Globitex"
+    },
+    "send_to_bech32": {
+      "status": "no"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "no"
+    },
+    "send_to_bech32m": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "?? "
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "HitBTC"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "no"
+    },
+    "send_to_bech32m": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "?? "
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Hodl Hodl"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "notes": {
+      "status": "https://medium.com/@hodlhodl/hodl-hodl-segwit-compatible-exchange-a2231968ac56"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Independent Reserve|| {{Yes}}"
+    },
+    "send_to_bech32": {
+      "status": "no"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "send_to_bech32m": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "receive_to_p2tr": {
+      "status": "https://www.independentreserve.com/bitcoin/investing"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Itbit"
+    },
+    "send_to_bech32": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "no"
+    },
+    "send_to_bech32m": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "?? "
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Kraken"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "no"
+    },
+    "send_to_bech32m": {
+      "status": "no"
+    },
+    "receive_to_p2tr": {
+      "status": "no"
+    },
+    "notes": {
+      "status": "https://twitter.com/murchandamus/status/1460399767830380564"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Liberalcoins"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "notes": {
+      "status": "https://liberalcoins.com"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "[[LocalBitcoins]",
+      "uri": "[LocalBitcoins]]"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "no"
+    },
+    "send_to_bech32m": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "notes": {
+      "status": "https://twitter.com/localbitcoins/status/1322194709159301120"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Luno"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "no"
+    },
+    "send_to_bech32m": {
+      "status": "planned",
+      "detail": "Planned"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "notes": {
+      "status": "https://www.luno.com/blog/en/post/luno-launches-support-for-bech32-addresses"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Okcoin"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "notes": {
+      "status": "https://twitter.com/okcoin/status/1471563103049756672"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Paxful.com"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "no"
+    },
+    "send_to_bech32m": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "notes": {
+      "status": "https://paxful.com/support/en-us/articles/360011766520-can-i-withdraw-bitcoin-from-paxful-wallet-to-my-external-wallet-"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Purse.io"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "?? "
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Poloniex.com"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "no"
+    },
+    "send_to_bech32m": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "notes": {
+      "status": "https://www.reddit.com/r/bitcoin/comments/a3jhcf/you_can_now_withdraw_from_poloniex_to_bech32/"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "River.com"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "planned",
+      "detail": "Planned"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "?? "
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Robinhood.com"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "send_to_bech32m": {
+      "status": "no"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "notes": {
+      "status": "https://robinhood.com/us/en/support/articles/cryptocurrency-wallets/#supportedaddressformatsforcryptowithdrawals"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Square CashApp"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "no"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "notes": {
+      "status": "https://cash.app/help/us/en-us/20211114-bitcoin-taproot-upgrade"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "StackinSat.com"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "no deposits"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "no deposits"
+    },
+    "notes": {
+      "status": "https://twitter.com/stackinsat_fr/status/1500898826416230401"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Strike"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "no"
+    },
+    "receive_to_p2tr": {
+      "status": "no"
+    },
+    "notes": {
+      "status": "https://twitter.com/btcboromir/status/1460373287792521232"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Swan"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "no deposits"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "no deposits"
+    },
+    "notes": {
+      "status": "https://twitter.com/swanbitcoin/status/1468318386916663298"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "TheRockTrading.com"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "notes": {
+      "status": "https://twitter.com/therocktrading/status/976787499648512003"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "VBTC"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "planned"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "planned"
+    },
+    "notes": {
+      "status": "https://twitter.com/vbtc_vietnam/status/1460978196816416775"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Walltime"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "notes": {
+      "status": "https://walltime.info"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Xapo"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "no"
+    },
+    "send_to_bech32m": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "?? "
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  }
+]

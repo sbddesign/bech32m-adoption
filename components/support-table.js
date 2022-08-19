@@ -1,4 +1,4 @@
-import support from '../data/formatted/software-wallets.json'
+import support from '../data/formatted/all.json'
 import {CheckIcon, CrossIcon, InfoIcon, QuestionIcon, SendIcon, ReceiveIcon} from '@bitcoin-design/bitcoin-icons-react/filled';
 
 export default function SupportTable() {
@@ -22,6 +22,17 @@ export default function SupportTable() {
         return <InfoIcon className={classes} aria-hidden="true" />
     }
   }
+  
+  const sortTableData = (support) => {
+    let sorted = support.sort((a,b) => {
+      let a1 = a.wallet.name.toLowerCase()
+      let b1 = b.wallet.name.toLowerCase()
+      return a1 < b1 ? -1 : a1 > b1 ? 1 : 0
+    })
+    return sorted
+  }
+  
+  let sorted = sortTableData(support)
   
   return(
     <div className="w-full overflow-x-scroll md:overflow-x-auto py-4">
@@ -49,7 +60,7 @@ export default function SupportTable() {
           </tr>
         </thead>
         <tbody>
-        {support.map((s, key)=>(
+        {sorted.map((s, key)=>(
           <tr key={key}>
             <td className="border border-slate-400 font-bold p-2">
               {s.wallet.uri ? <a href={s.wallet.uri}>{s.wallet.name}</a> : s.wallet.name}
