@@ -127,6 +127,28 @@ export default function Home() {
           </p>
         </div>
 
+        {/*Instructions */}
+        <div className="container mx-auto px-8 py-8">
+          <div className="container mx-auto p-8 max-w-2xl">
+            <h2>How to add bech32m support</h2>
+
+            <p>
+              Implementing support for bech32m in your app should be simple. With a <a href="https://github.com/jesseposner/bech32/commit/d8a50fac83c20691833781a660bb4fbb513c3850">small refactor</a>  to the Python reference implementation of bech32, the change for sending to bech32m can be described with <a href="https://github.com/jesseposner/bech32/commit/cc1cc2cc501f7da51305cbf43eef3f6258892cdb#diff-f226c2590ba87b0b57a874d7eecacac232f0d39a7896c08cf6167c258b0b31a1L132-L143">just a few lines of code:</a>
+            </p>
+          </div>
+
+          <div className="text-xs my-8">
+            <CopyBlock
+              text={pythonSample}
+              language='python'
+              showLineNumbers='true'
+              wrapLines
+              theme={dracula}
+            />
+          </div>
+        </div>
+
+        {/* Support table */}
         <div className="container mx-auto p-8">
           <h2 className="text-center md:text-4xl xl:text-5xl 2xl:text-6xl">
             The state of taproot support
@@ -163,27 +185,6 @@ export default function Home() {
           </ol>
         </div>
 
-        {/*Instructions */}
-        <div className="container mx-auto px-8 pb-8">
-          <div className="container mx-auto p-8 max-w-2xl">
-            <h2>Adding P2TR support</h2>
-  
-            <p>
-              Implementing support for bech32m in your app should be simple. With a <a href="https://github.com/jesseposner/bech32/commit/d8a50fac83c20691833781a660bb4fbb513c3850">small refactor</a>  to the Python reference implementation of bech32, the change for sending to bech32m can be described with <a href="https://github.com/jesseposner/bech32/commit/cc1cc2cc501f7da51305cbf43eef3f6258892cdb#diff-f226c2590ba87b0b57a874d7eecacac232f0d39a7896c08cf6167c258b0b31a1L132-L143">just a few lines of code:</a>
-            </p>
-          </div>
-            
-          <div className="text-xs my-8">
-            <CopyBlock
-              text={pythonSample}
-              language='python'
-              showLineNumbers='true'
-              wrapLines
-              theme={dracula}
-            />
-          </div>
-        </div>
-        
         <div className="mx-auto wtr-bg px-8 py-16 flex items-center justify-center lg:min-h-[75vh]">
           <div className="bg-white px-8 py-12 rounded-3xl drop-shadow-hard lg:w-3/5">
             <div className="footer-img md:w-2/5 mx-auto">
