@@ -1647,29 +1647,6 @@
   },
   {
     "wallet": {
-      "name": "BitBargain.co.uk"
-    },
-    "send_to_bech32": {
-      "status": "yes"
-    },
-    "receive_to_p2wpkh_p2wsh": {
-      "status": "no"
-    },
-    "send_to_bech32m": {
-      "status": "evaluating",
-      "detail": "??"
-    },
-    "receive_to_p2tr": {
-      "status": "evaluating",
-      "detail": "?? "
-    },
-    "credit": {
-      "name": "",
-      "uri": ""
-    }
-  },
-  {
-    "wallet": {
       "name": "Bitcoin.de"
     },
     "send_to_bech32": {
