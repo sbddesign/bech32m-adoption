@@ -461,32 +461,6 @@
   },
   {
     "wallet": {
-      "name": "Guarda Wallet"
-    },
-    "send_to_bech32": {
-      "status": "yes"
-    },
-    "receive_to_p2wpkh_p2wsh": {
-      "status": "no"
-    },
-    "send_to_bech32m": {
-      "status": "evaluating",
-      "detail": "??"
-    },
-    "receive_to_p2tr": {
-      "status": "evaluating",
-      "detail": "??"
-    },
-    "notes": {
-      "status": "[https://twitter.com/guardawallet/status/1194270398730448896 twitter announcement]"
-    },
-    "credit": {
-      "name": "",
-      "uri": ""
-    }
-  },
-  {
-    "wallet": {
       "name": "JoinMarket"
     },
     "send_to_bech32": {
@@ -1278,24 +1252,27 @@
   },
   {
     "wallet": {
-      "name": "blockchain.com web|| {{Yes}}"
+      "name": "blockchain.com web"
     },
     "send_to_bech32": {
       "status": "yes"
     },
     "receive_to_p2wpkh_p2wsh": {
-      "status": "planned"
+      "status": "yes"
     },
     "send_to_bech32m": {
-      "status": "evaluating",
-      "detail": "??"
+      "status": "planned",
+      "detail": ""
     },
     "receive_to_p2tr": {
-      "status": "https://twitter.com/pellicceama/status/1436324051803414535"
+      "status": "evaluating"
     },
     "credit": {
       "name": "",
       "uri": ""
+    },
+    "notes": {
+      "status": "https://twitter.com/pellicceama/status/1436324051803414535"
     }
   },
   {
@@ -1577,34 +1554,8 @@
   },
   {
     "wallet": {
-      "name": "1Fox"
-    },
-    "send_to_bech32": {
-      "status": "yes"
-    },
-    "receive_to_p2wpkh_p2wsh": {
-      "status": "no"
-    },
-    "send_to_bech32m": {
-      "status": "evaluating",
-      "detail": "??"
-    },
-    "receive_to_p2tr": {
-      "status": "evaluating",
-      "detail": "??"
-    },
-    "notes": {
-      "status": "https://1fox.com/?c=en/content/blog&id=12"
-    },
-    "credit": {
-      "name": "",
+      "name": "AgoraDesk",
       "uri": ""
-    }
-  },
-  {
-    "wallet": {
-      "name": "[[AgoraDesk]",
-      "uri": "[AgoraDesk]]"
     },
     "send_to_bech32": {
       "status": "yes"
@@ -2447,20 +2398,23 @@
   },
   {
     "wallet": {
-      "name": "Independent Reserve|| {{Yes}}"
+      "name": "Independent Reserve"
     },
     "send_to_bech32": {
-      "status": "no"
+      "status": "yes"
     },
     "receive_to_p2wpkh_p2wsh": {
-      "status": "evaluating",
-      "detail": "??"
+      "status": "no"
     },
     "send_to_bech32m": {
       "status": "evaluating",
       "detail": "??"
     },
     "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "notes": {
       "status": "https://www.independentreserve.com/bitcoin/investing"
     },
     "credit": {
@@ -2544,8 +2498,8 @@
   },
   {
     "wallet": {
-      "name": "[[LocalBitcoins]",
-      "uri": "[LocalBitcoins]]"
+      "name": "LocalBitcoins",
+      "uri": ""
     },
     "send_to_bech32": {
       "status": "yes"
@@ -2942,7 +2896,7 @@
   },
   {
     "wallet": {
-      "name": "bitaps.com"
+      "name": "Bitaps Blockchain Explorer"
     },
     "send_to_bech32": {
       "status": "yes"
@@ -3100,7 +3054,7 @@
       "status": "yes"
     },
     "receive_to_p2tr": {
-      "status": " yes"
+      "status": "yes"
     },
     "notes": {
       "status": "https://www.blockonomics.co"
