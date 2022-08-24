@@ -138,7 +138,14 @@ export default function Home() {
           </div>
           
           <div className="instructions">
-            <img src="bech32m-code-diff.png" alt="Graphic of a 3 line code diff" />
+            <picture>
+              <source
+                srcSet="bech32m-code-diff.png 1x, bech32m-code-diff@2x.png 2x"
+                type="image/png"
+                media="(min-width: 768px)"
+              />
+              <img src="bech32m-code-diff-mobile.png" alt="Graphic showing the code changes for adding bech32m support" />
+            </picture>
           </div>
           
 
