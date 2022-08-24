@@ -137,14 +137,14 @@ export default function Home() {
             </p>
           </div>
           
-          <div className="instructions">
-            <picture>
+          <div className="instructions max-w-2xl mx-auto">
+            <picture className="mx-auto block">
               <source
                 srcSet="bech32m-code-diff.png 1x, bech32m-code-diff@2x.png 2x"
                 type="image/png"
                 media="(min-width: 768px)"
               />
-              <img src="bech32m-code-diff-mobile.png" alt="Graphic showing the code changes for adding bech32m support" />
+              <img src="bech32m-code-diff-mobile.png" alt="Graphic showing the code changes for adding bech32m support" className="mx-auto block" />
             </picture>
           </div>
           
