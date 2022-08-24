@@ -85,7 +85,7 @@ export default function SupportTable() {
               </div>
             </td>
             <td className="border border-slate-400 p-2 text-center">
-              <a href={s.issue_link}>Issue</a>
+              {s.issue_link ? <a href={s.issue_link}>Issue</a> : '' }
             </td>
             <td className="border border-slate-400 p-2 text-center">
               <a href={s.credit.uri}>{s.credit.name}</a>
