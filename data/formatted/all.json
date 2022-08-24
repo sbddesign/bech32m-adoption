@@ -326,7 +326,7 @@
       "status": "yes"
     },
     "receive_to_p2tr": {
-      "status": "planned "
+      "status": "planned"
     },
     "credit": {
       "name": "",
@@ -691,7 +691,7 @@
       "status": "yes"
     },
     "send_to_bech32m": {
-      "status": "yes ",
+      "status": "yes",
       "detail": " Since v1.2.2"
     },
     "receive_to_p2tr": {
@@ -740,7 +740,7 @@
       "status": "yes"
     },
     "send_to_bech32m": {
-      "status": "yes ",
+      "status": "yes",
       "detail": " Since Wasabi 2.0"
     },
     "receive_to_p2tr": {
@@ -862,7 +862,7 @@
       "status": "yes"
     },
     "receive_to_p2tr": {
-      "status": "planned "
+      "status": "planned"
     },
     "credit": {
       "name": "",
@@ -972,7 +972,7 @@
       "status": "yes"
     },
     "send_to_bech32m": {
-      "status": "yes "
+      "status": "yes"
     },
     "receive_to_p2tr": {
       "status": "planned"
@@ -1533,7 +1533,7 @@
       "status": "yes"
     },
     "receive_to_p2tr": {
-      "status": "yes "
+      "status": "yes"
     },
     "credit": {
       "name": "",
@@ -1600,7 +1600,7 @@
       "status": "yes"
     },
     "receive_to_p2tr": {
-      "status": "no "
+      "status": "no"
     },
     "credit": {
       "name": "",
@@ -1901,7 +1901,7 @@
       "status": "yes"
     },
     "receive_to_p2tr": {
-      "status": "no "
+      "status": "no"
     },
     "credit": {
       "name": "",
@@ -1944,7 +1944,8 @@
       "status": "yes"
     },
     "receive_to_p2tr": {
-      "status": "no deposits"
+      "status": "n/a",
+      "detail": "no deposits"
     },
     "issue_link": "https://twitter.com/cardcoinsco/status/1452680654030872589",
     "credit": {
@@ -1990,7 +1991,7 @@
       "detail": "Not a priority currently"
     },
     "receive_to_p2tr": {
-      "status": "no "
+      "status": "no"
     },
     "credit": {
       "name": "",
@@ -2622,7 +2623,8 @@
       "status": "yes"
     },
     "receive_to_p2tr": {
-      "status": "no deposits"
+      "status": "n/a",
+      "detail": "no deposits"
     },
     "issue_link": "https://twitter.com/stackinsat_fr/status/1500898826416230401",
     "credit": {
@@ -2666,7 +2668,8 @@
       "status": "yes"
     },
     "receive_to_p2tr": {
-      "status": "no deposits"
+      "status": "n/a",
+      "detail": "no deposits"
     },
     "issue_link": "https://twitter.com/swanbitcoin/status/1468318386916663298",
     "credit": {

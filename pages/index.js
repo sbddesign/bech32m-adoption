@@ -123,7 +123,7 @@ export default function Home() {
         </div>
 
         {/* Support table */}
-        <div className="container mx-auto p-8">
+        <div className="mx-auto p-8">
           <h2 className="text-center md:text-4xl xl:text-5xl 2xl:text-6xl">
             The state of taproot support
           </h2>
