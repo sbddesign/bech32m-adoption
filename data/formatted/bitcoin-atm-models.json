@@ -1,0 +1,102 @@
+[
+  {
+    "wallet": {
+      "name": "Bitaccess BTM"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "planned",
+      "detail": "Work in progress"
+    },
+    "receive_to_p2tr": {
+      "status": "planned"
+    },
+    "notes": {
+      "status": "https://twitter.com/dylanseago/status/1520212294898274305"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "GenesisCoin"
+    },
+    "send_to_bech32": {
+      "status": "no"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "no"
+    },
+    "send_to_bech32m": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "?? "
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "General Bytes"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "notes": {
+      "status": "depending on configuration. since version 20190613 https://www.generalbytes.com/en/support/changelog"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Lamassu"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes",
+      "detail": "Yes (optional)"
+    },
+    "send_to_bech32m": {
+      "status": "planned"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "notes": {
+      "status": "https://twitter.com/lamassubtc/status/1459918440303673349"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  }
+]

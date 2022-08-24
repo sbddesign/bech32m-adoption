@@ -1,0 +1,242 @@
+[
+  {
+    "wallet": {
+      "name": "Bitcoin Beach Wallet"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "no"
+    },
+    "notes": {
+      "status": "https://twitter.com/nicolasburtey/status/1556659398365401088 "
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Coinapult "
+    },
+    "send_to_bech32": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "no"
+    },
+    "send_to_bech32m": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "?? "
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Coin.Space"
+    },
+    "send_to_bech32": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "no"
+    },
+    "send_to_bech32m": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "?? "
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "BitGo"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "yes"
+    },
+    "notes": {
+      "status": "full native segwit support on v2 platform, no plans to add native segwit support on v1 platform. also see: https://blog.bitgo.com/native-segwit-addresses-via-bitgos-api-4946f2007be9, taproot: https://blog.bitgo.com/taproot-support-for-bitgo-wallets-9ed97f412460"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Bitnob"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "yes"
+    },
+    "notes": {
+      "status": "https://twitter.com/bernard_parah/status/1469962690483400706"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "blockchain.com web|| {{Yes}}"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "planned"
+    },
+    "send_to_bech32m": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "receive_to_p2tr": {
+      "status": "https://twitter.com/pellicceama/status/1436324051803414535"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Fireblocks"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "planned",
+      "detail": "Nov 18, 2021"
+    },
+    "receive_to_p2tr": {
+      "status": "planned",
+      "detail": "Planned for 2022 "
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "HolyTransaction"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "no"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "?? "
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Coinb.in",
+      "uri": "https://coinb.in"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "notes": {
+      "status": "open source javascript implementation"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Guarda Wallet"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "no"
+    },
+    "send_to_bech32m": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "notes": {
+      "status": "https://twitter.com/guardawallet/status/1194270398730448896"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  }
+]

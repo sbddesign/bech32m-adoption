@@ -52,18 +52,22 @@ h4 {
     z-index: 999;
 }
 
-td.status-yes {
+.icon {
+    @apply rounded-full p-2 text-white;
+}
+
+.icon.status-yes {
     @apply bg-status-yes;
 }
 
-td.status-no {
+.icon.status-no {
     @apply bg-status-no;
 }
 
-td.status-planned {
+.icon.status-planned {
     @apply bg-status-planned;
 }
 
-td.status-unknown {
+.icon.status-unknown, div.status-evaluating {
     @apply bg-status-unknown;
 }

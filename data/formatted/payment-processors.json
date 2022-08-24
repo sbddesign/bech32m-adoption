@@ -1,0 +1,181 @@
+[
+  {
+    "wallet": {
+      "name": "Apirone",
+      "uri": "https://apirone.com"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "notes": {
+      "status": "payment notifications, merchant dashboard, plugins for magento, woocommerce, opencart 2, opencart 3.x, virtuemart"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Bitaps",
+      "uri": "https://bitaps.com"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "notes": {
+      "status": "payment forwarding api, wallet api, fault tolerance callback."
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Server",
+      "uri": "https://btcpayserver.org"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "yes",
+      "detail": "Supported since 1.3.0"
+    },
+    "notes": {
+      "status": "https://twitter.com/nicolasdorier/status/1432354289599451136, https://twitter.com/nicolasdorier/status/1457527754350415873"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "CoinGate",
+      "uri": "https://coingate.com"
+    },
+    "send_to_bech32": {
+      "status": "no"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "?? "
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "CONFIRMO",
+      "uri": "https://confirmo.net"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "?? "
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "CryptoChill",
+      "uri": "https://cryptochill.com"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "receive_to_p2tr": {
+      "status": "planned"
+    },
+    "notes": {
+      "status": "highly customizable bitcoin and lightning network payment gateway and custodial wallets provider. tss/hd wallets, api, sdk."
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "SatSale",
+      "uri": "https://github.com/nickfarrow/SatSale"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "n/a"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "n/a"
+    },
+    "notes": {
+      "status": "supports any address format supported by backend bitcoin core. invoices use address format configured as default there. has no withdrawal functionality in itself, payments are received in core wallet."
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  }
+]

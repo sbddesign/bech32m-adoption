@@ -14,10 +14,10 @@ module.exports = {
         'hard': '16px 16px 0 rgba(6,28,54,0.20)'
       },
       colors: {
-        'status-yes': '#C8EED3',
-        'status-no': '#FFD7D7',
-        'status-planned': '#CBDDFF',
-        'status-unknown': '#FAFCBE',
+        'status-yes': '#209B51',
+        'status-no': '#AA3222',
+        'status-planned': '#207E9B',
+        'status-unknown': '#6B3379',
       },
     },
   },

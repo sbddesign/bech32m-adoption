@@ -1,0 +1,38 @@
+[
+  {
+    "wallet": {
+      "name": "1Broker"
+    },
+    "send_to_bech32": {
+      "status": "yes "
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "[https://crypto.games Crypto.Games]|| {{Yes}}"
+    },
+    "send_to_bech32": {
+      "status": "[https://bitcointalk.org/index.php?topic=750760.msg31421151#msg31421151 bitcointalk source]"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "YOLOdice"
+    },
+    "send_to_bech32": {
+      "status": "yes "
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  }
+]

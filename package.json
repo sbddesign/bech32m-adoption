@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build && next export",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "jsonify": "node utils/index.js"
   },
   "dependencies": {
     "@bitcoin-design/bitcoin-icons-react": "^0.1.9",
