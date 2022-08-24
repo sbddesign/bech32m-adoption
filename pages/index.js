@@ -48,9 +48,12 @@ export default function Home() {
               </div>
             </div>
             <h1 className="sr-only">When taproot?</h1>
+            <p className="text-xl xl:text-2xl mb-8">
+              Taproot has been live since November 2021, but there is not widespread adoption in wallets and users
+              aren’t yet experiencing the benefits. What gives? Bunny is sad. <strong>When&nbsp;taproot?</strong>
+            </p>
             <p className="text-xl xl:text-2xl">
-              Taproot has been live since November 2021, yet the bitcoin industry has not seen widespread adoption of
-              bech32m. What gives? Bunny is sad. <strong>When&nbsp;taproot?</strong>
+              The next step is for exchanges and wallets to support <strong>sending to bech32m addresses.</strong>
             </p>
           </div>
         </div>
