@@ -156,8 +156,9 @@ export default function Home() {
           </ol>
         </div>
 
-        <div className="mx-auto wtr-bg px-8 py-16 flex items-center justify-center lg:min-h-[75vh]">
-          <div className="bg-white px-8 py-12 rounded-3xl drop-shadow-hard lg:w-3/5">
+        {/* Contact */}
+        <div className="mx-auto wtr-bg px-8 py-16 flex items-center justify-center lg:min-h-[50vh]">
+          <div className="bg-white px-8 py-12 rounded-3xl drop-shadow-hard max-w-2xl">
             <div className="footer-img md:w-2/5 mx-auto">
               <svg width="338" height="315" viewBox="0 0 338 315" fill="none" role="img" xmlns="http://www.w3.org/2000/svg">
                 <title>Bunny happily eating a carrot</title>
