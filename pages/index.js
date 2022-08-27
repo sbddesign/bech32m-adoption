@@ -53,7 +53,7 @@ export default function Home() {
               aren’t yet experiencing the benefits. What gives? Bunny is sad. <strong>When&nbsp;taproot?</strong>
             </p>
             <p className="text-xl xl:text-2xl">
-              The next step is for exchanges and wallets to support <strong>sending to bech32m addresses.</strong>
+              The next step is for wallets and services to support <strong>sending to bech32m addresses.</strong>
             </p>
           </div>
         </div>
@@ -88,7 +88,7 @@ export default function Home() {
               <div className="w-32 h-32 bg-slate-400 rounded-full mx-auto mb-4"></div>
               <h3 className="mb-4 text-center">Improved privacy on Lightning</h3>
               <p>
-                Collaborative lightning channel  closes will be indistinguishable single-sig outputs
+                Collaborative lightning channel  closes will be indistinguishable from single-sig outputs
               </p>
             </div>
           </div>
@@ -102,9 +102,11 @@ export default function Home() {
         <div className="container mx-auto px-8 py-8">
           <div className="container mx-auto p-8 max-w-2xl">
             <h2>How to add bech32m send support</h2>
-
+            
             <p>
-              Implementing support for bech32m in your app should be simple. With a <a href="https://github.com/jesseposner/bech32/commit/d8a50fac83c20691833781a660bb4fbb513c3850">small refactor</a>  to the Python reference implementation of bech32, the change for sending to bech32m can be described with <a href="https://github.com/jesseposner/bech32/commit/cc1cc2cc501f7da51305cbf43eef3f6258892cdb#diff-f226c2590ba87b0b57a874d7eecacac232f0d39a7896c08cf6167c258b0b31a1L132-L143">just a few lines of code:</a>
+              Unpacking <code>bech32m</code> addresses is straightforward. <code>Bech32m</code> addresses differ from <code>bech32</code> addresses only in the
+              checksum. <a href="https://github.com/jesseposner/bech32/commit/cc1cc2cc501f7da51305cbf43eef3f6258892cdb#diff-f226c2590ba87b0b57a874d7eecacac232f0d39a7896c08cf6167c258b0b31a1L132-L143">This two-line code change</a> adds support for decoding <code>bech32m</code> addresses to the <a href="https://github.com/sipa/bech32/">Python reference
+              implementation of <code>bech32</code></a>.
             </p>
           </div>
           
@@ -118,8 +120,13 @@ export default function Home() {
               <img src="bech32m-code-diff-mobile.png" alt="Graphic showing the code changes for adding bech32m support" className="mx-auto block" />
             </picture>
           </div>
-          
 
+          <div className="container mx-auto p-8 max-w-2xl">
+            <p>
+              Of course, then you'll also need to make sure your frontend interface accepts the new address type and that
+              your transaction building creates outputs with witness version 1. Comprehensive test vectors can be found in <a href="https://github.com/bitcoin/bips/blob/master/bip-0350.mediawiki">BIP350</a>.
+            </p>
+          </div>
         </div>
 
         {/* Support table */}
