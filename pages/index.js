@@ -3,22 +3,25 @@ import { faTwitter, faGithub, faSlack } from '@fortawesome/free-brands-svg-icons
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import SupportTable from '../components/support-table';
 import { CopyBlock,dracula } from "react-code-blocks"
+import {CopyIcon} from '@bitcoin-design/bitcoin-icons-react/filled';
 
 export default function Home() {
-  let pythonSample = `def decode(hrp, addr):
-    """Decode a segwit address (Bech32/Bech32m)."""
-    hrpgot, data = decode_string(addr)
-    if hrpgot != hrp:
-        return (None, None)
-    constant = bech32_checksum_constant(hrp, data)
-
-    version = data[0] if data else None
-    if version == 0 and constant != 1 or version != 0 and constant != 0x2bc830a3:
-        return (None, None)
-    witprog = convert_decoded_bits(data)
-    if not validate_witness_program(version, witprog):
-        return (None, None)
-  `
+  const sampleAddress = "bc1pmnhwnlcx7w4lfv3txuez6hfup24wkr4yygzugekpmttplx2mnkusw03aln"
+  
+  let copied = false
+  
+  const copyAddress = () => {
+    copied = false
+    let copyText = document.getElementById("sample-address")
+    copyText.select()
+    copyText.setSelectionRange(0, 99999); /* For mobile devices */
+    document.execCommand("copy");
+    copied = true;
+    // this.timerHold = true;
+    setTimeout(()=>{
+      copied = false;
+    }, 4000);
+  }
 
   return (
     <div>
@@ -60,7 +63,7 @@ export default function Home() {
 
         {/* Benefits */}
         <div className="container mx-auto p-8">
-          <h2 className="text-center">Benefits of taproot</h2>
+          <h2 className="text-center text-4xl">Benefits of taproot</h2>
           <div className="space-y-8 md:flex md:flex-wrap md:space-y-0">
             <div className="md:basis-1/2 md:p-8 xl:basis-1/4">
               <div className="w-32 h-32 bg-slate-400 rounded-full mx-auto mb-4"></div>
@@ -139,31 +142,47 @@ export default function Home() {
         </div>
 
         {/* Get Involved */}
-        <div className="container mx-auto p-8 max-w-2xl">
-          <h2>Get Involved</h2>
-          
-          <p>
-            You can help push the industry forward by testing wallets and other services for bech32m and P2TR support.
-            Just follow these steps:
-          </p>
-          
-          <ol className="list-decimal space-y-8 marker:font-display marker:text-2xl px-4 my-8">
-            <li className="pl-4">
-              Select a wallet, exchange, or other bitcoin service. Choose one that has not already been tested in the
-              above list.
-            </li>
-            <li className="pl-4">
-              Try sending a small amount of bitcoin to a bech32m address.. If you’re not familiar with bech32m, you can generate a bech32m
-              address using [insert a recommended bitcoin wallet here].
-            </li>
-            <li className="pl-4">
-              Now try receiving to a bech32m address. When you choose to receive, it should give you an address that
-              begins with “bc1p”. If it does not....
-            </li>
-            <li className="pl-4">
-              Bitcoin ipsum dolor sit amet. Transaction satoshis peer-to-peer electronic cash ...
-            </li>
-          </ol>
+        <div className="container mx-auto p-8 max-w-[1600px] flex flex-col lg:flex-row">
+          <div className="lg:basis-3/5 lg:w-3/5">
+            <h2>Get Involved</h2>
+
+            <p>
+              You can help push the industry forward by testing wallets and other services for bech32m and P2TR support.
+              Just follow these steps:
+            </p>
+
+            <ol className="list-decimal space-y-8 marker:font-display marker:text-2xl px-4 my-8">
+              <li className="pl-4">
+                Select a wallet, exchange, or other bitcoin service. Choose one that has not already been tested in the
+                above list.
+              </li>
+              <li className="pl-4">
+                Try sending a small amount of bitcoin to a bech32m address. There is an example QR code of a bech32m
+                address shown here. By scanning it, you can see if the software recognizes bech32m.
+                But <strong>do not</strong> actually send to this address because you will not get your bitcoin back.
+              </li>
+              <li className="pl-4">
+                Now try receiving to a bech32m address. When you choose to receive, check if it presents you with an
+                address that begins with “bc1p”. If it does not, then this software does not support bech32m.
+              </li>
+              <li className="pl-4">
+                Once you've finished your test, you can send us your results
+                by <a href="https://github.com/sbddesign/bech32m-adoption/issues">opening an issue</a>,
+                opening a PR to <a href="https://github.com/sbddesign/bech32m-adoption/blob/main/data/formatted/all.json">edit the this website</a>,
+                or mentioning it to us in <a href="https://bitcoindesign.slack.com/archives/C03ND8N72PL">Slack</a>.
+              </li>
+            </ol>
+          </div>
+          <div className="pb-8 lg:basis-2/5 lg:w-2/5 text-center pl-8">
+            <h3>Sample Address</h3>
+            <img src="bech32m-qr.png" alt="A QR code of a bech32m bitcoin address" className="w-80 mx-auto block" />
+            <div className="flex flex-row justify-center">
+              <input type="text" className="text-xs font-mono p-4 border solid rounded-md w-80" value={sampleAddress} id="sample-address" />
+              <button title="Copy Sample Address" className="p-2" onClick={copyAddress}>
+                <CopyIcon className="w-8 h-8" />
+              </button>
+            </div>
+          </div>
         </div>
 
         {/* Contact */}
