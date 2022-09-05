@@ -177,7 +177,7 @@ export default function Home() {
             <h3>Sample Address</h3>
             <img src="bech32m-qr.png" alt="A QR code of a bech32m bitcoin address" className="w-80 mx-auto block" />
             <div className="flex flex-row justify-center">
-              <input type="text" className="text-xs font-mono p-4 border solid rounded-md w-80" value={sampleAddress} id="sample-address" />
+              <input type="text" className="text-xs font-mono p-4 border solid rounded-md w-80" value={sampleAddress} id="sample-address" readOnly />
               <button title="Copy Sample Address" className="p-2" onClick={copyAddress}>
                 <CopyIcon className="w-8 h-8" />
               </button>
