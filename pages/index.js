@@ -29,6 +29,7 @@ export default function Home() {
         <title>When taproot? | Bitcoin Bech32m Adoption Tracking</title>
         <meta name="description" content="Taproot has been live since November 2021, yet the bitcoin industry has not seen widespread adoption of
               bech32m. What gives? Bunny is sad. When&nbsp;taproot?" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       
