@@ -17,6 +17,7 @@ export default function Home() {
   
   const handleNavLinkClick = (e) => {
     setMenuOpen(!menuOpen)
+    scrollTo(e)
   }
   
   const changeMenuStyle = (transparent = true) => {
@@ -32,6 +33,13 @@ export default function Home() {
   const checkScrollPosition = (e) => {
     if(window.scrollY > 100) changeMenuStyle(false)
     else changeMenuStyle(true)
+  }
+
+  const scrollTo = (e) => {
+    if(!e.target.hash) return true
+    else e.preventDefault()
+    let element = document.getElementById( e.target.hash.substring(1) )
+    element.scrollIntoView({behavior: 'smooth', block: 'center'})
   }
   
   let copied = false
@@ -94,18 +102,18 @@ export default function Home() {
       <a href="#start-of-main-content" className="sr-only skip-content">Skip to content</a>
       
       <div
-        className={'transition-opacity duration-500 bg-gray-800 w-full h-full fixed z-50 top-0 left-0 opacity-75 ' + (!menuOpen ? 'opacity-0 pointer-events-none' : '')}
+        className={'transition-opacity duration-500 bg-gray-800 w-full h-full fixed z-50 top-0 left-0 opacity-75 xl:hidden ' + (!menuOpen ? 'opacity-0 pointer-events-none' : '')}
         onClick={handleMenuToggle}
       ></div>
       
-      <header className="fixed top-0 left-0 z-50 w-full transparent" id="header">
+      <header className={'fixed top-0 left-0 z-50 w-full transparent' + (menuOpen ? ' open' : '')} id="header">
         <div className="relative z-[99]">
           {!menuOpen ?
-            <button title="Show Menu" aria-hidden="true" onClick={handleMenuToggle} className="py-4 px-8">
+            <button title="Show Menu" aria-hidden="true" onClick={handleMenuToggle} className="py-4 px-8 xl:hidden">
               <MenuIcon className="w-8 h-8" />
             </button>
             :
-            <button title="Close Menu" aria-hidden="true" onClick={handleMenuToggle} className="py-4 px-8">
+            <button title="Close Menu" aria-hidden="true" onClick={handleMenuToggle} className="py-4 px-8 xl:hidden">
               <CrossIcon className="w-8 h-8" />
             </button>
           }
@@ -113,10 +121,10 @@ export default function Home() {
         
         <div className="relative z-40">
           <nav role="navigation" className={'menu' + (!menuOpen ? ' closed' : '')}>
-            <ul className="pb-4">
+            <ul className="text-base font-bold pb-4 xl:flex xl:justify-center xl:items-center xl:align-center xl:pb-0">
               {siteNav.map((i,key)=>(
                 <li>
-                  <a className="py-4 px-8 block" href={i.uri} onClick={handleNavLinkClick}>{i.text}</a>
+                  <a className="py-4 px-8 block xl:px-4" href={i.uri} onClick={handleNavLinkClick}>{i.text}</a>
                 </li>
               ))}
             </ul>

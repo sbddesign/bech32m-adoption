@@ -80,12 +80,16 @@ h4 {
     @apply bg-transparent shadow-none;
 }
 
+#header.transparent.open {
+    @apply bg-white shadow-lg;
+}
+
 .menu {
     @apply translate-y-[0%] w-full opacity-100 bg-white absolute transition-all duration-500 ease-in-out shadow-lg;
 }
 
 .menu.closed {
-    @apply translate-y-[-100%] opacity-0 pointer-events-none;
+    @apply translate-y-[-100%] opacity-0 pointer-events-none xl:translate-y-0 xl:opacity-100 xl:pointer-events-auto;
 }
 
 table.support td {
