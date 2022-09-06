@@ -3,10 +3,36 @@ import { faTwitter, faGithub, faSlack } from '@fortawesome/free-brands-svg-icons
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import SupportTable from '../components/support-table';
 import { CopyBlock,dracula } from "react-code-blocks"
-import {CopyIcon} from '@bitcoin-design/bitcoin-icons-react/filled';
+import {CopyIcon, CrossIcon, MenuIcon} from '@bitcoin-design/bitcoin-icons-react/filled';
+import React from 'react';
 
 export default function Home() {
   const sampleAddress = "bc1pmnhwnlcx7w4lfv3txuez6hfup24wkr4yygzugekpmttplx2mnkusw03aln"
+  
+  const [menuOpen, setMenuOpen] = React.useState(false)
+  
+  const handleMenuToggle = () => {
+    setMenuOpen(!menuOpen)
+  }
+  
+  const handleNavLinkClick = (e) => {
+    setMenuOpen(!menuOpen)
+  }
+  
+  const changeMenuStyle = (transparent = true) => {
+    const header = document.getElementById('header')
+    if(transparent) {
+      header.classList.add('transparent')
+    }
+    else {
+      header.classList.remove('transparent')
+    }
+  }
+  
+  const checkScrollPosition = (e) => {
+    if(window.scrollY > 100) changeMenuStyle(false)
+    else changeMenuStyle(true)
+  }
   
   let copied = false
   
@@ -23,6 +49,38 @@ export default function Home() {
     }, 4000);
   }
 
+  React.useEffect(()=>{
+    checkScrollPosition()
+    window.addEventListener('scroll', checkScrollPosition)
+  })
+  
+  const siteNav = [
+    {
+      uri: "/",
+      text: "Home"
+    },
+    {
+      uri: "/#benefits",
+      text: "Benefits of taproot"
+    },
+    {
+      uri: "/#adding-bech32m",
+      text: "Adding bech32m support"
+    },
+    {
+      uri: "/#support",
+      text: "State of taproot support"
+    },
+    {
+      uri: "/#get-involved",
+      text: "Get involved"
+    },
+    {
+      uri: "/#contact",
+      text: "Join the discussion"
+    }
+  ]
+  
   return (
     <div>
       <Head>
@@ -35,14 +93,42 @@ export default function Home() {
       
       <a href="#start-of-main-content" className="sr-only skip-content">Skip to content</a>
       
-      <nav role="navigation">
+      <div
+        className={'transition-opacity duration-500 bg-gray-800 w-full h-full fixed z-50 top-0 left-0 opacity-75 ' + (!menuOpen ? 'opacity-0 pointer-events-none' : '')}
+        onClick={handleMenuToggle}
+      ></div>
+      
+      <header className="fixed top-0 left-0 z-50 w-full transparent" id="header">
+        <div className="relative z-[99]">
+          {!menuOpen ?
+            <button title="Show Menu" aria-hidden="true" onClick={handleMenuToggle} className="py-4 px-8">
+              <MenuIcon className="w-8 h-8" />
+            </button>
+            :
+            <button title="Close Menu" aria-hidden="true" onClick={handleMenuToggle} className="py-4 px-8">
+              <CrossIcon className="w-8 h-8" />
+            </button>
+          }
+        </div>
         
-      </nav>
+        <div className="relative z-40">
+          <nav role="navigation" className={'menu' + (!menuOpen ? ' closed' : '')}>
+            <ul className="pb-4">
+              {siteNav.map((i,key)=>(
+                <li>
+                  <a className="py-4 px-8 block" href={i.uri} onClick={handleNavLinkClick}>{i.text}</a>
+                </li>
+              ))}
+            </ul>
+          </nav>
+        </div>
+      </header>
 
       <main>
         <a href="#start-of-main-content" id="start-of-main-content" className="sr-only">Start of main content</a>
+        
         {/* Hero */}
-        <div className="wtr-bg min-h-[80vh] flex items-center justify-center p-8 md:p-16">
+        <div className="wtr-bg min-h-[80vh] flex items-center justify-center p-8 pt-16 md:p-16">
           <div className="bg-white p-8 rounded-3xl drop-shadow-hard max-w-2xl">
             <div className="hero pb-8 mx-auto md:scale-125">
               <div className="flex flex-wrap">
@@ -61,10 +147,10 @@ export default function Home() {
             </p>
           </div>
         </div>
-
+        
         {/* Benefits */}
         <div className="container mx-auto p-8">
-          <h2 className="text-center text-4xl">Benefits of taproot</h2>
+          <h2 className="text-center text-4xl" id="benefits">Benefits of taproot</h2>
           <div className="space-y-8 md:flex md:flex-wrap md:space-y-0">
             <div className="md:basis-1/2 md:p-8 xl:basis-1/4">
               <div className="w-32 h-32 bg-slate-400 rounded-full mx-auto mb-4"></div>
@@ -101,11 +187,11 @@ export default function Home() {
             When we wait to adopt P2TR, we slow down adoption of all these great benefits
           </p>
         </div>
-
+        
         {/*Instructions */}
         <div className="container mx-auto px-8 py-8">
           <div className="container mx-auto p-8 max-w-2xl">
-            <h2>How to add bech32m send support</h2>
+            <h2 id="adding-bech32m">How to add bech32m send support</h2>
             
             <p>
               Unpacking <code>bech32m</code> addresses is straightforward. <code>Bech32m</code> addresses differ from <code>bech32</code> addresses only in the
@@ -124,7 +210,7 @@ export default function Home() {
               <img src="bech32m-code-diff-mobile.png" alt="Graphic showing the code changes for adding bech32m support" className="mx-auto block" />
             </picture>
           </div>
-
+        
           <div className="container mx-auto p-8 max-w-2xl">
             <p>
               Of course, then you'll also need to make sure your frontend interface accepts the new address type and that
@@ -132,26 +218,28 @@ export default function Home() {
             </p>
           </div>
         </div>
-
+        
         {/* Support table */}
         <div className="mx-auto p-8">
-          <h2 className="text-center md:text-4xl xl:text-5xl 2xl:text-6xl">
+          <h2 className="text-center md:text-4xl xl:text-5xl 2xl:text-6xl" id="support">
             The state of taproot support
           </h2>
-
-          <SupportTable />
+          
+          <div className="w-full">
+            <SupportTable />
+          </div>
         </div>
-
+        
         {/* Get Involved */}
         <div className="container mx-auto p-8 max-w-[1600px] flex flex-col lg:flex-row">
           <div className="lg:basis-3/5 lg:w-3/5">
-            <h2>Get Involved</h2>
-
+            <h2 id="get-involved">Get Involved</h2>
+        
             <p>
               You can help push the industry forward by testing wallets and other services for bech32m and P2TR support.
               Just follow these steps:
             </p>
-
+        
             <ol className="list-decimal space-y-8 marker:font-display marker:text-2xl px-4 my-8">
               <li className="pl-4">
                 Select a wallet, exchange, or other bitcoin service. Choose one that has not already been tested in the
@@ -185,7 +273,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-
+        
         {/* Contact */}
         <div className="mx-auto wtr-bg px-8 py-16 flex items-center justify-center lg:min-h-[50vh]">
           <div className="bg-white px-8 py-12 rounded-3xl drop-shadow-hard max-w-2xl">
@@ -219,9 +307,9 @@ export default function Home() {
                 <path d="M176 229V222L180.5 223L178.5 228.5L176 229Z" fill="#F76421"/>
               </svg>
             </div>
-
-            <h2 className="text-center text-2xl md:text-3xl lg:text-4xl">Join the discussion</h2>
-
+        
+            <h2 className="text-center text-2xl md:text-3xl lg:text-4xl" id="contact">Join the discussion</h2>
+        
             <ul className="text-xl space-y-8 text-center md:flex items-center justify-center md:space-y-0 md:space-x-16 lg:text-2xl">
               <li>
                 <a href="https://bitcoindesign.slack.com/archives/C03ND8N72PL" className="flex items-center justify-center space-x-4">

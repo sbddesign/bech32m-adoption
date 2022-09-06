@@ -41,7 +41,7 @@ export default function SupportTable() {
   
   return(
     <div className="w-full overflow-x-scroll md:overflow-x-auto py-4">
-      <table className="w-full mx-auto text-xs 2xl:text-base">
+      <table className="support w-full mx-auto text-xs 2xl:text-base">
         <thead className="font-display">
           <tr>
             <th className="font-normal border-y border-slate-400 p-2 p-2 min-w-[160px] max-w-[240px] text-left">
@@ -67,10 +67,10 @@ export default function SupportTable() {
         <tbody>
         {sorted.map((s, key)=>(
           <tr key={key} className="even:bg-gray-50">
-            <td className="border-y border-slate-400 font-bold p-2 min-w-[160px] max-w-[240px]">
+            <td className="font-bold min-w-[160px] max-w-[240px]">
               {s.wallet.uri ? <a href={s.wallet.uri}>{s.wallet.name}</a> : s.wallet.name}
             </td>
-            <td className={"status-" + s.send_to_bech32m.status + " border-y border-slate-400 p-2 text-center min-w-[160px] max-w-[180px]"}>
+            <td className={"status-" + s.send_to_bech32m.status + " min-w-[160px] max-w-[180px]"}>
               <div className="flex justify-center items-center align-center w-full h-full flex-wrap mb-1">
                 {selectIcon(s.send_to_bech32m.status)}
                 <p className="font-bold text-left sr-only">
@@ -81,7 +81,7 @@ export default function SupportTable() {
                   {s.send_to_bech32m.detail}
                 </p>
             </td>
-            <td className="border-y border-slate-400 p-2 text-center min-w-[160px] max-w-[180px]">
+            <td className="min-w-[160px] max-w-[180px]">
               <div className="flex justify-center items-center w-full h-full">
                 {selectIcon(s.receive_to_p2tr.status)}
                 <span className="sr-only">
@@ -89,13 +89,13 @@ export default function SupportTable() {
                 </span>
               </div>
             </td>
-            <td className="border-y border-slate-400 p-2 text-center min-w-[80px] max-w-[100px]">
+            <td className="min-w-[80px] max-w-[100px]">
               {s.issue_link ? <a href={s.issue_link}>Issue</a> : '' }
             </td>
-            <td className="border-y border-slate-400 p-2 text-center min-w-[148px] max-w-[200px]">
+            <td className="min-w-[148px] max-w-[200px]">
               <a href={s.credit.uri}>{s.credit.name}</a>
             </td>
-            <td className="border-y border-slate-400 p-2 text-center max-w-[200px] overflow-hidden">
+            <td className="max-w-[200px]">
               {s.notes && s.notes.status ? s.notes.status : ''}
             </td>
           </tr>

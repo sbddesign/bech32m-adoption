@@ -71,3 +71,31 @@ h4 {
 .icon.status-unknown, div.status-evaluating {
     @apply bg-status-unknown;
 }
+
+#header {
+    @apply bg-white shadow-lg transition-all duration-300;
+}
+
+#header.transparent {
+    @apply bg-transparent shadow-none;
+}
+
+.menu {
+    @apply translate-y-[0%] w-full opacity-100 bg-white absolute transition-all duration-500 ease-in-out shadow-lg;
+}
+
+.menu.closed {
+    @apply translate-y-[-100%] opacity-0 pointer-events-none;
+}
+
+table.support td {
+    @apply border-y border-slate-400 p-2 text-center;
+}
+
+table.support td:first-child {
+    @apply text-left;
+}
+
+.sr-only {
+    left: -999rem;
+}
