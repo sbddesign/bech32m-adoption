@@ -2,7 +2,6 @@ import Head from 'next/head'
 import { faTwitter, faGithub, faSlack } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import SupportTable from '../components/support-table';
-import { CopyBlock,dracula } from "react-code-blocks"
 import {CopyIcon, CrossIcon, MenuIcon} from '@bitcoin-design/bitcoin-icons-react/filled';
 import React from 'react';
 
