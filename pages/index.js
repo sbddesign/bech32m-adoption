@@ -123,7 +123,7 @@ export default function Home() {
             <ul className="text-base font-bold pb-4 xl:flex xl:justify-center xl:items-center xl:align-center xl:pb-0">
               {siteNav.map((i,key)=>(
                 <li>
-                  <a className="py-4 px-8 block xl:px-4" href={i.uri} onClick={handleNavLinkClick}>{i.text}</a>
+                  <a className="py-4 px-8 block xl:px-4 no-underline" href={i.uri} onClick={handleNavLinkClick}>{i.text}</a>
                 </li>
               ))}
             </ul>
