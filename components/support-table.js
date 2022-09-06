@@ -1,6 +1,7 @@
 import support from '../data/formatted/all.json'
 import {CheckIcon, CrossIcon, InfoIcon, QuestionIcon, SendIcon, ReceiveIcon, AlertIcon, WalletIcon} from '@bitcoin-design/bitcoin-icons-react/filled';
 import {UserIcon} from '@heroicons/react/solid';
+import parse from 'html-react-parser';
 
 export default function SupportTable() {
   const selectIcon = (status, classes) => {
@@ -95,8 +96,8 @@ export default function SupportTable() {
             <td className="min-w-[148px] max-w-[200px]">
               <a href={s.credit.uri}>{s.credit.name}</a>
             </td>
-            <td className="max-w-[200px]">
-              {s.notes && s.notes.status ? s.notes.status : ''}
+            <td className="max-w-[200px] text-left">
+              {s.notes && s.notes.status ? parse(s.notes.status) : ''}
             </td>
           </tr>
         ))}

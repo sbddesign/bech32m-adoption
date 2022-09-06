@@ -87,7 +87,7 @@
       "detail": "??"
     },
     "notes": {
-      "status": "as of v1.5.0 https://bisq.network/blog/bisq-v1.5.0-highlights/"
+      "status": "as of v1.5.0 <a href=\"https://bisq.network/blog/bisq-v1.5.0-highlights/\">blog post</a"
     },
     "credit": {
       "name": "",
@@ -115,7 +115,7 @@
       "detail": "Since 22.0"
     },
     "notes": {
-      "status": "uses p2wpkh as default address since version [https://bitcoin.org/en/release/v0.20.0 0.20.0]. creating p2tr addresses requires manual import for now."
+      "status": "uses p2wpkh as default address since version <a href=\"https://bitcoin.org/en/release/v0.20.0\">0.20.0</a>. creating p2tr addresses requires manual import for now."
     },
     "credit": {
       "name": "",
@@ -166,7 +166,7 @@
       "detail": "Planned"
     },
     "notes": {
-      "status": "bech32m sending support as of [https://github.com/blockstream/gdk/releases/tag/release_0.0.47 gdk 0.0.47]"
+      "status": "bech32m sending support as of <a href=\"https://github.com/blockstream/gdk/releases/tag/release_0.0.47\">gdk 0.0.47</a>"
     },
     "credit": {
       "name": "",
@@ -374,7 +374,7 @@
       "detail": "??"
     },
     "notes": {
-      "status": "[https://www.reddit.com/r/bitcoin/comments/865qn1/coinomi_wallet_beta_has_segwit_support/ reddit source]"
+      "status": "<a href=\"https://www.reddit.com/r/bitcoin/comments/865qn1/coinomi_wallet_beta_has_segwit_support/\">reddit source</a>"
     },
     "credit": {
       "name": "",
@@ -699,7 +699,7 @@
       "detail": "Not yet planned"
     },
     "notes": {
-      "status": "[https://github.com/bitlogik/uniblow/releases/tag/v1.2.2 release1.2.2]"
+      "status": "<a href=\"https://github.com/bitlogik/uniblow/releases/tag/v1.2.2\">release1.2.2</a>"
     },
     "credit": {
       "name": "",
@@ -748,7 +748,7 @@
       "detail": "Planned: via NBitcoin"
     },
     "notes": {
-      "status": "https://twitter.com/nicolasdorier/status/1413693010236170241 <br> https://mempool.space/testnet/tx/05a23151b6ad114fb71e851147861d6c992a438ad4f62d6f0749bc9f200ef254"
+      "status": "<a href=\"https://twitter.com/nicolasdorier/status/1413693010236170241\">Tweet</a>, <a href=\"https://mempool.space/testnet/tx/05a23151b6ad114fb71e851147861d6c992a438ad4f62d6f0749bc9f200ef254\">mempool.space</a>"
     },
     "credit": {
       "name": "",
@@ -772,7 +772,7 @@
       "status": "yes"
     },
     "notes": {
-      "status": "since [https://blog.trezor.io/trezor-suite-and-firmware-updates-december-2021-d1e74c3ea283 trezor suite 21.12.2] + trezor firmware 1.10.4 (model one) / 2.4.3 (model t)"
+      "status": "since <a href=\"https://blog.trezor.io/trezor-suite-and-firmware-updates-december-2021-d1e74c3ea283\">trezor suite 21.12.2</a> + trezor firmware 1.10.4 (model one) / 2.4.3 (model t)"
     },
     "credit": {
       "name": "",
@@ -796,7 +796,7 @@
       "status": "yes"
     },
     "notes": {
-      "status": "ledger live desktop 2.35 + bitcoin app 2.0.0, ledger live mobile support tbd. https://blockstream.info/tx/41d46e6f6e58a325eb6c913aa603f4db313f4a1db0649952f06fe2cd70546451"
+      "status": "ledger live desktop 2.35 + bitcoin app 2.0.0, ledger live mobile support tbd. <a href=\"https://blockstream.info/tx/41d46e6f6e58a325eb6c913aa603f4db313f4a1db0649952f06fe2cd70546451\">TX detail</a>"
     },
     "credit": {
       "name": "",
@@ -1071,7 +1071,7 @@
       "detail": "Planned"
     },
     "notes": {
-      "status": "bech32m sending support as of [https://github.com/blockstream/gdk/releases/tag/release_0.0.47 gdk 0.0.47] available via blockstream green mobile apps 3.7.6+ and desktop app 1.0.4+"
+      "status": "bech32m sending support as of <a href=\"https://github.com/blockstream/gdk/releases/tag/release_0.0.47\">gdk 0.0.47</a> available via blockstream green mobile apps 3.7.6+ and desktop app 1.0.4+"
     },
     "credit": {
       "name": "",
@@ -1189,7 +1189,7 @@
       "status": "yes"
     },
     "notes": {
-      "status": "full native segwit support on v2 platform, no plans to add native segwit support on v1 platform. also see: https://blog.bitgo.com/native-segwit-addresses-via-bitgos-api-4946f2007be9, taproot: https://blog.bitgo.com/taproot-support-for-bitgo-wallets-9ed97f412460"
+      "status": "full native segwit support on v2 platform, no plans to add native segwit support on v1 platform. also see: <a href=\"https://blog.bitgo.com/native-segwit-addresses-via-bitgos-api-4946f2007be9\">blog post</a>, taproot: <a href=\"https://blog.bitgo.com/taproot-support-for-bitgo-wallets-9ed97f412460\">other blog post</a>"
     },
     "credit": {
       "name": "",
@@ -1240,7 +1240,7 @@
       "uri": ""
     },
     "notes": {
-      "status": "https://twitter.com/pellicceama/status/1436324051803414535"
+      "status": "<a href=\"https://twitter.com/pellicceama/status/1436324051803414535\">tweet</a>"
     }
   },
   {
@@ -1412,7 +1412,7 @@
       "detail": "Supported since 1.3.0"
     },
     "notes": {
-      "status": "https://twitter.com/nicolasdorier/status/1432354289599451136, https://twitter.com/nicolasdorier/status/1457527754350415873"
+      "status": "<a href=\"https://twitter.com/nicolasdorier/status/1432354289599451136\">tweet 1</a>, <a href=\"https://twitter.com/nicolasdorier/status/1457527754350415873\">tweet 2</a>"
     },
     "credit": {
       "name": "",
@@ -2877,7 +2877,7 @@
       "detail": "Ready, but old txns not reindexed yet"
     },
     "notes": {
-      "status": "https://github.com/blockchair/blockchair.support/issues/567#issuecomment-966393097, https://twitter.com/blockchair/status/1458817396433731585"
+      "status": "<a href=\"https://github.com/blockchair/blockchair.support/issues/567#issuecomment-966393097\">issue</a>, <a href=\"https://twitter.com/blockchair/status/1458817396433731585\">tweet</a>"
     },
     "credit": {
       "name": "",
@@ -2989,7 +2989,7 @@
       "status": "yes"
     },
     "notes": {
-      "status": "open source explorer, instances are https://blockstream.info/ and https://www.localbitcoinschain.com/. [https://github.com/blockstream/esplora/issues/323 issue] for bip350 support."
+      "status": "open source explorer, instances are <a href=\"https://blockstream.info/\">https://blockstream.info/</a> and <a href=\"https://www.localbitcoinschain.com/\">local bitcoins chain</a>. <a href=\"https://github.com/blockstream/esplora/issues/323\">issue</a> for bip350 support."
     },
     "credit": {
       "name": "",
@@ -3013,7 +3013,7 @@
       "status": "no"
     },
     "notes": {
-      "status": "open source explorer, instances include https://insight.bitpay.com/"
+      "status": "open source explorer, instances include <a href=\"https://insight.bitpay.com/\">BitPay Insights</a>"
     },
     "credit": {
       "name": "",
@@ -3037,7 +3037,7 @@
       "status": "yes"
     },
     "notes": {
-      "status": "open source explorer, instances include https://mempool.space https://mempool.ninja https://mempool.emzy.de https://mempool.bisq.services https://mempool.bitcoin.ninja https://mempool.bitaroo.net/"
+      "status": "open source explorer, instances include <a href=\"https://mempool.space\">mempool.space</a> <a href=\"https://mempool.ninja\">mempool.ninja</a> <a href=\"https://mempool.emzy.de\">mempool.emzy.de</a> <a href=\"https://mempool.bisq.services\">mempool.bisq.services</a> <a href=\"https://mempool.bitcoin.ninja\">mempool.bitcoin.ninja</a> <a href=\"https://mempool.bitaroo.net/\">mempool.bitaroo.net</a>"
     },
     "credit": {
       "name": "",
@@ -3149,7 +3149,7 @@
       "status": "yes"
     },
     "notes": {
-      "status": "https://bitcoinexplorer.org, https://twitter.com/bitcoinexplorer/status/1425148093977309187"
+      "status": "<a href=\"https://bitcoinexplorer.org\">bitcoinexplorer.org</a>, <a href=\"https://twitter.com/bitcoinexplorer/status/1425148093977309187\">tweet</a>"
     },
     "credit": {
       "name": "",
@@ -3173,7 +3173,7 @@
     "receive_to_p2tr": {
       "status": "planned"
     },
-    "issue_link": "https://twitter.com/dylanseago/status/1520212294898274305",
+    "issue_link": "<a href=\"https://twitter.com/dylanseago/status/1520212294898274305",
     "credit": {
       "name": "",
       "uri": ""
@@ -3221,7 +3221,7 @@
       "detail": "??"
     },
     "notes": {
-      "status": "depending on configuration. since version 20190613 https://www.generalbytes.com/en/support/changelog"
+      "status": "depending on configuration. since <a href=\"https://www.generalbytes.com/en/support/changelog\">version 20190613</a>"
     },
     "credit": {
       "name": "",
@@ -3246,7 +3246,7 @@
       "status": "evaluating",
       "detail": "??"
     },
-    "issue_link": "https://twitter.com/lamassubtc/status/1459918440303673349",
+    "issue_link": "<a href=\"https://twitter.com/lamassubtc/status/1459918440303673349",
     "credit": {
       "name": "",
       "uri": ""

@@ -100,7 +100,7 @@ table.support td {
     @apply border-y border-slate-400 p-2 text-center;
 }
 
-table.support td:first-child {
+table.support td:first-child, table.support td:last-child  {
     @apply text-left;
 }
 
