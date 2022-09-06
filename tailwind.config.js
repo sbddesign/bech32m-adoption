@@ -12,7 +12,8 @@ module.exports = {
     },
     extend: {
       dropShadow: {
-        'hard': '16px 16px 0 rgba(6,28,54,0.20)'
+        'hard': '16px 16px 0 rgba(6,28,54,0.20)',
+        'hard-subtle': '0 8px 0 rgba(6,28,54,0.10)'
       },
       colors: {
         'status-yes': '#209B51',
