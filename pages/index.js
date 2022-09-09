@@ -146,53 +146,36 @@ export default function Home() {
             </div>
             <h1 className="sr-only">When taproot?</h1>
             <p className="text-xl xl:text-2xl mb-8">
-              Taproot has been live since November 2021, but there is not widespread adoption in wallets and users
-              aren’t yet experiencing the benefits. What gives? Bunny is sad. <strong>When&nbsp;taproot?</strong>
-            </p>
-            <p className="text-xl xl:text-2xl">
-              The next step is for wallets and services to support <strong>sending to bech32m addresses.</strong>
+              Taproot went live in November 2021, offering useful new features to individuals and businesses. So why
+              aren’t they experiencing these benefits? Mainly because soft fork adoption is voluntary, meaning that
+              wallets and exchanges need to opt in to bech32m addresses and features.
             </p>
           </div>
         </div>
         
         {/* Benefits */}
         <div className="container mx-auto p-8">
-          <h2 className="text-center text-4xl" id="benefits">Benefits of taproot</h2>
+          <h2 className="text-center text-4xl" id="benefits">Why add taproot send support?</h2>
           <div className="space-y-8 md:flex md:flex-wrap md:space-y-0">
-            <div className="md:basis-1/2 md:p-8 xl:basis-1/4">
+            <div className="md:basis-1/2 md:p-8">
               <div className="w-32 h-32 bg-slate-400 rounded-full mx-auto mb-4"></div>
-              <h3 className="mb-4 text-center">Lighter, more private multisig</h3>
+              <h3 className="mb-4 text-center">Bitcoin ipsum dolor sit amet.</h3>
               <p>
-                Using key aggregation, you can get multi-sig security with the footprint of single-sig. Furthermore, these
-                outputs will look the same as single-sig outputs!
+                Consensus hard fork sats consensus Bitcoin Improvement Proposal transaction electronic cash. SHA-256
+                sats genesis block inputs, address electronic cash hash? Decentralized timestamp server private key hard
+                fork blockchain electronic cash Bitcoin Improvement Proposal halvening? Segwit cryptocurrency.
               </p>
             </div>
-            <div className="md:basis-1/2 md:p-8 xl:basis-1/4">
+            <div className="md:basis-1/2 md:p-8">
               <div className="w-32 h-32 bg-slate-400 rounded-full mx-auto mb-4"></div>
-              <h3 className="mb-4 text-center">Cheaper inputs, more expensive outputs</h3>
+              <h3 className="mb-4 text-center">Halvening electronic cash block height</h3>
               <p>
-                P2TR outputs offer better aligned incentives. Receiving and stacking in P2TR is cheaper to spend later!
-              </p>
-            </div>
-            <div className="md:basis-1/2 md:p-8 xl:basis-1/4">
-              <div className="w-32 h-32 bg-slate-400 rounded-full mx-auto mb-4"></div>
-              <h3 className="mb-4 text-center">More powerful single-sig</h3>
-              <p>
-                Use wallet descriptors to add fallback spending conditions to your single-sig outputs.
-              </p>
-            </div>
-            <div className="md:basis-1/2 md:p-8 xl:basis-1/4">
-              <div className="w-32 h-32 bg-slate-400 rounded-full mx-auto mb-4"></div>
-              <h3 className="mb-4 text-center">Improved privacy on Lightning</h3>
-              <p>
-                Collaborative lightning channel  closes will be indistinguishable from single-sig outputs
+                Mempool difficulty genesis block proof-of-work transaction? Hashrate, outputs mining key pair blocksize
+                soft fork whitepaper. Decentralized miner bitcoin nonce digital signature bitcoin Satoshi Nakamoto
+                halvening UTXO? Outputs halvening segwit key pair proof-of-work.
               </p>
             </div>
           </div>
-          
-          <p className="font-display mb-4 mt-16 text-2xl text-center max-w-3xl mx-auto md:text-3xl lg:text-4xl">
-            When we wait to adopt P2TR, we slow down adoption of all these great benefits
-          </p>
         </div>
         
         {/*Instructions */}
@@ -236,6 +219,61 @@ export default function Home() {
             <SupportTable />
           </div>
         </div>
+
+        {/* Features */}
+        <div className="container mx-auto p-8">
+          <h2 className="text-center text-4xl" id="benefits">Benefits of taproot</h2>
+          <div className="space-y-8 md:flex md:flex-wrap md:space-y-0">
+            <div className="md:basis-1/2 md:p-8 xl:basis-1/3">
+              <div className="w-32 h-32 bg-slate-400 rounded-full mx-auto mb-4"></div>
+              <h3 className="mb-4 text-center">Lighter, More Private Multi-sig</h3>
+              <p>
+                Key aggregation provides multi-sig security with the same look and footprint as single-sig.
+              </p>
+            </div>
+            <div className="md:basis-1/2 md:p-8 xl:basis-1/3">
+              <div className="w-32 h-32 bg-slate-400 rounded-full mx-auto mb-4"></div>
+              <h3 className="mb-4 text-center">$ Inputs, $$$ Outputs</h3>
+              <p>
+                Pay-to-Taproot (P2TR) offers better-aligned incentives like receiving and stacking that are cheaper to
+                spend later.
+              </p>
+            </div>
+            <div className="md:basis-1/2 md:p-8 xl:basis-1/3">
+              <div className="w-32 h-32 bg-slate-400 rounded-full mx-auto mb-4"></div>
+              <h3 className="mb-4 text-center">Stronger Single-sig</h3>
+              <p>
+                Wallet descriptors add powerful fallback spending conditions to single-sig outputs.
+              </p>
+            </div>
+            <div className="md:basis-1/2 md:p-8 xl:basis-1/3">
+              <div className="w-32 h-32 bg-slate-400 rounded-full mx-auto mb-4"></div>
+              <h3 className="mb-4 text-center">Improved Lightning Privacy</h3>
+              <p>
+                Bechm32m makes lightning channel closes indistinguishable from any other keypath spends.
+              </p>
+            </div>
+            <div className="md:basis-1/2 md:p-8 xl:basis-1/3">
+              <div className="w-32 h-32 bg-slate-400 rounded-full mx-auto mb-4"></div>
+              <h3 className="mb-4 text-center">FROST Threshold Signatures</h3>
+              <p>
+                LN multi-sig with FROST threshold signatures improves security by letting wallets rotate keys (FROST
+                shares) for free in case an attacker tries to steal multiple keys.
+              </p>
+            </div>
+            <div className="md:basis-1/2 md:p-8 xl:basis-1/3">
+              <div className="w-32 h-32 bg-slate-400 rounded-full mx-auto mb-4"></div>
+              <h3 className="mb-4 text-center">Replace Lost Keys with FROST</h3>
+              <p>
+                FROST makes it possible for users to lose and then replace a key without a wallet sweep or incurring the associated fees of an on-chain transaction.
+              </p>
+            </div>
+          </div>
+
+          <p className="font-display mb-4 mt-16 text-2xl text-center max-w-3xl mx-auto md:text-3xl lg:text-4xl">
+            When we wait to adopt P2TR, we slow down adoption of all these great benefits
+          </p>
+        </div>
         
         {/* Get Involved */}
         <div className="container mx-auto p-8 max-w-[1600px] flex flex-col lg:flex-row">
@@ -243,29 +281,26 @@ export default function Home() {
             <h2 id="get-involved">Get Involved</h2>
         
             <p>
-              You can help push the industry forward by testing wallets and other services for bech32m and P2TR support.
-              Just follow these steps:
+              Help push the industry forward by testing wallets and other services for bech32m and P2TR support. Just follow these steps.
             </p>
         
             <ol className="list-decimal space-y-8 marker:font-display marker:text-2xl px-4 my-8">
               <li className="pl-4">
-                Select a wallet, exchange, or other bitcoin service. Choose one that has not already been tested in the
-                above list.
+                Select an untested wallet, exchange, or other bitcoin service from the above list.
               </li>
               <li className="pl-4">
-                Try sending a small amount of bitcoin to a bech32m address. There is an example QR code of a bech32m
-                address shown here. By scanning it, you can see if the software recognizes bech32m.
-                But <strong>do not</strong> actually send to this address because you will not get your bitcoin back.
+                Try sending a small amount of bitcoin to a bech32m address or QR code like the one provided. By scanning
+                it, you will see if the software recognizes bech32m. DO NOT send any bitcoin to this address.
               </li>
               <li className="pl-4">
-                Now try receiving to a bech32m address. When you choose to receive, check if it presents you with an
-                address that begins with “bc1p”. If it does not, then this software does not support bech32m.
+                Now try receiving bitcoin using a bech32m address. When you select "receive," check whether the
+                generated address begins with "bc1p." If it does not, then this software does not support bech32m.
               </li>
               <li className="pl-4">
-                Once you've finished your test, you can send us your results
+                Once you've finished your test, send us the results
                 by <a href="https://github.com/sbddesign/bech32m-adoption/issues">opening an issue</a>,
-                opening a PR to <a href="https://github.com/sbddesign/bech32m-adoption/blob/main/data/formatted/all.json">edit the this website</a>,
-                or mentioning it to us in <a href="https://bitcoindesign.slack.com/archives/C03ND8N72PL">Slack</a>.
+                opening a PR to <a href="https://github.com/sbddesign/bech32m-adoption/blob/main/data/formatted/all.json">edit the the website</a>,
+                or mentioning it to us on <a href="https://bitcoindesign.slack.com/archives/C03ND8N72PL">Slack</a>.
               </li>
             </ol>
           </div>
