@@ -1,0 +1,405 @@
+[
+  {
+    "wallet": {
+      "name": "Coinbase.com"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "no"
+    },
+    "send_to_bech32m": {
+      "status": "no",
+      "detail": "Not a priority currently"
+    },
+    "receive_to_p2tr": {
+      "status": "no"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Binance.com"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "no"
+    },
+    "receive_to_p2tr": {
+      "status": "no"
+    },
+    "issue_link": "https://twitter.com/colemaktypo/status/1460337599499882502",
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Binance.us"
+    },
+    "send_to_bech32": {
+      "status": "unknown"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "unknown"
+    },
+    "send_to_bech32m": {
+      "status": "unknown"
+    },
+    "receive_to_p2tr": {
+      "status": "unknown"
+    },
+    "issue_link": "",
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "FTX US Derivatives"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "notes": {
+      "status": "formerly ledgerx"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "FTX"
+    },
+    "send_to_bech32": {
+      "status": "unknown"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "unknown"
+    },
+    "send_to_bech32m": {
+      "status": "unknown"
+    },
+    "receive_to_p2tr": {
+      "status": "unknown",
+      "detail": ""
+    },
+    "notes": {
+      "status": ""
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Bitso"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "no"
+    },
+    "send_to_bech32m": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "issue_link": "https://twitter.com/bitso/status/1203784055340314624",
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Kraken"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "no"
+    },
+    "send_to_bech32m": {
+      "status": "no"
+    },
+    "receive_to_p2tr": {
+      "status": "no"
+    },
+    "issue_link": "https://twitter.com/murchandamus/status/1460399767830380564",
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Fireblocks"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "no",
+      "detail": ""
+    },
+    "receive_to_p2tr": {
+      "status": "no",
+      "detail": ""
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    },
+    "notes": {
+      "status": "Support is planed"
+    }
+  },
+  {
+    "wallet": {
+      "name": "Strike"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "no"
+    },
+    "receive_to_p2tr": {
+      "status": "no"
+    },
+    "issue_link": "https://twitter.com/btcboromir/status/1460373287792521232",
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Paxful.com"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "no"
+    },
+    "send_to_bech32m": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "issue_link": "https://paxful.com/support/en-us/articles/360011766520-can-i-withdraw-bitcoin-from-paxful-wallet-to-my-external-wallet-",
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Crypto.com"
+    },
+    "send_to_bech32": {
+      "status": "unknown"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "unknown"
+    },
+    "send_to_bech32m": {
+      "status": "unknown",
+      "detail": ""
+    },
+    "receive_to_p2tr": {
+      "status": "unknown",
+      "detail": ""
+    },
+    "issue_link": "",
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Bitfinex"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "no"
+    },
+    "send_to_bech32m": {
+      "status": "no"
+    },
+    "receive_to_p2tr": {
+      "status": "no"
+    },
+    "issue_link": "https://twitter.com/paoloardoino/status/1460620727342796800",
+    "credit": {
+      "name": "",
+      "uri": ""
+    },
+    "notes": {
+      "status": "Send support is planned"
+    }
+  },
+  {
+    "wallet": {
+      "name": "WazirX"
+    },
+    "send_to_bech32": {
+      "status": "unknown"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "unknown"
+    },
+    "send_to_bech32m": {
+      "status": "unknown",
+      "detail": ""
+    },
+    "receive_to_p2tr": {
+      "status": "unknown",
+      "detail": ""
+    },
+    "issue_link": "",
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Luno"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "no"
+    },
+    "send_to_bech32m": {
+      "status": "no",
+      "detail": ""
+    },
+    "receive_to_p2tr": {
+      "status": "no",
+      "detail": ""
+    },
+    "issue_link": "https://www.luno.com/blog/en/post/luno-launches-support-for-bech32-addresses",
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Gemini"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "no"
+    },
+    "receive_to_p2tr": {
+      "status": "no"
+    },
+    "issue_link": "https://np.reddit.com/r/bitcoin/comments/b66n0v/psa_gemini_is_full_on_with_native_segwit_and_uses/",
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "PayPal"
+    },
+    "send_to_bech32": {
+      "status": "unknown"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "unknown"
+    },
+    "send_to_bech32m": {
+      "status": "unknown",
+      "detail": ""
+    },
+    "receive_to_p2tr": {
+      "status": "unknown",
+      "detail": ""
+    },
+    "issue_link": "",
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Venmo"
+    },
+    "send_to_bech32": {
+      "status": "unknown"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "unknown"
+    },
+    "send_to_bech32m": {
+      "status": "unknown",
+      "detail": ""
+    },
+    "receive_to_p2tr": {
+      "status": "unknown",
+      "detail": ""
+    },
+    "issue_link": "",
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  }
+]
+
+

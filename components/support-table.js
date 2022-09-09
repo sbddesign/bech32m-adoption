@@ -1,4 +1,4 @@
-import support from '../data/formatted/all.json'
+import support from '../data/formatted/support.json'
 import {CheckIcon, CrossIcon, InfoIcon, QuestionIcon, SendIcon, ReceiveIcon, AlertIcon, WalletIcon} from '@bitcoin-design/bitcoin-icons-react/filled';
 import {UserIcon} from '@heroicons/react/solid';
 import parse from 'html-react-parser';
