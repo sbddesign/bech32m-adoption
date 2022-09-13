@@ -126,12 +126,12 @@
       "status": "no"
     },
     "send_to_bech32m": {
-      "status": "evaluating",
-      "detail": "??"
+      "status": "unknown",
+      "detail": ""
     },
     "receive_to_p2tr": {
-      "status": "evaluating",
-      "detail": "??"
+      "status": "unknown",
+      "detail": ""
     },
     "issue_link": "https://twitter.com/bitso/status/1203784055340314624",
     "credit": {
@@ -395,6 +395,330 @@
       "detail": ""
     },
     "issue_link": "",
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "bcoin"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes",
+      "detail": "Since 2.2.0"
+    },
+    "receive_to_p2tr": {
+      "status": "no",
+      "detail": ""
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Bitcoin Core"
+    },
+    "send_to_bech32": {
+      "status": "yes",
+      "detail": "Since 0.16.0"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes",
+      "detail": "Since 0.16.0"
+    },
+    "send_to_bech32m": {
+      "status": "yes",
+      "detail": "Since 0.21.1"
+    },
+    "receive_to_p2tr": {
+      "status": "yes",
+      "detail": "Since 22.0"
+    },
+    "notes": {
+      "status": "uses p2wpkh as default address since version <a href=\"https://bitcoin.org/en/release/v0.20.0\">0.20.0</a>. creating p2tr addresses requires manual import for now."
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Bitcoin Knots"
+    },
+    "send_to_bech32": {
+      "status": "yes",
+      "detail": "Since 0.16.0"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes",
+      "detail": "Since 0.16.0"
+    },
+    "send_to_bech32m": {
+      "status": "yes",
+      "detail": "Since 0.21.1"
+    },
+    "receive_to_p2tr": {
+      "status": "yes",
+      "detail": "Since 22.0 "
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Blockstream Green"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes",
+      "detail": "Since Mobile 3.7.6+, Desktop 1.0.4+"
+    },
+    "receive_to_p2tr": {
+      "status": "planned",
+      "detail": "Planned"
+    },
+    "notes": {
+      "status": "bech32m sending support as of <a href=\"https://github.com/blockstream/gdk/releases/tag/release_0.0.47\">gdk 0.0.47</a>"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Android",
+      "uri": "https://play.google.com/store/apps/details?id=de.schildbach.wallet"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes",
+      "detail": "Since 9.0"
+    },
+    "receive_to_p2tr": {
+      "status": "no",
+      "detail": ""
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "BlueWallet"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes",
+      "detail": "Since 6.2.14"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "?? "
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Electrum"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes",
+      "detail": "Since 4.1.0"
+    },
+    "receive_to_p2tr": {
+      "status": "planned",
+      "detail": "Planned: Descriptor-based keypath spends"
+    },
+    "issue_link": "https://github.com/spesmilo/electrum/issues/7544",
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "JoinMarket"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes",
+      "detail": "Since v0.9.5"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "?? "
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "LND"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes",
+      "detail": "Since v0.15"
+    },
+    "receive_to_p2tr": {
+      "status": "yes",
+      "detail": "Since v0.15"
+    },
+    "notes": {
+      "status": "the coming lnd v0.15 release will introduce full p2tr support including scriptpath spends, psbt signing, and a musig2 api."
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Samourai Wallet"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes",
+      "detail": "Since v0.99.98 "
+    },
+    "receive_to_p2tr": {
+      "status": "no",
+      "detail": "Currently not planned"
+    },
+    "issue_link": "https://twitter.com/samouraiwallet/status/1415788631491497985?s=20",
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Uniblow"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes",
+      "detail": " Since v1.2.2"
+    },
+    "receive_to_p2tr": {
+      "status": "no",
+      "detail": "Not yet planned"
+    },
+    "notes": {
+      "status": "<a href=\"https://github.com/bitlogik/uniblow/releases/tag/v1.2.2\">release1.2.2</a>"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Wasabi Wallet"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes",
+      "detail": " Since Wasabi 2.0"
+    },
+    "receive_to_p2tr": {
+      "status": "planned",
+      "detail": "Planned: via NBitcoin"
+    },
+    "notes": {
+      "status": "<a href=\"https://twitter.com/nicolasdorier/status/1413693010236170241\">Tweet</a>, <a href=\"https://mempool.space/testnet/tx/05a23151b6ad114fb71e851147861d6c992a438ad4f62d6f0749bc9f200ef254\">mempool.space</a>"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Blockchair"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes",
+      "detail": "Ready, but old txns not reindexed yet"
+    },
+    "receive_to_p2tr": {
+      "status": "yes",
+      "detail": "Ready, but old txns not reindexed yet"
+    },
+    "notes": {
+      "status": "<a href=\"https://github.com/blockchair/blockchair.support/issues/567#issuecomment-966393097\">issue</a>, <a href=\"https://twitter.com/blockchair/status/1458817396433731585\">tweet</a>"
+    },
     "credit": {
       "name": "",
       "uri": ""
