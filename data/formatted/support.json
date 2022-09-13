@@ -591,8 +591,8 @@
       "detail": "Since v0.9.5"
     },
     "receive_to_p2tr": {
-      "status": "evaluating",
-      "detail": "?? "
+      "status": "unknown",
+      "detail": "??"
     },
     "credit": {
       "name": "",
