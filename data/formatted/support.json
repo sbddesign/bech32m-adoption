@@ -564,13 +564,16 @@
       "detail": "Since 4.1.0"
     },
     "receive_to_p2tr": {
-      "status": "planned",
-      "detail": "Planned: Descriptor-based keypath spends"
+      "status": "no",
+      "detail": ""
     },
     "issue_link": "https://github.com/spesmilo/electrum/issues/7544",
     "credit": {
       "name": "",
       "uri": ""
+    },
+    "notes": {
+      "status": "Planned: Descriptor-based keypath spends"
     }
   },
   {
