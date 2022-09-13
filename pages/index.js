@@ -67,8 +67,8 @@ export default function Home() {
       text: "Home"
     },
     {
-      uri: "/#benefits",
-      text: "Benefits of taproot"
+      uri: "/#why-taproot",
+      text: "Why taproot?"
     },
     {
       uri: "/#adding-bech32m",
@@ -77,6 +77,10 @@ export default function Home() {
     {
       uri: "/#support",
       text: "State of taproot support"
+    },
+    {
+      uri: "/#features",
+      text: "Benefits of taproot"
     },
     {
       uri: "/#get-involved",
@@ -155,7 +159,7 @@ export default function Home() {
         
         {/* Benefits */}
         <div className="container mx-auto p-8">
-          <h2 className="text-center text-4xl" id="benefits">Why add taproot send support?</h2>
+          <h2 className="text-center text-4xl" id="why-taproot">Why add taproot send support?</h2>
           <div className="space-y-8 md:flex md:flex-wrap md:space-y-0">
             <div className="md:basis-1/2 md:p-8">
               <div className="w-32 h-32 bg-slate-400 rounded-full mx-auto mb-4"></div>
@@ -222,7 +226,7 @@ export default function Home() {
 
         {/* Features */}
         <div className="container mx-auto p-8">
-          <h2 className="text-center text-4xl" id="benefits">Benefits of taproot</h2>
+          <h2 className="text-center text-4xl" id="features">Benefits of taproot</h2>
           <div className="space-y-8 md:flex md:flex-wrap md:space-y-0">
             <div className="md:basis-1/2 md:p-8 xl:basis-1/3">
               <div className="w-32 h-32 bg-slate-400 rounded-full mx-auto mb-4"></div>
