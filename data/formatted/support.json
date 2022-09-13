@@ -491,8 +491,8 @@
       "detail": "Since Mobile 3.7.6+, Desktop 1.0.4+"
     },
     "receive_to_p2tr": {
-      "status": "planned",
-      "detail": "Planned"
+      "status": "no",
+      "detail": "No"
     },
     "notes": {
       "status": "bech32m sending support as of <a href=\"https://github.com/blockstream/gdk/releases/tag/release_0.0.47\">gdk 0.0.47</a>"
