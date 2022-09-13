@@ -32,6 +32,20 @@ export default function Home() {
   const checkScrollPosition = (e) => {
     if(window.scrollY > 100) changeMenuStyle(false)
     else changeMenuStyle(true)
+    
+    let supportTable = document.querySelector('#support-container table')
+    let supportTableHead = supportTable.querySelector('thead')
+    let header = document.getElementById('header')
+    
+    if(window.scrollY > (supportTable.offsetTop - header.scrollHeight) && window.scrollY < (supportTable.offsetTop + supportTable.scrollHeight)) {
+      let diff = window.scrollY - supportTable.offsetTop
+      
+      supportTableHead.style.top = (diff + header.scrollHeight) + 'px'
+      
+    }
+    else {
+      supportTableHead.style.top = '0'
+    }
   }
 
   const scrollTo = (e) => {
@@ -215,7 +229,7 @@ export default function Home() {
             The state of taproot support
           </h2>
           
-          <div className="w-full">
+          <div className="w-full" id="support-container">
             <SupportTable />
           </div>
         </div>

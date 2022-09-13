@@ -96,8 +96,16 @@ h4 {
     @apply translate-y-[-100%] opacity-0 pointer-events-none xl:translate-y-0 xl:opacity-100 xl:pointer-events-auto;
 }
 
+table.support {
+    @apply border-x border-slate-400;
+}
+
 table.support td {
     @apply border-y border-slate-400 p-2 text-center;
+}
+
+table.support th {
+    @apply border-y border-slate-400;
 }
 
 table.support td:first-child, table.support td:last-child  {
