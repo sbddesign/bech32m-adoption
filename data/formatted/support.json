@@ -541,8 +541,8 @@
       "detail": "Since 6.2.14"
     },
     "receive_to_p2tr": {
-      "status": "evaluating",
-      "detail": "?? "
+      "status": "no",
+      "detail": "No"
     },
     "credit": {
       "name": "",
