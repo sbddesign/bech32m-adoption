@@ -690,8 +690,8 @@
       "detail": " Since Wasabi 2.0"
     },
     "receive_to_p2tr": {
-      "status": "planned",
-      "detail": "Planned: via NBitcoin"
+      "status": "unknown",
+      "detail": ""
     },
     "notes": {
       "status": "<a href=\"https://twitter.com/nicolasdorier/status/1413693010236170241\">Tweet</a>, <a href=\"https://mempool.space/testnet/tx/05a23151b6ad114fb71e851147861d6c992a438ad4f62d6f0749bc9f200ef254\">mempool.space</a>"
