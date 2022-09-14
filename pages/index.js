@@ -67,16 +67,12 @@ export default function Home() {
       text: "Home"
     },
     {
-      uri: "/#why-taproot",
-      text: "Why taproot?"
+      uri: "/#creating-p2tr-outputs",
+      text: "Creating P2TR Outputs"
     },
     {
       uri: "/#adding-bech32m",
       text: "Adding bech32m support"
-    },
-    {
-      uri: "/#support",
-      text: "State of taproot support"
     },
     {
       uri: "/#features",
@@ -85,6 +81,14 @@ export default function Home() {
     {
       uri: "/#get-involved",
       text: "Get involved"
+    },
+    {
+      uri: "/#support",
+      text: "State of taproot support"
+    },
+    {
+      uri: "/#terminology",
+      text: "Terminology"
     },
     {
       uri: "/#contact",
@@ -124,7 +128,7 @@ export default function Home() {
         
         <div className="relative z-40">
           <nav role="navigation" className={'menu' + (!menuOpen ? ' closed' : '')}>
-            <ul className="text-base font-bold pb-4 xl:flex xl:justify-center xl:items-center xl:align-center xl:pb-0">
+            <ul className="text-base font-bold pb-4 xl:text-xs xl:flex xl:justify-center xl:items-center xl:align-center xl:pb-0">
               {siteNav.map((i,key)=>(
                 <li>
                   <a className="py-4 px-8 block xl:px-4 no-underline" href={i.uri} onClick={handleNavLinkClick}>{i.text}</a>
@@ -152,45 +156,46 @@ export default function Home() {
             <p className="text-xl xl:text-2xl mb-8">
               Taproot went live in November 2021, offering useful new features to individuals and businesses. So why
               aren’t they experiencing these benefits? Mainly because soft fork adoption is voluntary, meaning that
-              wallets and exchanges need to opt in to bech32m addresses and features.
+              wallets and exchanges need to opt in to creating and requesting taproot outputs.
             </p>
           </div>
         </div>
         
         {/* Benefits */}
         <div className="container mx-auto p-8">
-          <h2 className="text-center text-4xl" id="why-taproot">Why add taproot send support?</h2>
+          <h2 className="text-center text-4xl" id="creating-p2tr-outputs">Creating P2TR outputs: supporting bech32m</h2>
           <div className="space-y-8 md:flex md:flex-wrap md:space-y-0">
             <div className="md:basis-1/2 md:p-8">
               <div className="w-32 h-32 bg-slate-400 rounded-full mx-auto mb-4"></div>
-              <h3 className="mb-4 text-center">Bitcoin ipsum dolor sit amet.</h3>
+              <h3 className="mb-4 text-center">Reduce support costs</h3>
               <p>
-                Consensus hard fork sats consensus Bitcoin Improvement Proposal transaction electronic cash. SHA-256
-                sats genesis block inputs, address electronic cash hash? Decentralized timestamp server private key hard
-                fork blockchain electronic cash Bitcoin Improvement Proposal halvening? Segwit cryptocurrency.
+                With P2TR for Lightning already in the works, and other wallets moving towards P2TR, broader bech32m
+                wallet support is almost inevitable. This means that services not supporting sending to bech32m when
+                their customers attempt to transfer funds could face trouble at the support level. Integrating bech32m
+                today avoids the problem already facing your customers.
               </p>
             </div>
             <div className="md:basis-1/2 md:p-8">
               <div className="w-32 h-32 bg-slate-400 rounded-full mx-auto mb-4"></div>
-              <h3 className="mb-4 text-center">Halvening electronic cash block height</h3>
+              <h3 className="mb-4 text-center">A little work. A lot more benefit</h3>
               <p>
-                Mempool difficulty genesis block proof-of-work transaction? Hashrate, outputs mining key pair blocksize
-                soft fork whitepaper. Decentralized miner bitcoin nonce digital signature bitcoin Satoshi Nakamoto
-                halvening UTXO? Outputs halvening segwit key pair proof-of-work.
+                It won't be long before users take it for granted that Taproot works. Therefore, at a minimum, wallets
+                and services should properly handle bech32m addresses to prevent funds from being burned. Implementing
+                sending support is simpler than it sounds, requiring only a bit more work than not supporting it.
               </p>
             </div>
           </div>
         </div>
         
-        {/*Instructions */}
-        <div className="container mx-auto px-8 py-8">
+        {/* Instructions */}
+        <div className="container mx-auto p-8 pb-0">
           <div className="container mx-auto p-8 max-w-2xl">
-            <h2 id="adding-bech32m">How to add bech32m send support</h2>
+            <h2 id="adding-bech32m">Adding bech32m send support</h2>
             
             <p>
-              Unpacking <code>bech32m</code> addresses is straightforward. <code>Bech32m</code> addresses differ from <code>bech32</code> addresses only in the
-              checksum. <a href="https://github.com/jesseposner/bech32/commit/cc1cc2cc501f7da51305cbf43eef3f6258892cdb#diff-f226c2590ba87b0b57a874d7eecacac232f0d39a7896c08cf6167c258b0b31a1L132-L143">This two-line code change</a> adds support for decoding <code>bech32m</code> addresses to the <a href="https://github.com/sipa/bech32/">Python reference
-              implementation of <code>bech32</code></a>.
+              <a href="https://bips.xyz/173">bech32</a> and <a href="https://bips.xyz/350">bech32m</a> addresses differ
+              only in their checksums. This simple <a href="https://github.com/jesseposner/bech32/commit/cc1cc2cc501f7da51305cbf43eef3f6258892cdb#diff-f226c2590ba87b0b57a874d7eecacac232f0d39a7896c08cf6167c258b0b31a1L132-L143">two-line code change</a> adds
+              bech32m address decoding support to the <a href="https://github.com/sipa/bech32/">bech32 Python reference implementation</a>.
             </p>
           </div>
           
@@ -207,104 +212,90 @@ export default function Home() {
         
           <div className="container mx-auto p-8 max-w-2xl">
             <p>
-              Of course, then you'll also need to make sure your frontend interface accepts the new address type and that
-              your transaction building creates outputs with witness version 1. Comprehensive test vectors can be found in <a href="https://github.com/bitcoin/bips/blob/master/bip-0350.mediawiki">BIP350</a>.
+              You're almost there. Next, check whether your frontend interface accepts bech32m addresses. Finally, make
+              sure your transaction building process creates outputs with witness version 1. Otherwise,
+              you're <strong>burning bitcoin.</strong>
             </p>
-          </div>
-        </div>
-        
-        {/* Support table */}
-        <div className="mx-auto p-8">
-          <h2 className="text-center md:text-4xl xl:text-5xl 2xl:text-6xl" id="support">
-            The state of taproot support
-          </h2>
-          
-          <div className="w-full">
-            <SupportTable />
           </div>
         </div>
 
         {/* Features */}
-        <div className="container mx-auto p-8">
-          <h2 className="text-center text-4xl" id="features">Benefits of taproot</h2>
+        <div className="container mx-auto p-8 pt-0">
+          <h2 className="font-display mb-4 mt-16 text-2xl text-center max-w-3xl mx-auto md:text-3xl lg:text-4xl" id="features">
+            Every day without P2TR adoption is a day without these and other great benefits
+          </h2>
           <div className="space-y-8 md:flex md:flex-wrap md:space-y-0">
             <div className="md:basis-1/2 md:p-8 xl:basis-1/3">
               <div className="w-32 h-32 bg-slate-400 rounded-full mx-auto mb-4"></div>
-              <h3 className="mb-4 text-center">Lighter, More Private Multi-sig</h3>
+              <h3 className="mb-4 text-center">Lighter, More Private Multisig</h3>
               <p>
-                Key aggregation provides multi-sig security with the same look and footprint as single-sig.
+                Key aggregation provides multi-sig security with the same look and footprint as single-sig. P2TR
+                channels make lightning channel closes indistinguishable from other keypath spends.
               </p>
             </div>
             <div className="md:basis-1/2 md:p-8 xl:basis-1/3">
               <div className="w-32 h-32 bg-slate-400 rounded-full mx-auto mb-4"></div>
               <h3 className="mb-4 text-center">$ Inputs, $$$ Outputs</h3>
               <p>
-                Pay-to-Taproot (P2TR) offers better-aligned incentives like receiving and stacking that are cheaper to
-                spend later.
+                Pay-to-Taproot (P2TR) better aligns incentives, making it cheaper to spend stacked sats at the cost of
+                slightly more expensive outputs.
               </p>
             </div>
             <div className="md:basis-1/2 md:p-8 xl:basis-1/3">
               <div className="w-32 h-32 bg-slate-400 rounded-full mx-auto mb-4"></div>
-              <h3 className="mb-4 text-center">Stronger Single-sig</h3>
+              <h3 className="mb-4 text-center">Versatile Single-sig</h3>
               <p>
-                Wallet descriptors add powerful fallback spending conditions to single-sig outputs.
+                Add powerful fallback spending conditions to single-sig outputs in the Taptree.
               </p>
             </div>
-            <div className="md:basis-1/2 md:p-8 xl:basis-1/3">
-              <div className="w-32 h-32 bg-slate-400 rounded-full mx-auto mb-4"></div>
-              <h3 className="mb-4 text-center">Improved Lightning Privacy</h3>
-              <p>
-                Bechm32m makes lightning channel closes indistinguishable from any other keypath spends.
-              </p>
-            </div>
+            <div className="hidden xl:block xl:basis-1/5"></div>
             <div className="md:basis-1/2 md:p-8 xl:basis-1/3">
               <div className="w-32 h-32 bg-slate-400 rounded-full mx-auto mb-4"></div>
               <h3 className="mb-4 text-center">FROST Threshold Signatures</h3>
               <p>
-                LN multi-sig with FROST threshold signatures improves security by letting wallets rotate keys (FROST
-                shares) for free in case an attacker tries to steal multiple keys.
+                Multisig or FROST can enable Lightning channel owners to use multiple signing devices under the hood.
               </p>
             </div>
             <div className="md:basis-1/2 md:p-8 xl:basis-1/3">
               <div className="w-32 h-32 bg-slate-400 rounded-full mx-auto mb-4"></div>
               <h3 className="mb-4 text-center">Replace Lost Keys with FROST</h3>
               <p>
-                FROST makes it possible for users to lose and then replace a key without a wallet sweep or incurring the associated fees of an on-chain transaction.
+                FROST makes it possible for users to lose and then replace a key without a wallet sweep or incurring the
+                associated fees of an on-chain transaction.
               </p>
             </div>
           </div>
-
-          <p className="font-display mb-4 mt-16 text-2xl text-center max-w-3xl mx-auto md:text-3xl lg:text-4xl">
-            When we wait to adopt P2TR, we slow down adoption of all these great benefits
-          </p>
         </div>
-        
+
         {/* Get Involved */}
         <div className="container mx-auto p-8 max-w-[1600px] flex flex-col lg:flex-row">
           <div className="lg:basis-3/5 lg:w-3/5">
             <h2 id="get-involved">Get Involved</h2>
-        
+
             <p>
-              Help push the industry forward by testing wallets and other services for bech32m and P2TR support. Just follow these steps.
+              Help push the industry forward by testing wallets and other services for bech32m and P2TR support. Just
+              follow these steps.
             </p>
-        
+
             <ol className="list-decimal space-y-8 marker:font-display marker:text-2xl px-4 my-8">
               <li className="pl-4">
                 Select an untested wallet, exchange, or other bitcoin service from the above list.
               </li>
               <li className="pl-4">
-                Try sending a small amount of bitcoin to a bech32m address or QR code like the one provided. By scanning
-                it, you will see if the software recognizes bech32m. DO NOT send any bitcoin to this address.
+                Generate a bech32m address (which begins with `bc1p`) from any wallet that supports it. If you don't
+                already have one, download <a href="https://muun.com/">Muun</a>. Then, send a small amount of bitcoin
+                from the wallet you are testing to your bech32m address. Please use an appropriately small amount,
+                since on at least two occasions, incorrect implementation of bech32m support caused lost funds.
               </li>
               <li className="pl-4">
-                Now try receiving bitcoin using a bech32m address. When you select "receive," check whether the
-                generated address begins with "bc1p." If it does not, then this software does not support bech32m.
+                To test receiving, select your bitcoin service’s "receive" or "deposit" feature. If the address begins
+                with "bc1p," then this software already supports receiving P2TR outputs. You may also want to dig around
+                its settings for a "Taproot" option as they may support it but not as the default receive method.
               </li>
               <li className="pl-4">
                 Once you've finished your test, send us the results
                 by <a href="https://github.com/sbddesign/bech32m-adoption/issues">opening an issue</a>,
-                opening a PR to <a href="https://github.com/sbddesign/bech32m-adoption/blob/main/data/formatted/all.json">edit the the website</a>,
-                or mentioning it to us on <a href="https://bitcoindesign.slack.com/archives/C03ND8N72PL">Slack</a>.
+                opening a PR to edit the website, or mentioning it to us on Slack.
               </li>
             </ol>
           </div>
@@ -320,6 +311,37 @@ export default function Home() {
           </div>
         </div>
         
+        {/* Support table */}
+        <div className="mx-auto p-8">
+          <h2 className="text-center md:text-4xl xl:text-5xl 2xl:text-6xl" id="support">
+            The state of taproot support
+          </h2>
+          
+          <div className="w-full">
+            <SupportTable />
+          </div>
+        </div>
+
+        {/* Terminology */}
+        <div className="container mx-auto p-8 md:px-8 md:pb-16 md:pt-8 max-w-3xl">
+          <h2 id="terminology">Terminology</h2>
+          <ul className="list-disc space-y-4">
+            <li><strong>Taproot</strong> introduced a new transaction output type called <strong>Pay-to-Taproot (P2TR).</strong></li>
+            <li>
+              Receivers use invoice addresses (or simply “addresses”) to instruct senders on how to pay them. An address
+              encodes the spending conditions the sender should encumber the funds with to sign them over to the
+              receiver. P2TR uses the <strong>bech32m</strong> encoded invoice addresses.
+            </li>
+            <li>A prospective sender must be able to “decode a bech32m address” to “create a P2TR output”.</li>
+            <li>Entities aiming to benefit from the features of Taproot want to “receive P2TR outputs”.</li>
+            <li>This is enabled by broad support of other wallets for “sending to bech32m addresses”.</li>
+            <li>
+              Our goal is to encourage more wallets and services to implement sending to bech32m addresses so that
+              receivers may choose P2TR outputs more often.
+            </li>
+          </ul>
+        </div>
+
         {/* Contact */}
         <div className="mx-auto wtr-bg px-8 py-16 flex items-center justify-center lg:min-h-[50vh]">
           <div className="bg-white px-8 py-12 rounded-3xl drop-shadow-hard max-w-2xl">
