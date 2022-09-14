@@ -67,31 +67,6 @@
   },
   {
     "wallet": {
-      "name": "FTX US Derivatives"
-    },
-    "send_to_bech32": {
-      "status": "yes"
-    },
-    "receive_to_p2wpkh_p2wsh": {
-      "status": "yes"
-    },
-    "send_to_bech32m": {
-      "status": "yes"
-    },
-    "receive_to_p2tr": {
-      "status": "unknown",
-      "detail": ""
-    },
-    "notes": {
-      "status": "formerly ledgerx"
-    },
-    "credit": {
-      "name": "",
-      "uri": ""
-    }
-  },
-  {
-    "wallet": {
       "name": "FTX"
     },
     "send_to_bech32": {
@@ -504,7 +479,7 @@
   },
   {
     "wallet": {
-      "name": "Android",
+      "name": "Bitcoin Wallet for Android",
       "uri": "https://play.google.com/store/apps/details?id=de.schildbach.wallet"
     },
     "send_to_bech32": {
@@ -1278,31 +1253,6 @@
   },
   {
     "wallet": {
-      "name": "SatSale",
-      "uri": "https://github.com/nickfarrow/SatSale"
-    },
-    "send_to_bech32": {
-      "status": "yes"
-    },
-    "receive_to_p2wpkh_p2wsh": {
-      "status": "n/a"
-    },
-    "send_to_bech32m": {
-      "status": "yes"
-    },
-    "receive_to_p2tr": {
-      "status": "n/a"
-    },
-    "notes": {
-      "status": "supports any address format supported by backend bitcoin core. invoices use address format configured as default there. has no withdrawal functionality in itself, payments are received in core wallet."
-    },
-    "credit": {
-      "name": "",
-      "uri": ""
-    }
-  },
-  {
-    "wallet": {
       "name": "AgoraDesk",
       "uri": ""
     },
@@ -1724,32 +1674,6 @@
       "status": "yes"
     },
     "issue_link": "https://www.blockchain.com/explorer",
-    "credit": {
-      "name": "",
-      "uri": ""
-    }
-  },
-  {
-    "wallet": {
-      "name": "Blockchair"
-    },
-    "send_to_bech32": {
-      "status": "yes"
-    },
-    "receive_to_p2wpkh_p2wsh": {
-      "status": "yes"
-    },
-    "send_to_bech32m": {
-      "status": "yes",
-      "detail": "Ready, but old txns not reindexed yet"
-    },
-    "receive_to_p2tr": {
-      "status": "yes",
-      "detail": "Ready, but old txns not reindexed yet"
-    },
-    "notes": {
-      "status": "<a href=\"https://github.com/blockchair/blockchair.support/issues/567#issuecomment-966393097\">issue</a>, <a href=\"https://twitter.com/blockchair/status/1458817396433731585\">tweet</a>"
-    },
     "credit": {
       "name": "",
       "uri": ""
