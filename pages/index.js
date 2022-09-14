@@ -172,7 +172,7 @@ export default function Home() {
                 With P2TR for Lightning already in the works, and other wallets moving towards P2TR, broader bech32m
                 wallet support is almost inevitable. This means that services not supporting sending to bech32m when
                 their customers attempt to transfer funds could face trouble at the support level. Integrating bech32m
-                today avoids the problem already facing your customers.
+                today avoids the problem your customers will be facing.
               </p>
             </div>
             <div className="md:basis-1/2 md:p-8">
