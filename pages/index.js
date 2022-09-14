@@ -145,11 +145,17 @@ export default function Home() {
         {/* Hero */}
         <div className="wtr-bg min-h-[80vh] flex items-center justify-center p-8 pt-16 md:p-16">
           <div className="bg-white p-8 rounded-3xl drop-shadow-hard max-w-2xl">
-            <div className="hero pb-8 mx-auto md:scale-125">
+            <div className="hero pb-8 mx-auto md:scale-[1.35]">
               <div className="flex flex-wrap">
-                <img src="hero-bunny.svg" alt="" width="221" height="231" className="basis-[60%] w-[60%] md:order-first md:basis-[20%] md:w-[20%]" />
-                <img src="hero-title.svg" alt="" width="758" height="231" className="order-last md:order-[1] md:basis-[67%] md:w-[67%]" />
-                <img src="hero-carrot.svg" alt="" width="144" height="231" className="basis-[40%] w-[40%] md:order-last md:basis-[13%] md:w-[13%]" />
+                <div className="basis-[60%] w-[60%] h-auto md:order-first md:basis-[30%] md:w-[30%] flex flex-col justify-center">
+                  <img src="crying@0.25x.png" alt="" />
+                </div>
+                <img src="hero-title.svg" alt="" width="758" height="231" className="order-last md:order-[1] md:basis-[45%] md:w-[45%]" />
+                <div className="hidden md:block md:order-[2] md:basis-[5%] md:w-[5%]"></div>
+                <div className="basis-[40%] w-[40%] md:order-last md:basis-[20%] md:w-[20%] flex flex-col justify-center">
+                  <img src="carrot@0.25x.png" alt="" width="144" />
+                </div>
+                
               </div>
             </div>
             <h1 className="sr-only">When taproot?</h1>
@@ -166,7 +172,9 @@ export default function Home() {
           <h2 className="text-center text-4xl" id="creating-p2tr-outputs">Creating P2TR outputs: supporting bech32m</h2>
           <div className="space-y-8 md:flex md:flex-wrap md:space-y-0">
             <div className="md:basis-1/2 md:p-8">
-              <div className="w-32 h-32 bg-slate-400 rounded-full mx-auto mb-4"></div>
+              <div className="w-64 mx-auto mb-4">
+                <img src="/carrot@0.25x.png" alt="" className="drop-shadow-hard-subtle" />
+              </div>
               <h3 className="mb-4 text-center">Reduce support costs</h3>
               <p>
                 With P2TR for Lightning already in the works, and other wallets moving towards P2TR, broader bech32m
@@ -176,7 +184,9 @@ export default function Home() {
               </p>
             </div>
             <div className="md:basis-1/2 md:p-8">
-              <div className="w-32 h-32 bg-slate-400 rounded-full mx-auto mb-4"></div>
+              <div className="w-64 mx-auto mb-4">
+                <img src="/carrot@0.25x.png" alt="" className="drop-shadow-hard-subtle" />
+              </div>
               <h3 className="mb-4 text-center">A little work. A lot more benefit</h3>
               <p>
                 It won't be long before users take it for granted that Taproot works. Therefore, at a minimum, wallets
@@ -226,7 +236,9 @@ export default function Home() {
           </h2>
           <div className="space-y-8 md:flex md:flex-wrap md:space-y-0">
             <div className="md:basis-1/2 md:p-8 xl:basis-1/3">
-              <div className="w-32 h-32 bg-slate-400 rounded-full mx-auto mb-4"></div>
+              <div className="w-64 mx-auto mb-4">
+                <img src="/carrot@0.25x.png" alt="" className="drop-shadow-hard-subtle" />
+              </div>
               <h3 className="mb-4 text-center">Lighter, More Private Multisig</h3>
               <p>
                 Key aggregation provides multi-sig security with the same look and footprint as single-sig. P2TR
@@ -234,7 +246,9 @@ export default function Home() {
               </p>
             </div>
             <div className="md:basis-1/2 md:p-8 xl:basis-1/3">
-              <div className="w-32 h-32 bg-slate-400 rounded-full mx-auto mb-4"></div>
+              <div className="w-64 mx-auto mb-4">
+                <img src="/carrot@0.25x.png" alt="" className="drop-shadow-hard-subtle" />
+              </div>
               <h3 className="mb-4 text-center">$ Inputs, $$$ Outputs</h3>
               <p>
                 Pay-to-Taproot (P2TR) better aligns incentives, making it cheaper to spend stacked sats at the cost of
@@ -242,7 +256,9 @@ export default function Home() {
               </p>
             </div>
             <div className="md:basis-1/2 md:p-8 xl:basis-1/3">
-              <div className="w-32 h-32 bg-slate-400 rounded-full mx-auto mb-4"></div>
+              <div className="w-64 mx-auto mb-4">
+                <img src="/carrot@0.25x.png" alt="" className="drop-shadow-hard-subtle" />
+              </div>
               <h3 className="mb-4 text-center">Versatile Single-sig</h3>
               <p>
                 Add powerful fallback spending conditions to single-sig outputs in the Taptree.
@@ -250,14 +266,18 @@ export default function Home() {
             </div>
             <div className="hidden xl:block xl:basis-1/5"></div>
             <div className="md:basis-1/2 md:p-8 xl:basis-1/3">
-              <div className="w-32 h-32 bg-slate-400 rounded-full mx-auto mb-4"></div>
+              <div className="w-64 mx-auto mb-4">
+                <img src="/carrot@0.25x.png" alt="" className="drop-shadow-hard-subtle" />
+              </div>
               <h3 className="mb-4 text-center">FROST Threshold Signatures</h3>
               <p>
                 Multisig or FROST can enable Lightning channel owners to use multiple signing devices under the hood.
               </p>
             </div>
             <div className="md:basis-1/2 md:p-8 xl:basis-1/3">
-              <div className="w-32 h-32 bg-slate-400 rounded-full mx-auto mb-4"></div>
+              <div className="w-64 mx-auto mb-4">
+                <img src="/carrot@0.25x.png" alt="" className="drop-shadow-hard-subtle" />
+              </div>
               <h3 className="mb-4 text-center">Replace Lost Keys with FROST</h3>
               <p>
                 FROST makes it possible for users to lose and then replace a key without a wallet sweep or incurring the
@@ -268,15 +288,18 @@ export default function Home() {
         </div>
 
         {/* Get Involved */}
-        <div className="container mx-auto p-8 max-w-[1600px] flex flex-col lg:flex-row">
-          <div className="lg:basis-3/5 lg:w-3/5">
+        <div className="container mx-auto p-8 pb-16 max-w-[1600px] flex flex-col lg:flex-row">
+          <div className="pb-8 lg:basis-1/2 lg:w-1/2 text-center pl-8 text-center md:order-last">
+            <img src="bunnies-get-involved@0.25x.png" alt="2 bunnies testing bitcoin wallets" className="w-full max-w-md mx-auto" />
+          </div>
+          <div className="lg:basis-1/2 lg:w-1/2">
             <h2 id="get-involved">Get Involved</h2>
-
+            
             <p>
               Help push the industry forward by testing wallets and other services for bech32m and P2TR support. Just
               follow these steps.
             </p>
-
+            
             <ol className="list-decimal space-y-8 marker:font-display marker:text-2xl px-4 my-8">
               <li className="pl-4">
                 Select an untested wallet, exchange, or other bitcoin service from the above list.
@@ -298,15 +321,16 @@ export default function Home() {
                 opening a PR to edit the website, or mentioning it to us on Slack.
               </li>
             </ol>
-          </div>
-          <div className="pb-8 lg:basis-2/5 lg:w-2/5 text-center pl-8">
-            <h3>Sample Address</h3>
-            <img src="bech32m-qr.png" alt="A QR code of a bech32m bitcoin address" className="w-80 mx-auto block" />
-            <div className="flex flex-row justify-center">
-              <input type="text" className="text-xs font-mono p-4 border solid rounded-md w-80" value={sampleAddress} id="sample-address" readOnly />
-              <button title="Copy Sample Address" className="p-2" onClick={copyAddress}>
-                <CopyIcon className="w-8 h-8" />
-              </button>
+            
+            <div className="max-w-md text-center">
+              <h3>Sample Address</h3>
+              <img src="bech32m-qr.png" alt="A QR code of a bech32m bitcoin address" className="w-80 mx-auto block" />
+              <div className="flex flex-row justify-center">
+                <input type="text" className="text-xs font-mono p-4 border solid rounded-md w-80" value={sampleAddress} id="sample-address" readOnly />
+                <button title="Copy Sample Address" className="p-2" onClick={copyAddress}>
+                  <CopyIcon className="w-8 h-8" />
+                </button>
+              </div>
             </div>
           </div>
         </div>
