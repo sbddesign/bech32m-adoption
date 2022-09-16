@@ -154,9 +154,9 @@ export default function Home() {
             </div>
             <h1 className="sr-only">When taproot?</h1>
             <p className="text-xl xl:text-2xl mb-8">
-              Taproot went live in November 2021, offering useful new features to individuals and businesses. So why
-              aren’t they experiencing these benefits? Mainly because soft fork adoption is voluntary, meaning that
-              wallets and exchanges need to opt in to creating and requesting taproot outputs.
+              Taproot offers bitcoin users and companies big benefits. But to unlock them, first we need wallet
+              interoperability. Taproot requires bech32m, a new address format, which is slightly different from bech32.
+              This means that Taproot adoption only starts when wallets support sending to this new format.
             </p>
           </div>
         </div>
