@@ -43,24 +43,24 @@ export default function SupportTable() {
   return(
     <div className="w-full overflow-x-scroll md:overflow-x-auto py-4">
       <table className="support w-full mx-auto text-xs 2xl:text-base">
-        <thead className="font-display">
+        <thead className="font-display relative z-50">
           <tr>
-            <th className="font-normal border-y border-slate-400 p-2 p-2 min-w-[160px] max-w-[240px] text-left">
+            <th className="bg-white font-normal p-2 p-2 min-w-[160px] max-w-[240px] text-left">
               <WalletIcon className="w-4 h-4 md:w-6 md:h-6 block md:inline" aria-hidden="true" /> Name
             </th>
-            <th className="font-normal border-y border-slate-400 p-2 min-w-[160px] max-w-[180px]">
+            <th className="bg-white font-normal p-2 min-w-[160px] max-w-[180px]">
               <SendIcon className="w-4 h-4 md:w-6 md:h-6 mx-auto md:inline" aria-hidden="true" /> Send to Bech32m
             </th>
-            <th className="font-normal border-y border-slate-400 p-2 p-2 min-w-[160px] max-w-[180px]">
+            <th className="bg-white font-normal p-2 p-2 min-w-[160px] max-w-[180px]">
               <ReceiveIcon className="w-4 h-4 md:w-6 md:h-6 mx-auto md:inline" aria-hidden="true" /> Receive to P2TR
             </th>
-            <th className="font-normal border-y border-slate-400 p-2 min-w-[80px] max-w-[100px]">
+            <th className="bg-white font-normal p-2 min-w-[80px] max-w-[100px]">
               <AlertIcon className="w-4 h-4 md:w-6 md:h-6 mx-auto md:inline" aria-hidden="true" /> Issue Link
             </th>
-            <th className="font-normal border-y border-slate-400 p-2 min-w-[148px] max-w-[200px]">
+            <th className="bg-white font-normal p-2 min-w-[148px] max-w-[200px]">
               <UserIcon className="w-4 h-4 md:w-6 md:h-6 mx-auto md:inline" aria-hidden="true" /> Credit
             </th>
-            <th className="font-normal border-y border-slate-400 p-2 min-w-[148px]">
+            <th className="bg-white font-normal p-2 min-w-[148px]">
               <InfoIcon className="w-4 h-4 md:w-6 md:h-6 mx-auto md:inline" aria-hidden="true" /> Notes
             </th>
           </tr>
