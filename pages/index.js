@@ -331,7 +331,7 @@ export default function Home() {
             The state of taproot support
           </h2>
           
-          <div className="w-full">
+          <div id="support-container" className="w-full">
             <SupportTable />
           </div>
         </div>
