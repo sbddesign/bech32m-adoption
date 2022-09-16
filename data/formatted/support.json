@@ -67,31 +67,6 @@
   },
   {
     "wallet": {
-      "name": "FTX US Derivatives"
-    },
-    "send_to_bech32": {
-      "status": "yes"
-    },
-    "receive_to_p2wpkh_p2wsh": {
-      "status": "yes"
-    },
-    "send_to_bech32m": {
-      "status": "yes"
-    },
-    "receive_to_p2tr": {
-      "status": "unknown",
-      "detail": ""
-    },
-    "notes": {
-      "status": "formerly ledgerx"
-    },
-    "credit": {
-      "name": "",
-      "uri": ""
-    }
-  },
-  {
-    "wallet": {
       "name": "FTX"
     },
     "send_to_bech32": {
@@ -504,7 +479,7 @@
   },
   {
     "wallet": {
-      "name": "Android",
+      "name": "Bitcoin Wallet for Android",
       "uri": "https://play.google.com/store/apps/details?id=de.schildbach.wallet"
     },
     "send_to_bech32": {
@@ -726,7 +701,919 @@
       "name": "",
       "uri": ""
     }
+  },
+  {
+    "wallet": {
+      "name": "Muun"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "yes"
+    },
+    "issue_link": "https://twitter.com/muunwallet/status/1459294066135474177",
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Casa"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "no"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "no"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Core Lightning"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "?? "
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Exodus"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "no",
+      "detail": "Not yet planned"
+    },
+    "issue_link": "https://support.exodus.com/article/1480-bitcoin-faqs-learn-more-about-btc#",
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Fully Noded"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "yes",
+      "detail": "Since v0.2.26"
+    },
+    "issue_link": "https://twitter.com/fullynoded/status/1438652812410298370",
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Nunchuk"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "yes"
+    },
+    "issue_link": "https://twitter.com/nunchuk_io/status/1511365917808103426",
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Phoenix"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "?? "
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Sparrow Wallet"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "yes"
+    },
+    "issue_link": "https://twitter.com/sparrowwallet/status/1415632270434705408",
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Specter Wallet"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "yes"
+    },
+    "issue_link": "https://twitter.com/_benkaufman/status/1431293856675508228",
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Trust Wallet"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "no",
+      "detail": "Not planned"
+    },
+    "issue_link": "https://github.com/trustwallet/wallet-core/releases/tag/2.6.5, https://twitter.com/catenocrypt/status/1520152930065817601",
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Wallet of Satoshi"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "issue_link": "https://twitter.com/walletofsatoshi/status/1459782761472872451",
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Trezor + Trezor Suite"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "yes"
+    },
+    "notes": {
+      "status": "since <a href=\"https://blog.trezor.io/trezor-suite-and-firmware-updates-december-2021-d1e74c3ea283\">trezor suite 21.12.2</a> + trezor firmware 1.10.4 (model one) / 2.4.3 (model t)"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Ledger Live (desktop app)"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "yes"
+    },
+    "notes": {
+      "status": "ledger live desktop 2.35 + bitcoin app 2.0.0, ledger live mobile support tbd. <a href=\"https://blockstream.info/tx/41d46e6f6e58a325eb6c913aa603f4db313f4a1db0649952f06fe2cd70546451\">TX detail</a>"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "BitBox Desktop app"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "yes"
+    },
+    "issue_link": "https://twitter.com/_benma_/status/1504455969631350792",
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Trezor + Electrum"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "no"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "BitBox + Electrum"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "issue_link": "https://twitter.com/_benma_/status/1504458280000761857",
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Coldcard + Electrum"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "no"
+    },
+    "notes": {
+      "status": "work already in progress"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Blockstream Jade + Blockstream Green"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "no",
+      "detail": "Planned"
+    },
+    "notes": {
+      "status": "bech32m sending support as of <a href=\"https://github.com/blockstream/gdk/releases/tag/release_0.0.47\">gdk 0.0.47</a> available via blockstream green mobile apps 3.7.6+ and desktop app 1.0.4+"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Bitcoin Beach Wallet"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "no"
+    },
+    "issue_link": "https://twitter.com/nicolasburtey/status/1556659398365401088 ",
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "BitGo"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "yes"
+    },
+    "notes": {
+      "status": "full native segwit support on v2 platform, no plans to add native segwit support on v1 platform. also see: <a href=\"https://blog.bitgo.com/native-segwit-addresses-via-bitgos-api-4946f2007be9\">blog post</a>, taproot: <a href=\"https://blog.bitgo.com/taproot-support-for-bitgo-wallets-9ed97f412460\">other blog post</a>"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Bitnob"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "yes"
+    },
+    "issue_link": "https://twitter.com/bernard_parah/status/1469962690483400706",
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "HolyTransaction"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "no"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "?? "
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "BTCPayServer",
+      "uri": "https://btcpayserver.org"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "yes",
+      "detail": "Supported since 1.3.0"
+    },
+    "notes": {
+      "status": "<a href=\"https://twitter.com/nicolasdorier/status/1432354289599451136\">tweet 1</a>, <a href=\"https://twitter.com/nicolasdorier/status/1457527754350415873\">tweet 2</a>"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "SatSale",
+      "uri": "https://github.com/nickfarrow/SatSale"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "n/a"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "n/a"
+    },
+    "notes": {
+      "status": "supports any address format supported by backend bitcoin core. invoices use address format configured as default there. has no withdrawal functionality in itself, payments are received in core wallet."
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "AgoraDesk",
+      "uri": ""
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "yes"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Bitaroo"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "no"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "BitMEX"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "issue_link": "https://twitter.com/bitmexresearch/status/1492152557044654082",
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Bitpanda"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "issue_link": "https://twitter.com/christiant5r/status/1461369956252139520",
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "BSDEX"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "no"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "no"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Bull Bitcoin"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "no"
+    },
+    "issue_link": "https://twitter.com/francispouliot_/status/1464264391155666950",
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "CardCoins.co"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "no deposits"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "n/a",
+      "detail": "no deposits"
+    },
+    "issue_link": "https://twitter.com/cardcoinsco/status/1452680654030872589",
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "CoinCorner"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "issue_link": "https://twitter.com/coincorner/status/1461360995746545667",
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Flyp.me"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "no"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "?? "
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "FTX US Derivatives"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "notes": {
+      "status": "formerly ledgerx"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Okcoin"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "issue_link": "https://twitter.com/okcoin/status/1471563103049756672",
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Square CashApp"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "no"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "issue_link": "https://cash.app/help/us/en-us/20211114-bitcoin-taproot-upgrade",
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "StackinSat.com"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "no deposits"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "n/a",
+      "detail": "no deposits"
+    },
+    "issue_link": "https://twitter.com/stackinsat_fr/status/1500898826416230401",
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Swan"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "no deposits"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "n/a",
+      "detail": "no deposits"
+    },
+    "issue_link": "https://twitter.com/swanbitcoin/status/1468318386916663298",
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "VBTC"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "planned"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "no"
+    },
+    "issue_link": "https://twitter.com/vbtc_vietnam/status/1460978196816416775",
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "blockchain.com"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "no"
+    },
+    "issue_link": "https://twitter.com/Pellicceama/status/1563171639063629828",
+    "credit": {
+      "name": "",
+      "uri": ""
+    },
+    "notes": {
+      "status": "Receive support planned"
+    }
   }
 ]
-
-
