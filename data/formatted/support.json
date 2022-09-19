@@ -678,32 +678,6 @@
   },
   {
     "wallet": {
-      "name": "Blockchair"
-    },
-    "send_to_bech32": {
-      "status": "yes"
-    },
-    "receive_to_p2wpkh_p2wsh": {
-      "status": "yes"
-    },
-    "send_to_bech32m": {
-      "status": "yes",
-      "detail": "Ready, but old txns not reindexed yet"
-    },
-    "receive_to_p2tr": {
-      "status": "yes",
-      "detail": "Ready, but old txns not reindexed yet"
-    },
-    "notes": {
-      "status": "<a href=\"https://github.com/blockchair/blockchair.support/issues/567#issuecomment-966393097\">issue</a>, <a href=\"https://twitter.com/blockchair/status/1458817396433731585\">tweet</a>"
-    },
-    "credit": {
-      "name": "",
-      "uri": ""
-    }
-  },
-  {
-    "wallet": {
       "name": "Muun"
     },
     "send_to_bech32": {
