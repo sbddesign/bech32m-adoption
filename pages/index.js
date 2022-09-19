@@ -14,11 +14,6 @@ export default function Home() {
     setMenuOpen(!menuOpen)
   }
   
-  const handleNavLinkClick = (e) => {
-    setMenuOpen(!menuOpen)
-    scrollTo(e)
-  }
-  
   const changeMenuStyle = (transparent = true) => {
     const header = document.getElementById('header')
     if(transparent) {
@@ -47,13 +42,6 @@ export default function Home() {
       supportTableHead.style.top = '0'
     }
   }
-
-  const scrollTo = (e) => {
-    if(!e.target.hash) return true
-    else e.preventDefault()
-    let element = document.getElementById( e.target.hash.substring(1) )
-    element.scrollIntoView({behavior: 'smooth', block: 'center'})
-  }
   
   let copied = false
   
@@ -77,7 +65,7 @@ export default function Home() {
   
   const siteNav = [
     {
-      uri: "/",
+      uri: "/#intro",
       text: "Home"
     },
     {
@@ -145,7 +133,7 @@ export default function Home() {
             <ul className="text-base font-bold pb-4 xl:text-xs xl:flex xl:justify-center xl:items-center xl:align-center xl:pb-0">
               {siteNav.map((i,key)=>(
                 <li>
-                  <a className="py-4 px-8 block xl:px-4 no-underline" href={i.uri} onClick={handleNavLinkClick}>{i.text}</a>
+                  <a className="py-4 px-8 block xl:px-4 no-underline" href={i.uri}>{i.text}</a>
                 </li>
               ))}
             </ul>
@@ -155,6 +143,8 @@ export default function Home() {
 
       <main>
         <a href="#start-of-main-content" id="start-of-main-content" className="sr-only">Start of main content</a>
+
+        <div id="intro"></div>
         
         {/* Hero */}
         <div className="wtr-bg min-h-[80vh] flex items-center justify-center p-8 pt-16 md:p-16">

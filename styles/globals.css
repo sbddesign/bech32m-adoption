@@ -9,6 +9,7 @@ a {
 
 body, html {
     @apply font-light text-lg;
+    scroll-behavior: smooth;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -19,8 +20,18 @@ h1 {
     @apply text-4xl;
 }
 
+#intro:before {
+    content: "";
+    @apply h-16 -mt-16 block;
+}
+
 h2 {
     @apply text-3xl mb-8;
+}
+
+h2:before {
+    content: "";
+    @apply h-20 -mt-20 block;
 }
 
 h3 {
