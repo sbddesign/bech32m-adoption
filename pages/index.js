@@ -171,6 +171,15 @@ export default function Home() {
           <div className="space-y-8 md:flex md:flex-wrap md:space-y-0">
             <div className="md:basis-1/2 md:p-8">
               <div className="w-32 h-32 bg-slate-400 rounded-full mx-auto mb-4"></div>
+              <h3 className="mb-4 text-center">A little work. A lot more benefit</h3>
+              <p>
+                It won't be long before users take it for granted that Taproot works. Therefore, at a minimum, wallets
+                and services should properly handle bech32m addresses to prevent funds from being burned. Implementing
+                sending support is simpler than it sounds, requiring only a bit more work than not supporting it.
+              </p>
+            </div>
+            <div className="md:basis-1/2 md:p-8">
+              <div className="w-32 h-32 bg-slate-400 rounded-full mx-auto mb-4"></div>
               <h3 className="mb-4 text-center">Reduce support costs</h3>
               <p>
                 With P2TR for Lightning already in the works, and other wallets moving towards P2TR, broader bech32m
@@ -179,15 +188,7 @@ export default function Home() {
                 today avoids the problem your customers will be facing.
               </p>
             </div>
-            <div className="md:basis-1/2 md:p-8">
-              <div className="w-32 h-32 bg-slate-400 rounded-full mx-auto mb-4"></div>
-              <h3 className="mb-4 text-center">A little work. A lot more benefit</h3>
-              <p>
-                It won't be long before users take it for granted that Taproot works. Therefore, at a minimum, wallets
-                and services should properly handle bech32m addresses to prevent funds from being burned. Implementing
-                sending support is simpler than it sounds, requiring only a bit more work than not supporting it.
-              </p>
-            </div>
+            
           </div>
         </div>
         
