@@ -16,6 +16,7 @@ module.exports = {
         'hard-subtle': '0 8px 0 rgba(6,28,54,0.10)'
       },
       colors: {
+        'orange': '#FF9500',
         'status-yes': '#209B51',
         'status-no': '#AA3222',
         'status-planned': '#207E9B',

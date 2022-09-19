@@ -126,3 +126,7 @@ table.support td:first-child, table.support td:last-child  {
 .sr-only {
     left: -999rem;
 }
+
+#filters li.active {
+    @apply outline outline-1 outline-orange;
+}
