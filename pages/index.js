@@ -331,19 +331,9 @@ export default function Home() {
         <div className="container mx-auto p-8 md:px-8 md:pb-16 md:pt-8 max-w-3xl">
           <h2 id="terminology">Terminology</h2>
           <ul className="list-disc space-y-4">
-            <li><strong>Taproot</strong> introduced a new transaction output type called <strong>Pay-to-Taproot (P2TR).</strong></li>
-            <li>
-              Receivers use invoice addresses (or simply “addresses”) to instruct senders on how to pay them. An address
-              encodes the spending conditions the sender should encumber the funds with to sign them over to the
-              receiver. P2TR uses the <strong>bech32m</strong> encoded invoice addresses.
-            </li>
-            <li>A prospective sender must be able to “decode a bech32m address” to “create a P2TR output”.</li>
-            <li>Entities aiming to benefit from the features of Taproot want to “receive P2TR outputs”.</li>
-            <li>This is enabled by broad support of other wallets for “sending to bech32m addresses”.</li>
-            <li>
-              Our goal is to encourage more wallets and services to implement sending to bech32m addresses so that
-              receivers may choose P2TR outputs more often.
-            </li>
+            <li><a href="https://bitcoinops.org/en/topics/taproot/">Taproot</a> - This is a soft fork change to bitcoin that went into effect in November 2021.</li>
+            <li>P2TR (Pay-to-Taproot) - This is a new transaction output type which was introduced by Taproot.</li>
+            <li><a href="https://bitcoinops.org/en/topics/bech32/">Bech32m</a> - This is an address encoding format. A prospective sender must be able to decode a bech32m address to create a P2TR output.</li>
           </ul>
         </div>
 
