@@ -1476,7 +1476,7 @@
   },
   {
     "wallet": {
-      "name": "Square CashApp"
+      "name": "CashApp"
     },
     "send_to_bech32": {
       "status": "yes"
