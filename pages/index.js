@@ -160,7 +160,7 @@ export default function Home() {
             <p className="text-xl xl:text-2xl mb-8">
               Taproot offers bitcoin users and companies big benefits. But to unlock them, first we need wallet
               interoperability. Taproot requires bech32m, a new address format, which is slightly different from bech32.
-              This means that Taproot adoption only starts when wallets support sending to this new format.
+              This means that Taproot adoption will only take off when wallets support sending to this new format.
             </p>
           </div>
         </div>
