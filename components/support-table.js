@@ -93,17 +93,14 @@ export default function SupportTable() {
         </ul>
       </div>
       
-      <table className="support w-full max-w-[1700px] mx-auto text-xs 2xl:text-base">
+      <table className="support w-full max-w-[1500px] mx-auto text-xs 2xl:text-base">
         <thead className="font-display relative z-50">
           <tr>
-            <th className="min-w-[160px] lg:w-[200px] xl:w-[300px] 2xl:w-[340px] bg-white font-normal p-2 p-2 text-left">
+            <th className="min-w-[160px] lg:w-[200px] xl:w-[300px] 2xl:w-[400px] bg-white font-normal p-2 p-2 text-left">
               <WalletIcon className="w-4 h-4 md:w-6 md:h-6 block md:inline" aria-hidden="true" /> Name
             </th>
             <th className="min-w-[160px] lg:w-[160px] 2xl:w-[200px] bg-white font-normal p-2">
               <SendIcon className="w-4 h-4 md:w-6 md:h-6 mx-auto md:inline" aria-hidden="true" /> Send to Bech32m
-            </th>
-            <th className="min-w-[160px] lg:w-[160px] 2xl:w-[200px] bg-white font-normal p-2 p-2">
-              <ReceiveIcon className="w-4 h-4 md:w-6 md:h-6 mx-auto md:inline" aria-hidden="true" /> Receive to P2TR
             </th>
             <th className="min-w-[120px] lg:w-[180px] 2xl:w-[220px] bg-white font-normal p-2">
               <AlertIcon className="w-4 h-4 md:w-6 md:h-6 mx-auto md:inline" aria-hidden="true" /> Issue Link
@@ -119,7 +116,7 @@ export default function SupportTable() {
         <tbody>
         {sorted.map((s, key)=>(
           <tr key={key} className="even:bg-gray-50">
-            <td className="min-w-[160px] lg:w-[200px] xl:w-[300px] 2xl:w-[340px] font-bold">
+            <td className="min-w-[160px] lg:w-[200px] xl:w-[300px] 2xl:w-[400px] font-bold">
               {s.wallet.uri ? <a href={s.wallet.uri}>{s.wallet.name}</a> : s.wallet.name}
             </td>
             <td className={"min-w-[160px] lg:w-[160px] 2xl:w-[200px] status-" + s.send_to_bech32m.status}>
@@ -132,14 +129,6 @@ export default function SupportTable() {
                 <p className="basis-1/1 hidden">
                   {s.send_to_bech32m.detail}
                 </p>
-            </td>
-            <td className="min-w-[160px] lg:w-[160px] 2xl:w-[200px]">
-              <div className="flex justify-center items-center w-full h-full">
-                {selectIcon(s.receive_to_p2tr.status)}
-                <span className="sr-only">
-                  {s.receive_to_p2tr.status.substring(0,1).toUpperCase() + s.receive_to_p2tr.status.substring(1).toLowerCase()}
-                </span>
-              </div>
             </td>
             <td className="min-w-[120px] lg:w-[180px] 2xl:w-[220px]">
               {s.issue_link ? <a href={s.issue_link}>Issue</a> : '' }
