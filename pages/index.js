@@ -74,7 +74,7 @@ export default function Home() {
     },
     {
       uri: "/#adding-bech32m",
-      text: "Adding bech32m support"
+      text: "Adding Bech32m support"
     },
     {
       uri: "/#features",
@@ -103,7 +103,7 @@ export default function Home() {
       <Head>
         <title>When taproot? | Bitcoin Bech32m Adoption Tracking</title>
         <meta name="description" content="Taproot has been live since November 2021, yet the bitcoin industry has not seen widespread adoption of
-              bech32m. What gives? Bunny is sad. When&nbsp;taproot?" />
+              Bech32m. What gives? Bunny is sad. When&nbsp;taproot?" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -159,7 +159,7 @@ export default function Home() {
             <h1 className="sr-only">When taproot?</h1>
             <p className="text-xl xl:text-2xl mb-8">
               Taproot offers bitcoin users and companies big benefits. But to unlock them, first we need wallet
-              interoperability. Taproot requires bech32m, a new address format, which is slightly different from bech32.
+              interoperability. Taproot requires Bech32m, a new address format, which is slightly different from Bech32.
               This means that Taproot adoption will only take off when wallets support sending to this new format.
             </p>
           </div>
@@ -167,14 +167,14 @@ export default function Home() {
         
         {/* Benefits */}
         <div className="container mx-auto p-8">
-          <h2 className="text-center text-4xl" id="creating-p2tr-outputs">Creating P2TR outputs: supporting bech32m</h2>
+          <h2 className="text-center text-4xl" id="creating-p2tr-outputs">Creating P2TR outputs: supporting Bech32m</h2>
           <div className="space-y-8 md:flex md:flex-wrap md:space-y-0">
             <div className="md:basis-1/2 md:p-8">
               <div className="w-32 h-32 bg-slate-400 rounded-full mx-auto mb-4"></div>
               <h3 className="mb-4 text-center">A little work. A lot more benefit</h3>
               <p>
                 It won't be long before users take it for granted that Taproot works. Therefore, at a minimum, wallets
-                and services should properly handle bech32m addresses to prevent funds from being burned. Implementing
+                and services should properly handle Bech32m addresses to prevent funds from being burned. Implementing
                 sending support is simpler than it sounds, requiring only a bit more work than not supporting it.
               </p>
             </div>
@@ -182,9 +182,9 @@ export default function Home() {
               <div className="w-32 h-32 bg-slate-400 rounded-full mx-auto mb-4"></div>
               <h3 className="mb-4 text-center">Reduce support costs</h3>
               <p>
-                With P2TR for Lightning already in the works, and other wallets moving towards P2TR, broader bech32m
-                wallet support is almost inevitable. This means that services not supporting sending to bech32m when
-                their customers attempt to transfer funds could face trouble at the support level. Integrating bech32m
+                With P2TR for Lightning already in the works, and other wallets moving towards P2TR, broader Bech32m
+                wallet support is almost inevitable. This means that services not supporting sending to Bech32m when
+                their customers attempt to transfer funds could face trouble at the support level. Integrating Bech32m
                 today avoids the problem your customers will be facing.
               </p>
             </div>
@@ -195,12 +195,12 @@ export default function Home() {
         {/* Instructions */}
         <div className="container mx-auto p-8 pb-0">
           <div className="container mx-auto p-8 max-w-2xl">
-            <h2 id="adding-bech32m">Adding bech32m send support</h2>
+            <h2 id="adding-bech32m">Adding Bech32m send support</h2>
             
             <p>
-              <a href="https://bips.xyz/173">bech32</a> and <a href="https://bips.xyz/350">bech32m</a> addresses differ
+              <a href="https://bips.xyz/173">Bech32</a> and <a href="https://bips.xyz/350">Bech32m</a> addresses differ
               only in their checksums. This simple <a href="https://github.com/jesseposner/bech32/commit/cc1cc2cc501f7da51305cbf43eef3f6258892cdb#diff-f226c2590ba87b0b57a874d7eecacac232f0d39a7896c08cf6167c258b0b31a1L132-L143">two-line code change</a> adds
-              bech32m address decoding support to the <a href="https://github.com/sipa/bech32/">bech32 Python reference implementation</a>.
+              Bech32m address decoding support to the <a href="https://github.com/sipa/bech32/">Bech32 Python reference implementation</a>.
             </p>
           </div>
           
@@ -211,13 +211,13 @@ export default function Home() {
                 type="image/png"
                 media="(min-width: 768px)"
               />
-              <img src="bech32m-code-diff-mobile.png" alt="Graphic showing the code changes for adding bech32m support" className="mx-auto block" />
+              <img src="bech32m-code-diff-mobile.png" alt="Graphic showing the code changes for adding Bech32m support" className="mx-auto block" />
             </picture>
           </div>
         
           <div className="container mx-auto p-8 max-w-2xl">
             <p>
-              You're almost there. Next, check whether your frontend interface accepts bech32m addresses. Finally, make
+              You're almost there. Next, check whether your frontend interface accepts Bech32m addresses. Finally, make
               sure your transaction building process creates outputs with witness version 1. Otherwise,
               you're <strong>burning bitcoin.</strong>
             </p>
@@ -278,7 +278,7 @@ export default function Home() {
             <h2 id="get-involved">Get Involved</h2>
 
             <p>
-              Help push the industry forward by testing wallets and other services for bech32m and P2TR support. Just
+              Help push the industry forward by testing wallets and other services for Bech32m and P2TR support. Just
               follow these steps.
             </p>
 
@@ -287,10 +287,10 @@ export default function Home() {
                 Select an untested wallet, exchange, or other bitcoin service from the above list.
               </li>
               <li className="pl-4">
-                Generate a bech32m address (which begins with `bc1p`) from any wallet that supports it. If you don't
+                Generate a Bech32m address (which begins with `bc1p`) from any wallet that supports it. If you don't
                 already have one, download <a href="https://muun.com/">Muun</a>. Then, send a small amount of bitcoin
-                from the wallet you are testing to your bech32m address. Please use an appropriately small amount,
-                since on at least two occasions, incorrect implementation of bech32m support caused lost funds.
+                from the wallet you are testing to your Bech32m address. Please use an appropriately small amount,
+                since on at least two occasions, incorrect implementation of Bech32m support caused lost funds.
               </li>
               <li className="pl-4">
                 To test receiving, select your bitcoin service’s "receive" or "deposit" feature. If the address begins
@@ -306,7 +306,7 @@ export default function Home() {
           </div>
           <div className="pb-8 lg:basis-2/5 lg:w-2/5 text-center pl-8">
             <h3>Sample Address</h3>
-            <img src="bech32m-qr.png" alt="A QR code of a bech32m bitcoin address" className="w-80 mx-auto block" />
+            <img src="bech32m-qr.png" alt="A QR code of a Bech32m bitcoin address" className="w-80 mx-auto block" />
             <div className="flex flex-row justify-center">
               <input type="text" className="text-xs font-mono p-4 border solid rounded-md w-80" value={sampleAddress} id="sample-address" readOnly />
               <button title="Copy Sample Address" className="p-2" onClick={copyAddress}>
@@ -333,7 +333,7 @@ export default function Home() {
           <ul className="list-disc space-y-4">
             <li><a href="https://bitcoinops.org/en/topics/taproot/">Taproot</a> - This is a soft fork change to bitcoin that went into effect in November 2021.</li>
             <li>P2TR (Pay-to-Taproot) - This is a new transaction output type which was introduced by Taproot.</li>
-            <li><a href="https://bitcoinops.org/en/topics/bech32/">Bech32m</a> - This is an address encoding format. A prospective sender must be able to decode a bech32m address to create a P2TR output.</li>
+            <li><a href="https://bitcoinops.org/en/topics/bech32/">Bech32m</a> - This is an address encoding format. A prospective sender must be able to decode a Bech32m address to create a P2TR output.</li>
           </ul>
         </div>
 
