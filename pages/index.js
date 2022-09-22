@@ -207,10 +207,10 @@ export default function Home() {
         </div>
 
         {/* Instructions */}
-        <div className="p-8 pb-0 relative z-[2] bg-white">
-          <div className="mx-auto container flex flex-col">
-            <div>
-              <div className="mb-8">
+        <div className="p-8 lg:p-16 relative z-[2] bg-white">
+          <div className="mx-auto container flex flex-col lg:flex-row lg:space-x-8">
+            <div className="lg:w-2/5">
+              <div className="mb-8 mx-auto md:w-1/2 lg:w-full">
                 <Image
                   src={bunnyHacker}
                   alt="Bunny hacking on bitcoin at its laptop"
@@ -222,7 +222,7 @@ export default function Home() {
               </div>
             </div>
             
-            <div>
+            <div className="lg:w-3/5">
               <h2 id="adding-bech32m">Adding Bech32m send support</h2>
 
               <p>
