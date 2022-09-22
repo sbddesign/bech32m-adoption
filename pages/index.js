@@ -10,6 +10,7 @@ import bunnyCrying from "../public/crying@0.5x.png"
 import carrot from "../public/carrot@0.5x.png"
 import bunnyHacker from "../public/bunny-hacker.png"
 import bech32mCodeDiff from "../public/bech32m-code-diff.png"
+import carrotsGrowing from "../public/carrots-growing.png"
 
 export default function Home() {
   const sampleAddress = "bc1pmnhwnlcx7w4lfv3txuez6hfup24wkr4yygzugekpmttplx2mnkusw03aln"
@@ -255,22 +256,31 @@ export default function Home() {
         </div>
         
         {/* Benefits */}
-        <div className="p-8 relative z-[2] bg-white">
-          <div className="mx-auto container">
-            <h2 className="text-center text-4xl" id="creating-p2tr-outputs">Creating P2TR outputs: supporting Bech32m</h2>
-            <div className="space-y-8 md:flex md:flex-wrap md:space-y-0">
-              <div className="md:basis-1/2 md:p-8">
-                <div className="w-32 h-32 bg-slate-400 rounded-full mx-auto mb-4"></div>
-                <h3 className="mb-4 text-center">A little work. A lot more benefit</h3>
+        <div className="relative z-[3] bg-white mb-12">
+          <img src="curve-2.svg" alt="" className="w-full translate-y-1" />
+          <div className="bg-blue-gray p-8 md:py-16 flex flex-col lg:flex-row lg:space-x-8">
+            <div className="lg:w-2/5">
+              <div className="mb-8 mx-auto md:w-1/2 lg:w-full">
+                <Image
+                  src={carrotsGrowing}
+                  alt="Carrots growing into the ground"
+                  width="1000"
+                  height="846"
+                  layout="responsive"
+                  placeholder="blur"
+                />
+              </div>
+            </div>
+            <div className="lg:w-3/5">
+              <h2 className="" id="creating-p2tr-outputs">Supporting Bech32m by creating Taproot outputs</h2>
+              <div className="space-y-4">
+                <h3>A little work. A lot more benefit</h3>
                 <p>
                   It won't be long before users take it for granted that Taproot works. Therefore, at a minimum, wallets
                   and services should properly handle Bech32m addresses to prevent funds from being burned. Implementing
                   sending support is simpler than it sounds, requiring only a bit more work than not supporting it.
                 </p>
-              </div>
-              <div className="md:basis-1/2 md:p-8">
-                <div className="w-32 h-32 bg-slate-400 rounded-full mx-auto mb-4"></div>
-                <h3 className="mb-4 text-center">Reduce support costs</h3>
+                <h3>Reduce support costs</h3>
                 <p>
                   With P2TR for Lightning already in the works, and other wallets moving towards P2TR, broader Bech32m
                   wallet support is almost inevitable. This means that services not supporting sending to Bech32m when
@@ -278,8 +288,11 @@ export default function Home() {
                   today avoids the problem your customers will be facing.
                 </p>
               </div>
-
             </div>
+          </div>
+          <img src="curve-2.svg" alt="" className="w-full mb-12 rotate-180 -translate-y-1" />
+          <div className="w-full">
+            
           </div>
         </div>
         

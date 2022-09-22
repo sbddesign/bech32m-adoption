@@ -20,6 +20,7 @@ module.exports = {
       },
       colors: {
         'orange': '#FF9500',
+        'blue-gray': '#ECF3F4',
         'status-yes': '#209B51',
         'status-no': '#AA3222',
         'status-planned': '#207E9B',
