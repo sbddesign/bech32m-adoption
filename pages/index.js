@@ -8,6 +8,8 @@ import Image from 'next/image'
 import backgroundImg from "../public/background.png"
 import bunnyCrying from "../public/crying@0.5x.png"
 import carrot from "../public/carrot@0.5x.png"
+import bunnyHacker from "../public/bunny-hacker.png"
+import bech32mCodeDiff from "../public/bech32m-code-diff.png"
 
 export default function Home() {
   const sampleAddress = "bc1pmnhwnlcx7w4lfv3txuez6hfup24wkr4yygzugekpmttplx2mnkusw03aln"
@@ -203,6 +205,50 @@ export default function Home() {
             <img src="curve-1.svg" width="1728" height="148" className="w-full h-auto translate-y-1 scale-[1.2] drop-shadow-hard-small-vertical" />
           </div>
         </div>
+
+        {/* Instructions */}
+        <div className="p-8 pb-0 relative z-[2] bg-white">
+          <div className="mx-auto container flex flex-col">
+            <div>
+              <div className="mb-8">
+                <Image
+                  src={bunnyHacker}
+                  alt="Bunny hacking on bitcoin at its laptop"
+                  width="948"
+                  height="784"
+                  layout="responsive"
+                  placeholder="blur"
+                />
+              </div>
+            </div>
+            
+            <div>
+              <h2 id="adding-bech32m">Adding Bech32m send support</h2>
+
+              <p>
+                <a href="https://bips.xyz/173">Bech32</a> and <a href="https://bips.xyz/350">Bech32m</a> addresses differ
+                only in their checksums. This simple <a href="https://github.com/jesseposner/bech32/commit/cc1cc2cc501f7da51305cbf43eef3f6258892cdb#diff-f226c2590ba87b0b57a874d7eecacac232f0d39a7896c08cf6167c258b0b31a1L132-L143">two-line code change</a> adds
+                Bech32m address decoding support to the <a href="https://github.com/sipa/bech32/">Bech32 Python reference implementation</a>.
+              </p>
+              <div className="my-8">
+                <Image
+                  src={bech32mCodeDiff}
+                  alt="Code changes for adding Bech32m sending support"
+                  width="2560"
+                  height="2773"
+                  layout="responsive"
+                  className="my-8"
+                />
+              </div>
+
+              <p>
+                You're almost there. Next, check whether your frontend interface accepts Bech32m addresses. Finally, make
+                sure your transaction building process creates outputs with witness version 1. Otherwise,
+                you're <strong>burning bitcoin.</strong>
+              </p>
+            </div>
+          </div>
+        </div>
         
         {/* Benefits */}
         <div className="p-8 relative z-[2] bg-white">
@@ -233,39 +279,7 @@ export default function Home() {
           </div>
         </div>
         
-        {/* Instructions */}
-        <div className="p-8 pb-0 relative z-[2] bg-white">
-          <div className="mx-auto container">
-            <div className="container mx-auto p-8 max-w-2xl">
-              <h2 id="adding-bech32m">Adding Bech32m send support</h2>
-
-              <p>
-                <a href="https://bips.xyz/173">Bech32</a> and <a href="https://bips.xyz/350">Bech32m</a> addresses differ
-                only in their checksums. This simple <a href="https://github.com/jesseposner/bech32/commit/cc1cc2cc501f7da51305cbf43eef3f6258892cdb#diff-f226c2590ba87b0b57a874d7eecacac232f0d39a7896c08cf6167c258b0b31a1L132-L143">two-line code change</a> adds
-                Bech32m address decoding support to the <a href="https://github.com/sipa/bech32/">Bech32 Python reference implementation</a>.
-              </p>
-            </div>
-
-            <div className="instructions max-w-4xl mx-auto">
-              <picture className="mx-auto block">
-                <source
-                  srcSet="bech32m-code-diff.png 1x, bech32m-code-diff@2x.png 2x"
-                  type="image/png"
-                  media="(min-width: 768px)"
-                />
-                <img src="bech32m-code-diff-mobile.png" alt="Graphic showing the code changes for adding Bech32m support" className="mx-auto block" />
-              </picture>
-            </div>
-
-            <div className="container mx-auto p-8 max-w-2xl">
-              <p>
-                You're almost there. Next, check whether your frontend interface accepts Bech32m addresses. Finally, make
-                sure your transaction building process creates outputs with witness version 1. Otherwise,
-                you're <strong>burning bitcoin.</strong>
-              </p>
-            </div>
-          </div>
-        </div>
+        
 
         {/* Features */}
         <div className="p-8 pt-0 relative z-[2] bg-white">
