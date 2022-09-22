@@ -4,6 +4,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import SupportTable from '../components/support-table';
 import {CopyIcon, CrossIcon, MenuIcon} from '@bitcoin-design/bitcoin-icons-react/filled';
 import React from 'react';
+import Image from 'next/image'
+import backgroundImg from "../public/background.png"
 
 export default function Home() {
   const sampleAddress = "bc1pmnhwnlcx7w4lfv3txuez6hfup24wkr4yygzugekpmttplx2mnkusw03aln"
@@ -145,10 +147,25 @@ export default function Home() {
         <a href="#start-of-main-content" id="start-of-main-content" className="sr-only">Start of main content</a>
 
         <div id="intro"></div>
+
+        {/* Background image */}
+        <div className="fixed w-full h-full top-0 left-0 z-[1]">
+          <Image
+            src={backgroundImg}
+            width="3240"
+            height="2160"
+            layout="fill"
+            objectFit="cover"
+            sizes="(max-width: 768px) 100vh, 100vw"
+            placeholder="blur"
+            quality="100"
+            className="fixed top-0 left-0"
+          />
+        </div>
         
         {/* Hero */}
-        <div className="wtr-bg min-h-[80vh] flex items-center justify-center p-8 pt-16 md:p-16">
-          <div className="bg-white p-8 rounded-3xl drop-shadow-hard max-w-2xl">
+        <div className="min-h-[80vh] flex items-center justify-center px-4 py-16 md:p-16 relative z-[2]">
+          <div className="bg-white p-8 rounded-3xl drop-shadow-hard-small max-w-2xl">
             <div className="hero pb-8 mx-auto md:scale-125">
               <div className="flex flex-wrap">
                 <img src="hero-bunny.svg" alt="" width="221" height="231" className="basis-[60%] w-[60%] md:order-first md:basis-[20%] md:w-[20%]" />
@@ -158,15 +175,27 @@ export default function Home() {
             </div>
             <h1 className="sr-only">When taproot?</h1>
             <p className="text-xl xl:text-2xl mb-8">
-              Taproot offers bitcoin users and companies big benefits. But to unlock them, first we need wallet
+              Taproot offers bitcoin users and businesses big benefits. But to unlock them, first we need wallet
               interoperability. Taproot requires Bech32m, a new address format, which is slightly different from Bech32.
               This means that Taproot adoption will only take off when wallets support sending to this new format.
             </p>
           </div>
+          <svg
+            width="1728"
+            height="148"
+            viewBox="0 0 1728 148"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            className="w-full absolute bottom-0 h-auto drop-shadow-hard-small-vertical"
+          >
+            <path d="M1215 110C1481 110 1676.85 35.3337 1728 0.000396729V148H0V0.000396729C0 0.000396729 765 110 1215 110Z" fill="white"/>
+          </svg>
         </div>
         
+
+
         {/* Benefits */}
-        <div className="container mx-auto p-8">
+        <div className="container mx-auto p-8 relative z-[2] bg-white">
           <h2 className="text-center text-4xl" id="creating-p2tr-outputs">Creating P2TR outputs: supporting Bech32m</h2>
           <div className="space-y-8 md:flex md:flex-wrap md:space-y-0">
             <div className="md:basis-1/2 md:p-8">
@@ -193,7 +222,7 @@ export default function Home() {
         </div>
         
         {/* Instructions */}
-        <div className="container mx-auto p-8 pb-0">
+        <div className="container mx-auto p-8 pb-0 relative z-[2] bg-white">
           <div className="container mx-auto p-8 max-w-2xl">
             <h2 id="adding-bech32m">Adding Bech32m send support</h2>
             
@@ -225,7 +254,7 @@ export default function Home() {
         </div>
 
         {/* Features */}
-        <div className="container mx-auto p-8 pt-0">
+        <div className="container mx-auto p-8 pt-0 relative z-[2] bg-white">
           <h2 className="font-display mb-4 mt-16 text-2xl text-center max-w-3xl mx-auto md:text-3xl lg:text-4xl" id="features">
             Every day without P2TR adoption is a day without these and other great benefits
           </h2>
@@ -273,7 +302,7 @@ export default function Home() {
         </div>
 
         {/* Get Involved */}
-        <div className="container mx-auto p-8 max-w-[1600px] flex flex-col lg:flex-row">
+        <div className="container mx-auto p-8 max-w-[1600px] flex flex-col lg:flex-row relative z-[2] bg-white">
           <div className="lg:basis-3/5 lg:w-3/5">
             <h2 id="get-involved">Get Involved</h2>
 
@@ -317,7 +346,7 @@ export default function Home() {
         </div>
         
         {/* Support table */}
-        <div className="mx-auto p-8">
+        <div className="mx-auto p-8 relative z-[2] bg-white">
           <h2 className="text-center md:text-4xl xl:text-5xl 2xl:text-6xl" id="support">
             The state of taproot support
           </h2>
@@ -328,7 +357,7 @@ export default function Home() {
         </div>
 
         {/* Terminology */}
-        <div className="container mx-auto p-8 md:px-8 md:pb-16 md:pt-8 max-w-3xl">
+        <div className="container mx-auto p-8 md:px-8 md:pb-16 md:pt-8 max-w-3xl relative z-[2] bg-white">
           <h2 id="terminology">Terminology</h2>
           <ul className="list-disc space-y-4">
             <li><a href="https://bitcoinops.org/en/topics/taproot/">Taproot</a> - This is a soft fork change to bitcoin that went into effect in November 2021.</li>

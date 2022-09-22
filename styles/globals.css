@@ -43,9 +43,9 @@ h4 {
 }
 
 .wtr-bg {
-    background-image: url('../public/WTR/Pattern.svg');
-    background-repeat: repeat;
-    background-attachment: fixed;
+    /*background-image: url('../public/WTR/Pattern.svg');*/
+    /*background-repeat: repeat;*/
+    /*background-attachment: fixed;*/
 }
 
 .hero svg, .footer-img svg {
