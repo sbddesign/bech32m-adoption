@@ -6,7 +6,7 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      'sans': ['Roboto', 'ui-sans-serif', 'system-ui'],
+      'sans': ['Nunito', 'ui-sans-serif', 'system-ui'],
       'display': ['Sniglet', 'ui-sans-serif', 'system-ui'],
       'mono': ['ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'Liberation Mono', 'Courier New', 'monospace']
     },

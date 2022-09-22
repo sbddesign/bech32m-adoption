@@ -112,6 +112,10 @@ export default function Home() {
               Bech32m. What gives? Bunny is sad. When&nbsp;taproot?" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400;1,700&family=Sniglet&display=swap"
+          rel="stylesheet"
+        />
       </Head>
       
       <a href="#start-of-main-content" className="sr-only skip-content">Skip to content</a>
