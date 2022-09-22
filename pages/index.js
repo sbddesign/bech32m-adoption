@@ -6,6 +6,8 @@ import {CopyIcon, CrossIcon, MenuIcon} from '@bitcoin-design/bitcoin-icons-react
 import React from 'react';
 import Image from 'next/image'
 import backgroundImg from "../public/background.png"
+import bunnyCrying from "../public/crying@0.5x.png"
+import carrot from "../public/carrot@0.5x.png"
 
 export default function Home() {
   const sampleAddress = "bc1pmnhwnlcx7w4lfv3txuez6hfup24wkr4yygzugekpmttplx2mnkusw03aln"
@@ -164,13 +166,30 @@ export default function Home() {
         </div>
         
         {/* Hero */}
-        <div className="min-h-[80vh] flex items-center justify-center px-4 py-16 md:p-16 relative z-[2]">
+        <div className="min-h-[80vh] flex items-center justify-center px-4 py-16 sm:pb-32 md:p-16 md:pb-32 xl:pt-24 relative z-[2]">
           <div className="bg-white p-8 rounded-3xl drop-shadow-hard-small max-w-2xl">
             <div className="hero pb-8 mx-auto md:scale-125">
               <div className="flex flex-wrap">
-                <img src="hero-bunny.svg" alt="" width="221" height="231" className="basis-[60%] w-[60%] md:order-first md:basis-[20%] md:w-[20%]" />
-                <img src="hero-title.svg" alt="" width="758" height="231" className="order-last md:order-[1] md:basis-[67%] md:w-[67%]" />
-                <img src="hero-carrot.svg" alt="" width="144" height="231" className="basis-[40%] w-[40%] md:order-last md:basis-[13%] md:w-[13%]" />
+                <div className="basis-[55%] w-[55%] h-auto md:order-first md:basis-[30%] md:w-[30%] flex flex-col justify-center">
+                  <Image
+                    src={bunnyCrying}
+                    alt="Crying bunny"
+                    width="941"
+                    height="757"
+                    layout="responsive"
+                  />
+                </div>
+                <img src="hero-title.svg" alt="" width="758" height="231" className="order-last md:order-[1] md:basis-[45%] md:w-[45%]" />
+                <div className="hidden md:block md:order-[2] md:basis-[5%] md:w-[5%]"></div>
+                <div className="basis-[35%] w-[35%] ml-[10%] md:ml-0 md:order-last md:basis-[20%] md:w-[20%] flex flex-col justify-center">
+                  <Image
+                    src={carrot}
+                    alt="Carrot"
+                    width="956"
+                    height="1080"
+                    layout="responsive"
+                  />
+                </div>
               </div>
             </div>
             <h1 className="sr-only">When taproot?</h1>
@@ -180,167 +199,166 @@ export default function Home() {
               This means that Taproot adoption will only take off when wallets support sending to this new format.
             </p>
           </div>
-          <svg
-            width="1728"
-            height="148"
-            viewBox="0 0 1728 148"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            className="w-full absolute bottom-0 h-auto drop-shadow-hard-small-vertical"
-          >
-            <path d="M1215 110C1481 110 1676.85 35.3337 1728 0.000396729V148H0V0.000396729C0 0.000396729 765 110 1215 110Z" fill="white"/>
-          </svg>
+          <div className="absolute bottom-0 left-0 w-full z-[2] overflow-hidden">
+            <img src="curve-1.svg" width="1728" height="148" className="w-full h-auto translate-y-1 scale-[1.2] drop-shadow-hard-small-vertical" />
+          </div>
         </div>
         
-
-
         {/* Benefits */}
-        <div className="container mx-auto p-8 relative z-[2] bg-white">
-          <h2 className="text-center text-4xl" id="creating-p2tr-outputs">Creating P2TR outputs: supporting Bech32m</h2>
-          <div className="space-y-8 md:flex md:flex-wrap md:space-y-0">
-            <div className="md:basis-1/2 md:p-8">
-              <div className="w-32 h-32 bg-slate-400 rounded-full mx-auto mb-4"></div>
-              <h3 className="mb-4 text-center">A little work. A lot more benefit</h3>
-              <p>
-                It won't be long before users take it for granted that Taproot works. Therefore, at a minimum, wallets
-                and services should properly handle Bech32m addresses to prevent funds from being burned. Implementing
-                sending support is simpler than it sounds, requiring only a bit more work than not supporting it.
-              </p>
+        <div className="p-8 relative z-[2] bg-white">
+          <div className="mx-auto container">
+            <h2 className="text-center text-4xl" id="creating-p2tr-outputs">Creating P2TR outputs: supporting Bech32m</h2>
+            <div className="space-y-8 md:flex md:flex-wrap md:space-y-0">
+              <div className="md:basis-1/2 md:p-8">
+                <div className="w-32 h-32 bg-slate-400 rounded-full mx-auto mb-4"></div>
+                <h3 className="mb-4 text-center">A little work. A lot more benefit</h3>
+                <p>
+                  It won't be long before users take it for granted that Taproot works. Therefore, at a minimum, wallets
+                  and services should properly handle Bech32m addresses to prevent funds from being burned. Implementing
+                  sending support is simpler than it sounds, requiring only a bit more work than not supporting it.
+                </p>
+              </div>
+              <div className="md:basis-1/2 md:p-8">
+                <div className="w-32 h-32 bg-slate-400 rounded-full mx-auto mb-4"></div>
+                <h3 className="mb-4 text-center">Reduce support costs</h3>
+                <p>
+                  With P2TR for Lightning already in the works, and other wallets moving towards P2TR, broader Bech32m
+                  wallet support is almost inevitable. This means that services not supporting sending to Bech32m when
+                  their customers attempt to transfer funds could face trouble at the support level. Integrating Bech32m
+                  today avoids the problem your customers will be facing.
+                </p>
+              </div>
+
             </div>
-            <div className="md:basis-1/2 md:p-8">
-              <div className="w-32 h-32 bg-slate-400 rounded-full mx-auto mb-4"></div>
-              <h3 className="mb-4 text-center">Reduce support costs</h3>
-              <p>
-                With P2TR for Lightning already in the works, and other wallets moving towards P2TR, broader Bech32m
-                wallet support is almost inevitable. This means that services not supporting sending to Bech32m when
-                their customers attempt to transfer funds could face trouble at the support level. Integrating Bech32m
-                today avoids the problem your customers will be facing.
-              </p>
-            </div>
-            
           </div>
         </div>
         
         {/* Instructions */}
-        <div className="container mx-auto p-8 pb-0 relative z-[2] bg-white">
-          <div className="container mx-auto p-8 max-w-2xl">
-            <h2 id="adding-bech32m">Adding Bech32m send support</h2>
-            
-            <p>
-              <a href="https://bips.xyz/173">Bech32</a> and <a href="https://bips.xyz/350">Bech32m</a> addresses differ
-              only in their checksums. This simple <a href="https://github.com/jesseposner/bech32/commit/cc1cc2cc501f7da51305cbf43eef3f6258892cdb#diff-f226c2590ba87b0b57a874d7eecacac232f0d39a7896c08cf6167c258b0b31a1L132-L143">two-line code change</a> adds
-              Bech32m address decoding support to the <a href="https://github.com/sipa/bech32/">Bech32 Python reference implementation</a>.
-            </p>
-          </div>
-          
-          <div className="instructions max-w-4xl mx-auto">
-            <picture className="mx-auto block">
-              <source
-                srcSet="bech32m-code-diff.png 1x, bech32m-code-diff@2x.png 2x"
-                type="image/png"
-                media="(min-width: 768px)"
-              />
-              <img src="bech32m-code-diff-mobile.png" alt="Graphic showing the code changes for adding Bech32m support" className="mx-auto block" />
-            </picture>
-          </div>
-        
-          <div className="container mx-auto p-8 max-w-2xl">
-            <p>
-              You're almost there. Next, check whether your frontend interface accepts Bech32m addresses. Finally, make
-              sure your transaction building process creates outputs with witness version 1. Otherwise,
-              you're <strong>burning bitcoin.</strong>
-            </p>
+        <div className="p-8 pb-0 relative z-[2] bg-white">
+          <div className="mx-auto container">
+            <div className="container mx-auto p-8 max-w-2xl">
+              <h2 id="adding-bech32m">Adding Bech32m send support</h2>
+
+              <p>
+                <a href="https://bips.xyz/173">Bech32</a> and <a href="https://bips.xyz/350">Bech32m</a> addresses differ
+                only in their checksums. This simple <a href="https://github.com/jesseposner/bech32/commit/cc1cc2cc501f7da51305cbf43eef3f6258892cdb#diff-f226c2590ba87b0b57a874d7eecacac232f0d39a7896c08cf6167c258b0b31a1L132-L143">two-line code change</a> adds
+                Bech32m address decoding support to the <a href="https://github.com/sipa/bech32/">Bech32 Python reference implementation</a>.
+              </p>
+            </div>
+
+            <div className="instructions max-w-4xl mx-auto">
+              <picture className="mx-auto block">
+                <source
+                  srcSet="bech32m-code-diff.png 1x, bech32m-code-diff@2x.png 2x"
+                  type="image/png"
+                  media="(min-width: 768px)"
+                />
+                <img src="bech32m-code-diff-mobile.png" alt="Graphic showing the code changes for adding Bech32m support" className="mx-auto block" />
+              </picture>
+            </div>
+
+            <div className="container mx-auto p-8 max-w-2xl">
+              <p>
+                You're almost there. Next, check whether your frontend interface accepts Bech32m addresses. Finally, make
+                sure your transaction building process creates outputs with witness version 1. Otherwise,
+                you're <strong>burning bitcoin.</strong>
+              </p>
+            </div>
           </div>
         </div>
 
         {/* Features */}
-        <div className="container mx-auto p-8 pt-0 relative z-[2] bg-white">
-          <h2 className="font-display mb-4 mt-16 text-2xl text-center max-w-3xl mx-auto md:text-3xl lg:text-4xl" id="features">
-            Every day without P2TR adoption is a day without these and other great benefits
-          </h2>
-          <div className="space-y-8 md:flex md:flex-wrap md:space-y-0">
-            <div className="md:basis-1/2 md:p-8 xl:basis-1/3">
-              <div className="w-32 h-32 bg-slate-400 rounded-full mx-auto mb-4"></div>
-              <h3 className="mb-4 text-center">Lighter, More Private Multisig</h3>
-              <p>
-                Key aggregation provides multi-sig security with the same look and footprint as single-sig. P2TR
-                channels make lightning channel closes indistinguishable from other keypath spends.
-              </p>
-            </div>
-            <div className="md:basis-1/2 md:p-8 xl:basis-1/3">
-              <div className="w-32 h-32 bg-slate-400 rounded-full mx-auto mb-4"></div>
-              <h3 className="mb-4 text-center">$ Inputs, $$$ Outputs</h3>
-              <p>
-                Pay-to-Taproot (P2TR) better aligns incentives, making it cheaper to spend stacked sats at the cost of
-                slightly more expensive outputs.
-              </p>
-            </div>
-            <div className="md:basis-1/2 md:p-8 xl:basis-1/3">
-              <div className="w-32 h-32 bg-slate-400 rounded-full mx-auto mb-4"></div>
-              <h3 className="mb-4 text-center">Versatile Single-sig</h3>
-              <p>
-                Add powerful fallback spending conditions to single-sig outputs in the Taptree.
-              </p>
-            </div>
-            <div className="hidden xl:block xl:basis-1/5"></div>
-            <div className="md:basis-1/2 md:p-8 xl:basis-1/3">
-              <div className="w-32 h-32 bg-slate-400 rounded-full mx-auto mb-4"></div>
-              <h3 className="mb-4 text-center">FROST Threshold Signatures</h3>
-              <p>
-                Multisig or FROST can enable Lightning channel owners to use multiple signing devices under the hood.
-              </p>
-            </div>
-            <div className="md:basis-1/2 md:p-8 xl:basis-1/3">
-              <div className="w-32 h-32 bg-slate-400 rounded-full mx-auto mb-4"></div>
-              <h3 className="mb-4 text-center">Replace Lost Keys with FROST</h3>
-              <p>
-                FROST makes it possible for users to lose and then replace a key without a wallet sweep or incurring the
-                associated fees of an on-chain transaction.
-              </p>
+        <div className="p-8 pt-0 relative z-[2] bg-white">
+          <div className="mx-auto container">
+            <h2 className="font-display mb-4 mt-16 text-2xl text-center max-w-3xl mx-auto md:text-3xl lg:text-4xl" id="features">
+              Every day without P2TR adoption is a day without these and other great benefits
+            </h2>
+            <div className="space-y-8 md:flex md:flex-wrap md:space-y-0">
+              <div className="md:basis-1/2 md:p-8 xl:basis-1/3">
+                <div className="w-32 h-32 bg-slate-400 rounded-full mx-auto mb-4"></div>
+                <h3 className="mb-4 text-center">Lighter, More Private Multisig</h3>
+                <p>
+                  Key aggregation provides multi-sig security with the same look and footprint as single-sig. P2TR
+                  channels make lightning channel closes indistinguishable from other keypath spends.
+                </p>
+              </div>
+              <div className="md:basis-1/2 md:p-8 xl:basis-1/3">
+                <div className="w-32 h-32 bg-slate-400 rounded-full mx-auto mb-4"></div>
+                <h3 className="mb-4 text-center">$ Inputs, $$$ Outputs</h3>
+                <p>
+                  Pay-to-Taproot (P2TR) better aligns incentives, making it cheaper to spend stacked sats at the cost of
+                  slightly more expensive outputs.
+                </p>
+              </div>
+              <div className="md:basis-1/2 md:p-8 xl:basis-1/3">
+                <div className="w-32 h-32 bg-slate-400 rounded-full mx-auto mb-4"></div>
+                <h3 className="mb-4 text-center">Versatile Single-sig</h3>
+                <p>
+                  Add powerful fallback spending conditions to single-sig outputs in the Taptree.
+                </p>
+              </div>
+              <div className="hidden xl:block xl:basis-1/5"></div>
+              <div className="md:basis-1/2 md:p-8 xl:basis-1/3">
+                <div className="w-32 h-32 bg-slate-400 rounded-full mx-auto mb-4"></div>
+                <h3 className="mb-4 text-center">FROST Threshold Signatures</h3>
+                <p>
+                  Multisig or FROST can enable Lightning channel owners to use multiple signing devices under the hood.
+                </p>
+              </div>
+              <div className="md:basis-1/2 md:p-8 xl:basis-1/3">
+                <div className="w-32 h-32 bg-slate-400 rounded-full mx-auto mb-4"></div>
+                <h3 className="mb-4 text-center">Replace Lost Keys with FROST</h3>
+                <p>
+                  FROST makes it possible for users to lose and then replace a key without a wallet sweep or incurring the
+                  associated fees of an on-chain transaction.
+                </p>
+              </div>
             </div>
           </div>
         </div>
 
         {/* Get Involved */}
-        <div className="container mx-auto p-8 max-w-[1600px] flex flex-col lg:flex-row relative z-[2] bg-white">
-          <div className="lg:basis-3/5 lg:w-3/5">
-            <h2 id="get-involved">Get Involved</h2>
+        <div className="p-8  relative z-[2] bg-white">
+          <div className="mx-auto container max-w-[1600px] flex flex-col lg:flex-row">
+            <div className="lg:basis-3/5 lg:w-3/5">
+              <h2 id="get-involved">Get Involved</h2>
 
-            <p>
-              Help push the industry forward by testing wallets and other services for Bech32m and P2TR support. Just
-              follow these steps.
-            </p>
+              <p>
+                Help push the industry forward by testing wallets and other services for Bech32m and P2TR support. Just
+                follow these steps.
+              </p>
 
-            <ol className="list-decimal space-y-8 marker:font-display marker:text-2xl px-4 my-8">
-              <li className="pl-4">
-                Select an untested wallet, exchange, or other bitcoin service from the above list.
-              </li>
-              <li className="pl-4">
-                Generate a Bech32m address (which begins with `bc1p`) from any wallet that supports it. If you don't
-                already have one, download <a href="https://muun.com/">Muun</a>. Then, send a small amount of bitcoin
-                from the wallet you are testing to your Bech32m address. Please use an appropriately small amount,
-                since on at least two occasions, incorrect implementation of Bech32m support caused lost funds.
-              </li>
-              <li className="pl-4">
-                To test receiving, select your bitcoin service’s "receive" or "deposit" feature. If the address begins
-                with "bc1p," then this software already supports receiving P2TR outputs. You may also want to dig around
-                its settings for a "Taproot" option as they may support it but not as the default receive method.
-              </li>
-              <li className="pl-4">
-                Once you've finished your test, send us the results
-                by <a href="https://github.com/sbddesign/bech32m-adoption/issues">opening an issue</a>,
-                opening a PR to edit the website, or mentioning it to us on Slack.
-              </li>
-            </ol>
-          </div>
-          <div className="pb-8 lg:basis-2/5 lg:w-2/5 text-center pl-8">
-            <h3>Sample Address</h3>
-            <img src="bech32m-qr.png" alt="A QR code of a Bech32m bitcoin address" className="w-80 mx-auto block" />
-            <div className="flex flex-row justify-center">
-              <input type="text" className="text-xs font-mono p-4 border solid rounded-md w-80" value={sampleAddress} id="sample-address" readOnly />
-              <button title="Copy Sample Address" className="p-2" onClick={copyAddress}>
-                <CopyIcon className="w-8 h-8" />
-              </button>
+              <ol className="list-decimal space-y-8 marker:font-display marker:text-2xl px-4 my-8">
+                <li className="pl-4">
+                  Select an untested wallet, exchange, or other bitcoin service from the above list.
+                </li>
+                <li className="pl-4">
+                  Generate a Bech32m address (which begins with `bc1p`) from any wallet that supports it. If you don't
+                  already have one, download <a href="https://muun.com/">Muun</a>. Then, send a small amount of bitcoin
+                  from the wallet you are testing to your Bech32m address. Please use an appropriately small amount,
+                  since on at least two occasions, incorrect implementation of Bech32m support caused lost funds.
+                </li>
+                <li className="pl-4">
+                  To test receiving, select your bitcoin service’s "receive" or "deposit" feature. If the address begins
+                  with "bc1p," then this software already supports receiving P2TR outputs. You may also want to dig around
+                  its settings for a "Taproot" option as they may support it but not as the default receive method.
+                </li>
+                <li className="pl-4">
+                  Once you've finished your test, send us the results
+                  by <a href="https://github.com/sbddesign/bech32m-adoption/issues">opening an issue</a>,
+                  opening a PR to edit the website, or mentioning it to us on Slack.
+                </li>
+              </ol>
+            </div>
+            <div className="pb-8 lg:basis-2/5 lg:w-2/5 text-center pl-8">
+              <h3>Sample Address</h3>
+              <img src="bech32m-qr.png" alt="A QR code of a Bech32m bitcoin address" className="w-80 mx-auto block" />
+              <div className="flex flex-row justify-center">
+                <input type="text" className="text-xs font-mono p-4 border solid rounded-md w-80" value={sampleAddress} id="sample-address" readOnly />
+                <button title="Copy Sample Address" className="p-2" onClick={copyAddress}>
+                  <CopyIcon className="w-8 h-8" />
+                </button>
+              </div>
             </div>
           </div>
         </div>
@@ -357,18 +375,24 @@ export default function Home() {
         </div>
 
         {/* Terminology */}
-        <div className="container mx-auto p-8 md:px-8 md:pb-16 md:pt-8 max-w-3xl relative z-[2] bg-white">
-          <h2 id="terminology">Terminology</h2>
-          <ul className="list-disc space-y-4">
-            <li><a href="https://bitcoinops.org/en/topics/taproot/">Taproot</a> - This is a soft fork change to bitcoin that went into effect in November 2021.</li>
-            <li>P2TR (Pay-to-Taproot) - This is a new transaction output type which was introduced by Taproot.</li>
-            <li><a href="https://bitcoinops.org/en/topics/bech32/">Bech32m</a> - This is an address encoding format. A prospective sender must be able to decode a Bech32m address to create a P2TR output.</li>
-          </ul>
+        <div className="p-8 md:px-8 md:pb-16 md:pt-8 relative z-[2] bg-white">
+          <div className="mx-auto container max-w-3xl">
+            <h2 id="terminology">Terminology</h2>
+            <ul className="list-disc space-y-4">
+              <li><a href="https://bitcoinops.org/en/topics/taproot/">Taproot</a> - This is a soft fork change to bitcoin that went into effect in November 2021.</li>
+              <li>P2TR (Pay-to-Taproot) - This is a new transaction output type which was introduced by Taproot.</li>
+              <li><a href="https://bitcoinops.org/en/topics/bech32/">Bech32m</a> - This is an address encoding format. A prospective sender must be able to decode a Bech32m address to create a P2TR output.</li>
+            </ul>
+          </div>
         </div>
 
         {/* Contact */}
-        <div className="mx-auto wtr-bg px-8 py-16 flex items-center justify-center lg:min-h-[50vh]">
-          <div className="bg-white px-8 py-12 rounded-3xl drop-shadow-hard max-w-2xl">
+        <div className="mx-auto wtr-bg px-4 py-16 sm:pt-24 flex items-center justify-center lg:min-h-[50vh] relative">
+          <div className="absolute top-0 left-0 w-full z-[2] drop-shadow-hard-small-vertical-down overflow-x-hidden">
+            <img src="curve-1.svg" width="1728" height="148" className="w-full h-auto rotate-180 scale-x-[1.2] -translate-y-1" />
+          </div>
+          
+          <div className="bg-white px-8 py-12 rounded-3xl drop-shadow-hard-small max-w-2xl relative z-[2]">
             <div className="footer-img md:w-2/5 mx-auto">
               <svg width="338" height="315" viewBox="0 0 338 315" fill="none" role="img" xmlns="http://www.w3.org/2000/svg">
                 <title>Bunny happily eating a carrot</title>

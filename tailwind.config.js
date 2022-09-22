@@ -14,6 +14,7 @@ module.exports = {
       dropShadow: {
         'hard-small': '8px 8px 0 rgba(6,28,54,0.20)',
         'hard-small-vertical': '0 -8px 0 rgba(6,28,54,0.10)',
+        'hard-small-vertical-down': '0 8px 0 rgba(6,28,54,0.10)',
         'hard': '16px 16px 0 rgba(6,28,54,0.20)',
         'hard-subtle': '0 8px 0 rgba(6,28,54,0.10)'
       },
