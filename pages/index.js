@@ -205,8 +205,8 @@ export default function Home() {
               This means that Taproot adoption will only take off when wallets support sending to this new format.
             </p>
           </div>
-          <div className="absolute bottom-0 left-0 w-full z-[2] overflow-hidden">
-            <img src="curve-1.svg" width="1728" height="148" className="w-full h-auto translate-y-1 scale-[1.2] drop-shadow-hard-small-vertical" />
+          <div className="absolute bottom-0 left-0 w-full z-[2]">
+            <img src="curve-1.svg" width="1728" height="148" className="w-full h-auto translate-y-1 scale-x-[1.2] drop-shadow-hard-small-vertical" />
           </div>
         </div>
 
