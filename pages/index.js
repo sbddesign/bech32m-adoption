@@ -12,14 +12,23 @@ import bunnyHacker from "../public/bunny-hacker.png"
 import bech32mCodeDiff from "../public/bech32m-code-diff.png"
 import carrotsGrowing from "../public/carrots-growing.png"
 import bunnyAstronaut from "../public/bunny-astronaut.png"
+import bunniesGetInvolved from "../public/bunnies-get-involved.png"
+import bech32mQr from "../public/bech32m-qr.png"
 
 export default function Home() {
   const sampleAddress = "bc1pmnhwnlcx7w4lfv3txuez6hfup24wkr4yygzugekpmttplx2mnkusw03aln"
   
   const [menuOpen, setMenuOpen] = React.useState(false)
   
+  const [sampleActive, setSampleActive] = React.useState(false)
+  
   const handleMenuToggle = () => {
     setMenuOpen(!menuOpen)
+  }
+  
+  const toggleSample = (e) => {
+    e.preventDefault()
+    setSampleActive(!sampleActive)
   }
   
   const changeMenuStyle = (transparent = true) => {
@@ -375,9 +384,21 @@ export default function Home() {
         </div>
         
         {/* Get Involved */}
-        <div className="p-8  relative z-[2] bg-white">
-          <div className="mx-auto container max-w-[1600px] flex flex-col lg:flex-row">
-            <div className="lg:basis-3/5 lg:w-3/5">
+        <div className="p-8 relative z-[2] bg-white">
+          <div className="mx-auto container flex flex-col lg:flex-row lg:space-x-8">
+            <div className="lg:w-2/5">
+              <div className="mx-auto mb-8 md:w-1/2 lg:w-full">
+                <Image
+                  src={bunniesGetInvolved}
+                  alt="Two bunnies testing bitcoin wallets on their phones"
+                  width="1602"
+                  height="960"
+                  layout="responsive"
+                  placeholder="blur"
+                />
+              </div>
+            </div>
+            <div className="lg:w-3/5">
               <h2 id="get-involved">Get Involved</h2>
 
               <p>
@@ -390,37 +411,58 @@ export default function Home() {
                   Select an untested wallet, exchange, or other bitcoin service from the above list.
                 </li>
                 <li className="pl-4">
-                  Generate a Bech32m address (which begins with `bc1p`) from any wallet that supports it. If you don't
-                  already have one, download <a href="https://muun.com/">Muun</a>. Then, send a small amount of bitcoin
-                  from the wallet you are testing to your Bech32m address. Please use an appropriately small amount,
-                  since on at least two occasions, incorrect implementation of Bech32m support caused lost funds.
+                  Generate a Bech32m address (which begins with <code>bc1p</code>) from any wallet that supports it. If you don't
+                  already have one, download Muun. Then, send a small amount of bitcoin from the wallet you are testing
+                  to your Bech32m address. Please use an appropriately small amount, since on at least two occasions,
+                  incorrect implementation of Bech32m support caused lost funds. You can also use <a href="#sample-address" onClick={toggleSample}>this sample address</a>,
+                  but you won’t get the bitcoin back.
                 </li>
                 <li className="pl-4">
                   To test receiving, select your bitcoin service’s "receive" or "deposit" feature. If the address begins
-                  with "bc1p," then this software already supports receiving P2TR outputs. You may also want to dig around
-                  its settings for a "Taproot" option as they may support it but not as the default receive method.
+                  with "bc1p," then this software already supports receiving P2TR outputs. You may also want to dig
+                  around its settings for a "Taproot" option as they may support it but not as the default receive
+                  method.
                 </li>
                 <li className="pl-4">
                   Once you've finished your test, send us the results
                   by <a href="https://github.com/sbddesign/bech32m-adoption/issues">opening an issue</a>,
-                  opening a PR to edit the website, or mentioning it to us on Slack.
+                  opening a PR to edit the website, or mentioning it to us on <a href="https://bitcoindesign.slack.com/archives/C03ND8N72PL">Slack</a>.
                 </li>
               </ol>
             </div>
-            <div className="pb-8 lg:basis-2/5 lg:w-2/5 text-center pl-8">
-              <h3>Sample Address</h3>
-              <img src="bech32m-qr.png" alt="A QR code of a Bech32m bitcoin address" className="w-80 mx-auto block" />
-              <div className="flex flex-row justify-center">
+          </div>
+        </div>
+
+        {/* Sample address modal */}
+        <div>
+          <div className={(sampleActive ? 'opacity-25' : 'opacity-0 hidden') + " fixed top-0 left-0 w-full h-full bg-black z-[10] cursor-pointer transition-opacity duration-500"} onClick={toggleSample}></div>
+          <div className={(sampleActive ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-80 pointer-events-none') + " fixed p-8 top-0 left-0 w-full h-full md:w-auto md:h-auto md:top-1/2 md:left-1/2 md:right-1/2 md:bottom-1/2 z-[11] flex items-center justify-center transition-all duration-500"}>
+            <div className="bg-white rounded-xl text-center flex flex-col space-y-4 drop-shadow-hard-small w-full md:w-auto">
+              <div className="p-4 border-b solid border-slate-400 flex items-center justify-between">
+                <h3>Sample Address</h3>
+                <button title="Close sample address window" onClick={toggleSample}>
+                  <CrossIcon className="w-6 h-6" />
+                </button>
+              </div>
+              <div className="w-full max-w-[200px] mx-auto block">
+                <Image
+                  src={bech32mQr}
+                  alt="A QR code of a Bech32m bitcoin address"
+                  width="164"
+                  height="164"
+                  layout="responsive"
+                  placeholder="blur"
+                />
+              </div>
+              <div className="flex flex-row justify-center p-4">
                 <input type="text" className="text-xs font-mono p-4 border solid rounded-md w-80" value={sampleAddress} id="sample-address" readOnly />
                 <button title="Copy Sample Address" className="p-2" onClick={copyAddress}>
                   <CopyIcon className="w-8 h-8" />
                 </button>
               </div>
-            </div>
+          </div>
           </div>
         </div>
-        
-        
 
         {/* Terminology */}
         <div className="p-8 md:px-8 md:pb-16 md:pt-8 relative z-[2] bg-white">
