@@ -21,6 +21,10 @@ module.exports = {
       colors: {
         'orange': '#FF9500',
         'blue-gray': '#ECF3F4',
+        'green': '#67C37B',
+        'green-light': '#C0EBC9',
+        'red': '#E09D8E',
+        'red-light': '#F4DED9',
         'status-yes': '#209B51',
         'status-no': '#AA3222',
         'status-planned': '#207E9B',

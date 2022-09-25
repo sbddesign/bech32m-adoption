@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import { faTwitter, faGithub, faSlack } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import SupportTable from '../components/support-table';
-import {CopyIcon, CrossIcon, MenuIcon} from '@bitcoin-design/bitcoin-icons-react/filled';
+import PillBox from '../components/pill-box'
+import {CopyIcon, CrossIcon, MenuIcon, CheckIcon} from '@bitcoin-design/bitcoin-icons-react/filled';
 import React from 'react';
 import Image from 'next/image'
 import backgroundImg from "../public/background.png"
@@ -35,20 +35,6 @@ export default function Home() {
   const checkScrollPosition = (e) => {
     if(window.scrollY > 100) changeMenuStyle(false)
     else changeMenuStyle(true)
-    
-    let supportTable = document.querySelector('#support-container table')
-    let supportTableHead = supportTable.querySelector('thead')
-    let header = document.getElementById('header')
-    
-    if(window.scrollY > (supportTable.offsetTop - header.scrollHeight) && window.scrollY < (supportTable.offsetTop + supportTable.scrollHeight)) {
-      let diff = window.scrollY - supportTable.offsetTop
-      
-      supportTableHead.style.top = (diff + header.scrollHeight) + 'px'
-      
-    }
-    else {
-      supportTableHead.style.top = '0'
-    }
   }
   
   let copied = false
@@ -357,7 +343,37 @@ export default function Home() {
             </div>
           </div>
         </div>
+        
+        {/* Support table */}
+        <div className="relative z-[3] bg-white">
+          <img src="curve-2.svg" alt="" className="w-full translate-y-1 -scale-x-100" />
+          <div className="bg-blue-gray">
+            <div className="mx-auto container p-8 md:py-16">
+              <h2 className="text-center md:text-4xl xl:text-5xl 2xl:text-6xl" id="support">
+                The state of taproot support
+              </h2>
 
+              <div className="flex flex-col space-y-8 lg:flex-row lg:space-y-0">
+                <div className="lg:order-last lg:basis-1/2 lg:pl-4">
+                  <h3 className="flex flex-row items-center mb-4 space-x-4">
+                    <CrossIcon className="w-6 h-6" />
+                    <span>Does not support sending to Bech32m</span>
+                  </h3>
+                  <PillBox metric="bech32m_sends_no" />
+                </div>
+                <div className="lg:basis-1/2 lg:pr-4">
+                  <h3 className="flex flex-row items-center mb-4 space-x-4">
+                    <CheckIcon className="w-6 h-6" />
+                    <span>Supports sending to Bech32m</span>
+                  </h3>
+                  <PillBox metric="bech32m_sends_yes" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <img src="curve-2.svg" alt="" className="w-full rotate-180 -translate-y-1 -scale-x-100" />
+        </div>
+        
         {/* Get Involved */}
         <div className="p-8  relative z-[2] bg-white">
           <div className="mx-auto container max-w-[1600px] flex flex-col lg:flex-row">
@@ -404,16 +420,7 @@ export default function Home() {
           </div>
         </div>
         
-        {/* Support table */}
-        <div className="mx-auto p-8 relative z-[2] bg-white">
-          <h2 className="text-center md:text-4xl xl:text-5xl 2xl:text-6xl" id="support">
-            The state of taproot support
-          </h2>
-          
-          <div id="support-container" className="w-full hidden">
-            <SupportTable />
-          </div>
-        </div>
+        
 
         {/* Terminology */}
         <div className="p-8 md:px-8 md:pb-16 md:pt-8 relative z-[2] bg-white">
