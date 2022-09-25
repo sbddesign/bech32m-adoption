@@ -11,6 +11,7 @@ import carrot from "../public/carrot@0.5x.png"
 import bunnyHacker from "../public/bunny-hacker.png"
 import bech32mCodeDiff from "../public/bech32m-code-diff.png"
 import carrotsGrowing from "../public/carrots-growing.png"
+import bunnyAstronaut from "../public/bunny-astronaut.png"
 
 export default function Home() {
   const sampleAddress = "bc1pmnhwnlcx7w4lfv3txuez6hfup24wkr4yygzugekpmttplx2mnkusw03aln"
@@ -259,93 +260,99 @@ export default function Home() {
         </div>
         
         {/* Benefits */}
-        <div className="relative z-[3] bg-white mb-12">
+        <div className="relative z-[3] bg-white">
           <img src="curve-2.svg" alt="" className="w-full translate-y-1" />
-          <div className="bg-blue-gray p-8 md:py-16 flex flex-col lg:flex-row lg:space-x-8">
+          <div className="bg-blue-gray">
+            <div className="mx-auto container p-8 md:py-16 flex flex-col lg:flex-row lg:space-x-8">
+              <div className="lg:w-2/5">
+                <div className="mb-8 mx-auto md:w-1/2 lg:w-full">
+                  <Image
+                    src={carrotsGrowing}
+                    alt="Carrots growing into the ground"
+                    width="1000"
+                    height="846"
+                    layout="responsive"
+                    placeholder="blur"
+                  />
+                </div>
+              </div>
+              <div className="lg:w-3/5">
+                <h2 className="" id="creating-p2tr-outputs">Supporting Bech32m by creating Taproot outputs</h2>
+                <div className="space-y-4">
+                  <h3>A little work. A lot more benefit</h3>
+                  <p>
+                    It won't be long before users take it for granted that Taproot works. Therefore, at a minimum, wallets
+                    and services should properly handle Bech32m addresses to prevent funds from being burned. Implementing
+                    sending support is simpler than it sounds, requiring only a bit more work than not supporting it.
+                  </p>
+                  <h3>Reduce support costs</h3>
+                  <p>
+                    With P2TR for Lightning already in the works, and other wallets moving towards P2TR, broader Bech32m
+                    wallet support is almost inevitable. This means that services not supporting sending to Bech32m when
+                    their customers attempt to transfer funds could face trouble at the support level. Integrating Bech32m
+                    today avoids the problem your customers will be facing.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <img src="curve-2.svg" alt="" className="w-full rotate-180 -translate-y-1" />
+        </div>
+
+        {/* Features */}
+        <div className="p-8 relative z-[2] bg-white">
+          <div className="mx-auto container flex flex-col lg:flex-row lg:space-x-8">
             <div className="lg:w-2/5">
-              <div className="mb-8 mx-auto md:w-1/2 lg:w-full">
+              <div className="mx-auto md:w-1/2 lg:w-full">
                 <Image
-                  src={carrotsGrowing}
-                  alt="Carrots growing into the ground"
-                  width="1000"
-                  height="846"
+                  src={bunnyAstronaut}
+                  alt="Bunny hacking on bitcoin at its laptop"
+                  width="1172"
+                  height="877"
                   layout="responsive"
                   placeholder="blur"
                 />
               </div>
             </div>
             <div className="lg:w-3/5">
-              <h2 className="" id="creating-p2tr-outputs">Supporting Bech32m by creating Taproot outputs</h2>
-              <div className="space-y-4">
-                <h3>A little work. A lot more benefit</h3>
-                <p>
-                  It won't be long before users take it for granted that Taproot works. Therefore, at a minimum, wallets
-                  and services should properly handle Bech32m addresses to prevent funds from being burned. Implementing
-                  sending support is simpler than it sounds, requiring only a bit more work than not supporting it.
-                </p>
-                <h3>Reduce support costs</h3>
-                <p>
-                  With P2TR for Lightning already in the works, and other wallets moving towards P2TR, broader Bech32m
-                  wallet support is almost inevitable. This means that services not supporting sending to Bech32m when
-                  their customers attempt to transfer funds could face trouble at the support level. Integrating Bech32m
-                  today avoids the problem your customers will be facing.
-                </p>
-              </div>
-            </div>
-          </div>
-          <img src="curve-2.svg" alt="" className="w-full mb-12 rotate-180 -translate-y-1" />
-          <div className="w-full">
-            
-          </div>
-        </div>
-        
-        
-
-        {/* Features */}
-        <div className="p-8 pt-0 relative z-[2] bg-white">
-          <div className="mx-auto container">
-            <h2 className="font-display mb-4 mt-16 text-2xl text-center max-w-3xl mx-auto md:text-3xl lg:text-4xl" id="features">
-              Every day without P2TR adoption is a day without these and other great benefits
-            </h2>
-            <div className="space-y-8 md:flex md:flex-wrap md:space-y-0">
-              <div className="md:basis-1/2 md:p-8 xl:basis-1/3">
-                <div className="w-32 h-32 bg-slate-400 rounded-full mx-auto mb-4"></div>
-                <h3 className="mb-4 text-center">Lighter, More Private Multisig</h3>
-                <p>
-                  Key aggregation provides multi-sig security with the same look and footprint as single-sig. P2TR
-                  channels make lightning channel closes indistinguishable from other keypath spends.
-                </p>
-              </div>
-              <div className="md:basis-1/2 md:p-8 xl:basis-1/3">
-                <div className="w-32 h-32 bg-slate-400 rounded-full mx-auto mb-4"></div>
-                <h3 className="mb-4 text-center">$ Inputs, $$$ Outputs</h3>
-                <p>
-                  Pay-to-Taproot (P2TR) better aligns incentives, making it cheaper to spend stacked sats at the cost of
-                  slightly more expensive outputs.
-                </p>
-              </div>
-              <div className="md:basis-1/2 md:p-8 xl:basis-1/3">
-                <div className="w-32 h-32 bg-slate-400 rounded-full mx-auto mb-4"></div>
-                <h3 className="mb-4 text-center">Versatile Single-sig</h3>
-                <p>
-                  Add powerful fallback spending conditions to single-sig outputs in the Taptree.
-                </p>
-              </div>
-              <div className="hidden xl:block xl:basis-1/5"></div>
-              <div className="md:basis-1/2 md:p-8 xl:basis-1/3">
-                <div className="w-32 h-32 bg-slate-400 rounded-full mx-auto mb-4"></div>
-                <h3 className="mb-4 text-center">FROST Threshold Signatures</h3>
-                <p>
-                  Multisig or FROST can enable Lightning channel owners to use multiple signing devices under the hood.
-                </p>
-              </div>
-              <div className="md:basis-1/2 md:p-8 xl:basis-1/3">
-                <div className="w-32 h-32 bg-slate-400 rounded-full mx-auto mb-4"></div>
-                <h3 className="mb-4 text-center">Replace Lost Keys with FROST</h3>
-                <p>
-                  FROST makes it possible for users to lose and then replace a key without a wallet sweep or incurring the
-                  associated fees of an on-chain transaction.
-                </p>
+              <h2 className="font-display my-8" id="features">
+                Every day without P2TR adoption is a day without these and other great benefits
+              </h2>
+              <div className="space-y-12 lg:flex lg:flex-wrap lg:space-y-0">
+                <div className="basis-1/2 lg:odd:pr-4 lg:even:pl-4 lg:pb-8">
+                  <h3 className="">Lighter, More Private Multisig</h3>
+                  <p>
+                    Key aggregation provides multi-sig security with the same look and footprint as single-sig. P2TR
+                    channels make lightning channel closes indistinguishable from other keypath spends.
+                  </p>
+                </div>
+                <div className="basis-1/2 lg:odd:pr-4 lg:even:pl-4 lg:pb-8">
+                  <h3 className="">$ Inputs, $$$ Outputs</h3>
+                  <p>
+                    Pay-to-Taproot (P2TR) better aligns incentives, making it cheaper to spend stacked sats at the cost of
+                    slightly more expensive outputs.
+                  </p>
+                </div>
+                <div className="basis-1/2 lg:odd:pr-4 lg:even:pl-4 lg:pb-8">
+                  <h3 className="">Versatile Single-sig</h3>
+                  <p>
+                    Add powerful fallback spending conditions to single-sig outputs in the Taptree.
+                  </p>
+                </div>
+                <div className="basis-1/2 lg:odd:pr-4 lg:even:pl-4 lg:pb-8">
+                  <h3 className="">FROST Threshold Signatures</h3>
+                  <p>
+                    Multisig or FROST can enable Lightning channel owners to use multiple signing devices under the hood.
+                  </p>
+                </div>
+                <div className="basis-1/2 lg:odd:pr-4 lg:even:pl-4 lg:pb-8">
+                  <h3 className="">Replace Lost Keys with FROST</h3>
+                  <p>
+                    FROST makes it possible for users to lose and then replace a key without a wallet sweep or incurring the
+                    associated fees of an on-chain transaction.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
