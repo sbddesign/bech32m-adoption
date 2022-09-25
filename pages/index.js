@@ -189,7 +189,7 @@ export default function Home() {
         {/* Hero */}
         <div className="relative z-[2]">
           <div className="min-h-[80vh] flex items-center justify-center px-4 py-16 sm:pb-32 md:p-16 md:pb-32 xl:pt-24">
-            <div className="bg-white p-8 rounded-3xl drop-shadow-hard-small max-w-2xl">
+            <div className="bg-white p-8 rounded-3xl drop-shadow-hard-small max-w-2xl 2xl:max-w-5xl">
               <div className="hero pb-8 mx-auto md:scale-125">
                 <div className="flex flex-wrap">
                   <div className="basis-[55%] w-[55%] h-auto md:order-first md:basis-[30%] md:w-[30%] flex flex-col justify-center">
@@ -215,7 +215,7 @@ export default function Home() {
                 </div>
               </div>
               <h1 className="sr-only">When taproot?</h1>
-              <p className="text-xl xl:text-2xl mb-8">
+              <p className="text-xl xl:text-2xl 2xl:text-3xl mb-8">
                 Taproot offers bitcoin users and businesses big benefits. But to unlock them, first we need wallet
                 interoperability. Taproot requires Bech32m, a new address format, which is slightly different from Bech32.
                 This means that Taproot adoption will only take off when wallets support sending to this new format.
