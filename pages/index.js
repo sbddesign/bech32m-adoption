@@ -466,7 +466,7 @@ export default function Home() {
 
         {/* Terminology */}
         <div className="p-8 md:px-8 md:pb-16 md:pt-8 relative z-[2] bg-white">
-          <div className="mx-auto container max-w-3xl">
+          <div className="mx-auto container max-w-3xl bg-blue-gray px-8 py-8 md:p-24 rounded-2xl md:rounded-tl-[12rem] md:rounded-tr-[4rem] md:rounded-br-[12rem] md:rounded-bl-[4rem]">
             <h2 id="terminology">Terminology</h2>
             <ul className="list-disc space-y-4">
               <li><a href="https://bitcoinops.org/en/topics/taproot/">Taproot</a> - This is a soft fork change to bitcoin that went into effect in November 2021.</li>
