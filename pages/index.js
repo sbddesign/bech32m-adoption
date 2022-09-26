@@ -90,24 +90,24 @@ export default function Home() {
       text: "Home"
     },
     {
-      uri: "/#creating-p2tr-outputs",
-      text: "Creating P2TR Outputs"
-    },
-    {
       uri: "/#adding-bech32m",
       text: "Adding Bech32m support"
+    },
+    {
+      uri: "/#creating-p2tr-outputs",
+      text: "Creating P2TR Outputs"
     },
     {
       uri: "/#features",
       text: "Benefits of taproot"
     },
     {
-      uri: "/#get-involved",
-      text: "Get involved"
-    },
-    {
       uri: "/#support",
       text: "State of taproot support"
+    },
+    {
+      uri: "/#get-involved",
+      text: "Get involved"
     },
     {
       uri: "/#terminology",
@@ -232,7 +232,7 @@ export default function Home() {
         <div className="p-8 lg:p-16 relative z-[2] bg-white">
           <div className="mx-auto container flex flex-col lg:flex-row lg:space-x-8">
             <div className="lg:w-2/5">
-              <div className="mb-8 mx-auto md:w-1/2 lg:w-full">
+              <div className="mb-8 mx-auto md:w-1/2 lg:w-full anchor" id="adding-bech32m">
                 <Image
                   src={bunnyHacker}
                   alt="Bunny hacking on bitcoin at its laptop"
@@ -245,7 +245,7 @@ export default function Home() {
             </div>
             
             <div className="lg:w-3/5">
-              <h2 id="adding-bech32m">Adding Bech32m send support</h2>
+              <h2>Adding Bech32m send support</h2>
 
               <p>
                 <a href="https://bips.xyz/173">Bech32</a> and <a href="https://bips.xyz/350">Bech32m</a> addresses differ
@@ -279,7 +279,7 @@ export default function Home() {
           <div className="bg-blue-gray">
             <div className="mx-auto container p-8 md:py-16 flex flex-col lg:flex-row lg:space-x-8">
               <div className="lg:w-2/5">
-                <div className="mb-8 mx-auto md:w-1/2 lg:w-full">
+                <div className="mb-8 mx-auto md:w-1/2 lg:w-full anchor" id="creating-p2tr-outputs">
                   <Image
                     src={carrotsGrowing}
                     alt="Carrots growing into the ground"
@@ -291,7 +291,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="lg:w-3/5">
-                <h2 className="" id="creating-p2tr-outputs">Creating P2TR outputs: supporting Bech32m</h2>
+                <h2>Creating P2TR outputs: supporting Bech32m</h2>
                 <div className="space-y-4">
                   <h3>A little work. A lot more benefit</h3>
                   <p>
@@ -318,7 +318,7 @@ export default function Home() {
         <div className="p-8 relative z-[2] bg-white">
           <div className="mx-auto container flex flex-col lg:flex-row lg:space-x-8">
             <div className="lg:w-2/5">
-              <div className="mx-auto md:w-1/2 lg:w-full">
+              <div className="mx-auto md:w-1/2 lg:w-full anchor" id="features">
                 <Image
                   src={bunnyAstronaut}
                   alt="Bunny hacking on bitcoin at its laptop"
@@ -330,7 +330,7 @@ export default function Home() {
               </div>
             </div>
             <div className="lg:w-3/5">
-              <h2 className="font-display my-8" id="features">
+              <h2 className="font-display my-8">
                 Every day without P2TR adoption is a day without these and other great benefits
               </h2>
               <div className="space-y-12 lg:flex lg:flex-wrap lg:space-y-0">
@@ -406,7 +406,7 @@ export default function Home() {
         <div className="p-8 relative z-[2] bg-white">
           <div className="mx-auto container flex flex-col lg:flex-row lg:space-x-8">
             <div className="lg:w-2/5">
-              <div className="mx-auto mb-8 md:w-1/2 lg:w-full">
+              <div className="mx-auto mb-8 md:w-1/2 lg:w-full anchor" id="get-involved">
                 <Image
                   src={bunniesGetInvolved}
                   alt="Two bunnies testing bitcoin wallets on their phones"
@@ -418,7 +418,7 @@ export default function Home() {
               </div>
             </div>
             <div className="lg:w-3/5">
-              <h2 id="get-involved">Get Involved</h2>
+              <h2>Get Involved</h2>
 
               <p>
                 Help push the industry forward by testing wallets and other services for Bech32m and P2TR support. Just
