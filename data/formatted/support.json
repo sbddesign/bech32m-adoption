@@ -418,7 +418,7 @@
   {
     "wallet": {
       "name": "Bitcoin Core",
-      "uri": "https://github.com/bitcoin/bitcoin"
+      "uri": "https://bitcoincore.org/"
     },
     "send_to_bech32": {
       "status": "yes",
