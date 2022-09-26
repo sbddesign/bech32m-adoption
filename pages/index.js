@@ -126,6 +126,10 @@ export default function Home() {
         <meta name="description" content="Taproot offers bitcoin users and businesses big benefits. But to unlock them, first we need wallet
                 interoperability. Taproot requires Bech32m, a new address format, which is slightly different from Bech32.
                 This means that Taproot adoption will only take off when wallets support sending to this new format." />
+        <meta property="og:image" content="/when-taproot-poster.png" />
+        <meta property="og:image:width" content="1920" />
+        <meta property="og:image:height" content="1080" />
+        <meta property="og:image:alt" content="A cartoon bunny is crying because it can't get to a carrot" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
         <link
