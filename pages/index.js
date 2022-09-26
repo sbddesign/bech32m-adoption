@@ -356,7 +356,7 @@ export default function Home() {
                 <div className="basis-1/2 lg:odd:pr-4 lg:even:pl-4 lg:pb-8">
                   <h3 className="">FROST Threshold Signatures</h3>
                   <p>
-                    Multisig or FROST can enable Lightning channel owners to use multiple signing devices under the hood.
+                    Multisig or <a href="https://eprint.iacr.org/2020/852.pdf">FROST</a> can enable Lightning channel owners to use multiple signing devices under the hood.
                   </p>
                 </div>
                 <div className="basis-1/2 lg:odd:pr-4 lg:even:pl-4 lg:pb-8">
