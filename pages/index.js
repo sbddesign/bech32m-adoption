@@ -290,7 +290,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="lg:w-3/5">
-                <h2 className="" id="creating-p2tr-outputs">Supporting Bech32m by creating Taproot outputs</h2>
+                <h2 className="" id="creating-p2tr-outputs">Creating P2TR outputs: supporting Bech32m</h2>
                 <div className="space-y-4">
                   <h3>A little work. A lot more benefit</h3>
                   <p>
