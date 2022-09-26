@@ -1,7 +1,8 @@
 [
   {
     "wallet": {
-      "name": "Coinbase.com"
+      "name": "Coinbase.com",
+      "uri": "https://www.coinbase.com/"
     },
     "send_to_bech32": {
       "status": "yes"
@@ -23,7 +24,8 @@
   },
   {
     "wallet": {
-      "name": "Binance.com"
+      "name": "Binance.com",
+      "uri": "https://www.binance.com/"
     },
     "send_to_bech32": {
       "status": "yes"
@@ -45,7 +47,8 @@
   },
   {
     "wallet": {
-      "name": "Binance.us"
+      "name": "Binance.us",
+      "uri": "https://www.binance.us/"
     },
     "send_to_bech32": {
       "status": "unknown"
@@ -67,7 +70,8 @@
   },
   {
     "wallet": {
-      "name": "FTX"
+      "name": "FTX",
+      "uri": ""
     },
     "send_to_bech32": {
       "status": "unknown"
@@ -92,7 +96,8 @@
   },
   {
     "wallet": {
-      "name": "Bitso"
+      "name": "Bitso",
+      "uri": "https://bitso.com/"
     },
     "send_to_bech32": {
       "status": "yes"
@@ -116,7 +121,8 @@
   },
   {
     "wallet": {
-      "name": "Kraken"
+      "name": "Kraken",
+      "uri": "https://www.kraken.com/"
     },
     "send_to_bech32": {
       "status": "yes"
@@ -138,7 +144,8 @@
   },
   {
     "wallet": {
-      "name": "Fireblocks"
+      "name": "Fireblocks",
+      "uri": "https://www.fireblocks.com/"
     },
     "send_to_bech32": {
       "status": "yes"
@@ -164,7 +171,8 @@
   },
   {
     "wallet": {
-      "name": "Strike"
+      "name": "Strike",
+      "uri": "https://strike.me/"
     },
     "send_to_bech32": {
       "status": "yes"
@@ -186,7 +194,8 @@
   },
   {
     "wallet": {
-      "name": "Paxful.com"
+      "name": "Paxful.com",
+      "uri": "https://paxful.com/"
     },
     "send_to_bech32": {
       "status": "yes"
@@ -210,7 +219,8 @@
   },
   {
     "wallet": {
-      "name": "Crypto.com"
+      "name": "Crypto.com",
+      "uri": "https://crypto.com/"
     },
     "send_to_bech32": {
       "status": "unknown"
@@ -234,7 +244,8 @@
   },
   {
     "wallet": {
-      "name": "Bitfinex"
+      "name": "Bitfinex",
+      "uri": "https://www.bitfinex.com/"
     },
     "send_to_bech32": {
       "status": "yes"
@@ -259,7 +270,8 @@
   },
   {
     "wallet": {
-      "name": "WazirX"
+      "name": "WazirX",
+      "uri": "https://wazirx.com/"
     },
     "send_to_bech32": {
       "status": "unknown"
@@ -283,7 +295,8 @@
   },
   {
     "wallet": {
-      "name": "Luno"
+      "name": "Luno",
+      "uri": "https://www.luno.com/"
     },
     "send_to_bech32": {
       "status": "yes"
@@ -307,7 +320,8 @@
   },
   {
     "wallet": {
-      "name": "Gemini"
+      "name": "Gemini",
+      "uri": "https://www.gemini.com/"
     },
     "send_to_bech32": {
       "status": "yes"
@@ -329,7 +343,8 @@
   },
   {
     "wallet": {
-      "name": "PayPal"
+      "name": "PayPal",
+      "uri": "https://www.paypal.com/"
     },
     "send_to_bech32": {
       "status": "unknown"
@@ -353,7 +368,8 @@
   },
   {
     "wallet": {
-      "name": "Venmo"
+      "name": "Venmo",
+      "uri": "https://venmo.com/"
     },
     "send_to_bech32": {
       "status": "unknown"
@@ -377,7 +393,8 @@
   },
   {
     "wallet": {
-      "name": "bcoin"
+      "name": "bcoin",
+      "uri": "https://bcoin.io/"
     },
     "send_to_bech32": {
       "status": "yes"
@@ -400,7 +417,8 @@
   },
   {
     "wallet": {
-      "name": "Bitcoin Core"
+      "name": "Bitcoin Core",
+      "uri": "https://github.com/bitcoin/bitcoin"
     },
     "send_to_bech32": {
       "status": "yes",
@@ -428,7 +446,8 @@
   },
   {
     "wallet": {
-      "name": "Bitcoin Knots"
+      "name": "Bitcoin Knots",
+      "uri": "https://bitcoinknots.org/"
     },
     "send_to_bech32": {
       "status": "yes",
@@ -453,7 +472,8 @@
   },
   {
     "wallet": {
-      "name": "Blockstream Green"
+      "name": "Blockstream Green",
+      "uri": "https://blockstream.com/green/"
     },
     "send_to_bech32": {
       "status": "yes"
@@ -503,7 +523,8 @@
   },
   {
     "wallet": {
-      "name": "BlueWallet"
+      "name": "BlueWallet",
+      "uri": "https://bluewallet.io/"
     },
     "send_to_bech32": {
       "status": "yes"
@@ -526,7 +547,8 @@
   },
   {
     "wallet": {
-      "name": "Electrum"
+      "name": "Electrum",
+      "uri": "https://electrum.org/"
     },
     "send_to_bech32": {
       "status": "yes"
@@ -553,7 +575,8 @@
   },
   {
     "wallet": {
-      "name": "JoinMarket"
+      "name": "JoinMarket",
+      "uri": "https://github.com/JoinMarket-Org"
     },
     "send_to_bech32": {
       "status": "yes"
@@ -576,7 +599,8 @@
   },
   {
     "wallet": {
-      "name": "LND"
+      "name": "LND",
+      "uri": "https://github.com/LightningNetwork/lnd"
     },
     "send_to_bech32": {
       "status": "yes"
@@ -602,7 +626,8 @@
   },
   {
     "wallet": {
-      "name": "Samourai Wallet"
+      "name": "Samourai Wallet",
+      "uri": "https://samouraiwallet.com/"
     },
     "send_to_bech32": {
       "status": "yes"
@@ -626,7 +651,8 @@
   },
   {
     "wallet": {
-      "name": "Uniblow"
+      "name": "Uniblow",
+      "uri": "https://uniblow.org/"
     },
     "send_to_bech32": {
       "status": "yes"
@@ -652,7 +678,8 @@
   },
   {
     "wallet": {
-      "name": "Wasabi Wallet"
+      "name": "Wasabi Wallet",
+      "uri": "https://wasabiwallet.us/"
     },
     "send_to_bech32": {
       "status": "yes"
@@ -678,7 +705,8 @@
   },
   {
     "wallet": {
-      "name": "Muun"
+      "name": "Muun",
+      "uri": "https://muun.com/"
     },
     "send_to_bech32": {
       "status": "yes"
@@ -700,7 +728,8 @@
   },
   {
     "wallet": {
-      "name": "Casa"
+      "name": "Casa",
+      "uri": "https://keys.casa/"
     },
     "send_to_bech32": {
       "status": "yes"
@@ -721,7 +750,8 @@
   },
   {
     "wallet": {
-      "name": "Core Lightning"
+      "name": "Core Lightning",
+      "uri": "https://blockstream.com/lightning/"
     },
     "send_to_bech32": {
       "status": "yes"
@@ -743,7 +773,8 @@
   },
   {
     "wallet": {
-      "name": "Exodus"
+      "name": "Exodus",
+      "uri": "https://www.exodus.com/"
     },
     "send_to_bech32": {
       "status": "yes"
@@ -766,7 +797,8 @@
   },
   {
     "wallet": {
-      "name": "Fully Noded"
+      "name": "Fully Noded",
+      "uri": "https://fullynoded.app/"
     },
     "send_to_bech32": {
       "status": "yes"
@@ -789,7 +821,8 @@
   },
   {
     "wallet": {
-      "name": "Nunchuk"
+      "name": "Nunchuk",
+      "uri": "https://nunchuk.io/"
     },
     "send_to_bech32": {
       "status": "yes"
@@ -811,7 +844,8 @@
   },
   {
     "wallet": {
-      "name": "Phoenix"
+      "name": "Phoenix",
+      "uri": "https://phoenix.acinq.co/"
     },
     "send_to_bech32": {
       "status": "yes"
@@ -833,7 +867,8 @@
   },
   {
     "wallet": {
-      "name": "Sparrow Wallet"
+      "name": "Sparrow Wallet",
+      "uri": "https://www.sparrowwallet.com/"
     },
     "send_to_bech32": {
       "status": "yes"
@@ -855,7 +890,8 @@
   },
   {
     "wallet": {
-      "name": "Specter Wallet"
+      "name": "Specter Wallet",
+      "uri": "https://specter.solutions/"
     },
     "send_to_bech32": {
       "status": "yes"
@@ -877,7 +913,8 @@
   },
   {
     "wallet": {
-      "name": "Trust Wallet"
+      "name": "Trust Wallet",
+      "uri": "https://trustwallet.com/"
     },
     "send_to_bech32": {
       "status": "yes"
@@ -900,7 +937,8 @@
   },
   {
     "wallet": {
-      "name": "Wallet of Satoshi"
+      "name": "Wallet of Satoshi",
+      "uri": "https://www.walletofsatoshi.com/"
     },
     "send_to_bech32": {
       "status": "yes"
@@ -923,7 +961,8 @@
   },
   {
     "wallet": {
-      "name": "Trezor + Trezor Suite"
+      "name": "Trezor + Trezor Suite",
+      "uri": "https://trezor.io/"
     },
     "send_to_bech32": {
       "status": "yes"
@@ -947,7 +986,8 @@
   },
   {
     "wallet": {
-      "name": "Ledger Live (desktop app)"
+      "name": "Ledger Live (desktop app)",
+      "uri": "https://www.ledger.com/ledger-live"
     },
     "send_to_bech32": {
       "status": "yes"
@@ -971,7 +1011,8 @@
   },
   {
     "wallet": {
-      "name": "BitBox Desktop app"
+      "name": "BitBox Desktop app",
+      "uri": "https://shiftcrypto.ch/"
     },
     "send_to_bech32": {
       "status": "yes"
@@ -993,7 +1034,8 @@
   },
   {
     "wallet": {
-      "name": "Trezor + Electrum"
+      "name": "Trezor + Electrum",
+      "uri": "https://trezor.io/"
     },
     "send_to_bech32": {
       "status": "yes"
@@ -1014,7 +1056,8 @@
   },
   {
     "wallet": {
-      "name": "BitBox + Electrum"
+      "name": "BitBox + Electrum",
+      "uri": "https://shiftcrypto.ch/"
     },
     "send_to_bech32": {
       "status": "yes"
@@ -1037,7 +1080,8 @@
   },
   {
     "wallet": {
-      "name": "Coldcard + Electrum"
+      "name": "Coldcard + Electrum",
+      "uri": "https://coldcard.com/"
     },
     "send_to_bech32": {
       "status": "yes"
@@ -1061,7 +1105,8 @@
   },
   {
     "wallet": {
-      "name": "Blockstream Jade + Blockstream Green"
+      "name": "Blockstream Jade + Blockstream Green",
+      "uri": "https://blockstream.com/jade/"
     },
     "send_to_bech32": {
       "status": "yes"
@@ -1086,7 +1131,8 @@
   },
   {
     "wallet": {
-      "name": "Bitcoin Beach Wallet"
+      "name": "Bitcoin Beach Wallet",
+      "uri": "https://github.com/orgs/GaloyMoney/repositories"
     },
     "send_to_bech32": {
       "status": "yes"
@@ -1108,7 +1154,8 @@
   },
   {
     "wallet": {
-      "name": "BitGo"
+      "name": "BitGo",
+      "uri": "https://www.bitgo.com/"
     },
     "send_to_bech32": {
       "status": "yes"
@@ -1132,7 +1179,8 @@
   },
   {
     "wallet": {
-      "name": "Bitnob"
+      "name": "Bitnob",
+      "uri": "https://bitnob.com/"
     },
     "send_to_bech32": {
       "status": "yes"
@@ -1154,7 +1202,8 @@
   },
   {
     "wallet": {
-      "name": "HolyTransaction"
+      "name": "HolyTransaction",
+      "uri": "https://holytransaction.com/"
     },
     "send_to_bech32": {
       "status": "yes"
@@ -1228,7 +1277,7 @@
   {
     "wallet": {
       "name": "AgoraDesk",
-      "uri": ""
+      "uri": "https://agoradesk.com/"
     },
     "send_to_bech32": {
       "status": "yes"
@@ -1249,7 +1298,8 @@
   },
   {
     "wallet": {
-      "name": "Bitaroo"
+      "name": "Bitaroo",
+      "uri": "https://www.bitaroo.com.au/"
     },
     "send_to_bech32": {
       "status": "yes"
@@ -1270,7 +1320,8 @@
   },
   {
     "wallet": {
-      "name": "BitMEX"
+      "name": "BitMEX",
+      "uri": "https://www.bitmex.com/"
     },
     "send_to_bech32": {
       "status": "yes"
@@ -1293,7 +1344,8 @@
   },
   {
     "wallet": {
-      "name": "Bitpanda"
+      "name": "Bitpanda",
+      "uri": "https://www.bitpanda.com/en?utm_referrer=https://duckduckgo.com/"
     },
     "send_to_bech32": {
       "status": "yes"
@@ -1317,7 +1369,8 @@
   },
   {
     "wallet": {
-      "name": "BSDEX"
+      "name": "BSDEX",
+      "uri": "https://www.bsdex.de/"
     },
     "send_to_bech32": {
       "status": "yes"
@@ -1338,7 +1391,8 @@
   },
   {
     "wallet": {
-      "name": "Bull Bitcoin"
+      "name": "Bull Bitcoin",
+      "uri": "https://www.bullbitcoin.com/"
     },
     "send_to_bech32": {
       "status": "yes"
@@ -1360,7 +1414,8 @@
   },
   {
     "wallet": {
-      "name": "CardCoins.co"
+      "name": "CardCoins.co",
+      "uri": "https://www.cardcoins.co/"
     },
     "send_to_bech32": {
       "status": "yes"
@@ -1383,7 +1438,8 @@
   },
   {
     "wallet": {
-      "name": "CoinCorner"
+      "name": "CoinCorner",
+      "uri": "https://www.coincorner.com/"
     },
     "send_to_bech32": {
       "status": "yes"
@@ -1406,7 +1462,8 @@
   },
   {
     "wallet": {
-      "name": "Flyp.me"
+      "name": "Flyp.me",
+      "uri": "https://flyp.me/"
     },
     "send_to_bech32": {
       "status": "yes"
@@ -1428,7 +1485,8 @@
   },
   {
     "wallet": {
-      "name": "FTX US Derivatives"
+      "name": "FTX US Derivatives",
+      "uri": "https://derivs.ftx.us/"
     },
     "send_to_bech32": {
       "status": "yes"
@@ -1453,7 +1511,8 @@
   },
   {
     "wallet": {
-      "name": "Okcoin"
+      "name": "Okcoin",
+      "uri": "https://www.okcoin.com/"
     },
     "send_to_bech32": {
       "status": "yes"
@@ -1476,7 +1535,8 @@
   },
   {
     "wallet": {
-      "name": "CashApp"
+      "name": "CashApp",
+      "uri": "https://cash.app/"
     },
     "send_to_bech32": {
       "status": "yes"
@@ -1499,7 +1559,8 @@
   },
   {
     "wallet": {
-      "name": "StackinSat.com"
+      "name": "StackinSat.com",
+      "uri": "https://stackinsat.com/"
     },
     "send_to_bech32": {
       "status": "yes"
@@ -1522,7 +1583,8 @@
   },
   {
     "wallet": {
-      "name": "Swan"
+      "name": "Swan",
+      "uri": "https://www.swanbitcoin.com/"
     },
     "send_to_bech32": {
       "status": "yes"
@@ -1545,7 +1607,8 @@
   },
   {
     "wallet": {
-      "name": "VBTC"
+      "name": "VBTC",
+      "uri": "https://vbtc.exchange/"
     },
     "send_to_bech32": {
       "status": "yes"
@@ -1567,7 +1630,8 @@
   },
   {
     "wallet": {
-      "name": "blockchain.com"
+      "name": "blockchain.com",
+      "uri": "https://www.blockchain.com/"
     },
     "send_to_bech32": {
       "status": "yes"
