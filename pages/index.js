@@ -260,6 +260,7 @@ export default function Home() {
                   height="2773"
                   layout="responsive"
                   className="my-8"
+                  quality="90"
                 />
               </div>
 
