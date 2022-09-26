@@ -1345,7 +1345,7 @@
   {
     "wallet": {
       "name": "Bitpanda",
-      "uri": "https://www.bitpanda.com/en?utm_referrer=https://duckduckgo.com/"
+      "uri": "https://www.bitpanda.com/"
     },
     "send_to_bech32": {
       "status": "yes"
