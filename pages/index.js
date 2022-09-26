@@ -382,14 +382,14 @@ export default function Home() {
 
               <div className="flex flex-col space-y-8 lg:flex-row lg:space-y-0">
                 <div className="lg:order-last lg:basis-1/2 lg:pl-4">
-                  <h3 className="flex flex-row items-center mb-4 space-x-4">
+                  <h3 className="flex flex-row items-center mb-4 space-x-4 w-full justify-center">
                     <CrossIcon className="w-6 h-6" />
                     <span>Does not support sending to Bech32m</span>
                   </h3>
                   <PillBox metric="bech32m_sends_no" />
                 </div>
                 <div className="lg:basis-1/2 lg:pr-4">
-                  <h3 className="flex flex-row items-center mb-4 space-x-4">
+                  <h3 className="flex flex-row items-center mb-4 space-x-4 w-full justify-center">
                     <CheckIcon className="w-6 h-6" />
                     <span>Supports sending to Bech32m</span>
                   </h3>

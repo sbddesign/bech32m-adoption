@@ -36,8 +36,16 @@ export default function PillBox(props) {
     <div className={bgColor + " rounded-xl p-2 md:p-4"}>
       <ul className="flex flex-row flex-wrap">
         {sorted.map((s, key)=>(
-          <li className={fgColor + " text-sm p-2 m-1 md:m-2 rounded-xl"}>
-            {s.wallet.uri ? <a href={s.wallet.uri}>{s.wallet.name}</a> : s.wallet.name}
+          <li className="m-1 md:m-2">
+            {s.wallet.uri ?
+              <span className={fgColor + " text-sm p-2 rounded-xl hover:scale-110 hover:drop-shadow transition-all duration-100 inline-block"}>
+                <a href={s.wallet.uri} className="no-underline">{s.wallet.name}</a>
+              </span>
+              :
+              <span className={fgColor + " text-sm p-2 rounded-xl inline-block"}>
+                {s.wallet.name}
+              </span>
+            }
           </li>
         ))}
       </ul>
