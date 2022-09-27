@@ -961,7 +961,7 @@
   },
   {
     "wallet": {
-      "name": "Trezor + Trezor Suite",
+      "name": "Trezor Suite",
       "uri": "https://trezor.io/"
     },
     "send_to_bech32": {
@@ -977,7 +977,7 @@
       "status": "yes"
     },
     "notes": {
-      "status": "since <a href=\"https://blog.trezor.io/trezor-suite-and-firmware-updates-december-2021-d1e74c3ea283\">trezor suite 21.12.2</a> + trezor firmware 1.10.4 (model one) / 2.4.3 (model t)"
+      "status": "since <a href=\"https://blog.trezor.io/trezor-suite-and-firmware-updates-december-2021-d1e74c3ea283\">trezor suite 21.12.2</a> + trezor firmware 1.10.4 (model one) / 2.4.3 (model t), tested with a Trezor"
     },
     "credit": {
       "name": "",
@@ -986,7 +986,7 @@
   },
   {
     "wallet": {
-      "name": "Ledger Live (desktop app)",
+      "name": "Ledger Live",
       "uri": "https://www.ledger.com/ledger-live"
     },
     "send_to_bech32": {
@@ -1011,7 +1011,7 @@
   },
   {
     "wallet": {
-      "name": "BitBox Desktop app",
+      "name": "BitBoxApp",
       "uri": "https://shiftcrypto.ch/"
     },
     "send_to_bech32": {
@@ -1034,7 +1034,7 @@
   },
   {
     "wallet": {
-      "name": "Trezor + Electrum",
+      "name": "Trezor",
       "uri": "https://trezor.io/"
     },
     "send_to_bech32": {
@@ -1052,11 +1052,14 @@
     "credit": {
       "name": "",
       "uri": ""
+    },
+    "notes": {
+      "status": "Tested with Trezor + Electrum"
     }
   },
   {
     "wallet": {
-      "name": "BitBox + Electrum",
+      "name": "BitBox",
       "uri": "https://shiftcrypto.ch/"
     },
     "send_to_bech32": {
@@ -1076,11 +1079,12 @@
     "credit": {
       "name": "",
       "uri": ""
-    }
+    },
+    "notes": "Tested with BitBox + ELectrum"
   },
   {
     "wallet": {
-      "name": "Coldcard + Electrum",
+      "name": "Coldcard",
       "uri": "https://coldcard.com/"
     },
     "send_to_bech32": {
@@ -1096,7 +1100,7 @@
       "status": "no"
     },
     "notes": {
-      "status": "work already in progress"
+      "status": "work already in progress, tested with Coldcard + Electrum"
     },
     "credit": {
       "name": "",
@@ -1105,7 +1109,7 @@
   },
   {
     "wallet": {
-      "name": "Blockstream Jade + Blockstream Green",
+      "name": "Blockstream Jade",
       "uri": "https://blockstream.com/jade/"
     },
     "send_to_bech32": {
@@ -1122,7 +1126,7 @@
       "detail": "Planned"
     },
     "notes": {
-      "status": "bech32m sending support as of <a href=\"https://github.com/blockstream/gdk/releases/tag/release_0.0.47\">gdk 0.0.47</a> available via blockstream green mobile apps 3.7.6+ and desktop app 1.0.4+"
+      "status": "bech32m sending support as of <a href=\"https://github.com/blockstream/gdk/releases/tag/release_0.0.47\">gdk 0.0.47</a> available via blockstream green mobile apps 3.7.6+ and desktop app 1.0.4+, tested with Blockstream Jade + Blockstream Green"
     },
     "credit": {
       "name": "",
