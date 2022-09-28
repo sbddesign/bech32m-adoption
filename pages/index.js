@@ -122,7 +122,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>When taproot? | Bitcoin Bech32m Adoption Tracking</title>
+        <title>When Taproot? | Bitcoin Bech32m Adoption Tracking</title>
         <meta name="description" content="Taproot offers bitcoin users and businesses big benefits. But to unlock them, first we need wallet
                 interoperability. Taproot requires Bech32m, a new address format, which is slightly different from Bech32.
                 This means that Taproot adoption will only take off when wallets support sending to this new format." />
@@ -130,6 +130,12 @@ export default function Home() {
         <meta property="og:image:width" content="1920" />
         <meta property="og:image:height" content="1080" />
         <meta property="og:image:alt" content="A cartoon bunny is crying because it can't get to a carrot" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@WhenTaproot" />
+        <meta name="twitter:creator" content="@WhenTaproot" />
+        <meta name="twitter:title" content="When Taproot? | Bitcoin Bech32m Adoption Tracking" />
+        <meta name="twitter:description" content="Resources and tracking for Bech32m adoption among bitcoin projects." />
+        <meta name="twitter:image" content="https://whentaproot.org/when-taproot-poster.png" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
         <link
