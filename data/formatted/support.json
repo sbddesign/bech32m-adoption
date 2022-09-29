@@ -71,7 +71,7 @@
   {
     "wallet": {
       "name": "FTX",
-      "uri": ""
+      "uri": "https://ftx.com/"
     },
     "send_to_bech32": {
       "status": "unknown"
