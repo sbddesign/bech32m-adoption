@@ -1657,5 +1657,51 @@
     "notes": {
       "status": "Receive support planned"
     }
+  },
+  {
+    "wallet": {
+      "name": "LNbits OnchainWallet extension",
+      "uri": "https://github.com/lnbits"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "unknown"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "no"
+    },
+    "issue_link": "https://twitter.com/motorina0/status/1575728587197775872",
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "thebitcoincompany.com",
+      "uri": "https://thebitcoincompany.com/"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "unknown"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "unknown"
+    },
+    "issue_link": "https://twitter.com/thebtcco/status/1575221789751660544",
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
   }
 ]
