@@ -679,7 +679,7 @@
   {
     "wallet": {
       "name": "Wasabi Wallet",
-      "uri": "https://wasabiwallet.us/"
+      "uri": "https://wasabiwallet.io/"
     },
     "send_to_bech32": {
       "status": "yes"
