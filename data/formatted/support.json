@@ -575,6 +575,28 @@
   },
   {
     "wallet": {
+      "name": "Iris Wallet",
+      "uri": "https://github.com/RGB-Tools/iris-wallet-android"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "yes"
+    },
+    "credit": {
+      "name": "@cryptoquick",
+      "uri": "https://twitter.com/cryptoquick/status/1585187190627528710"
+    }
+  },
+  {
+    "wallet": {
       "name": "JoinMarket",
       "uri": "https://github.com/JoinMarket-Org"
     },
