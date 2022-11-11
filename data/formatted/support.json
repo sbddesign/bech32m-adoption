@@ -181,12 +181,12 @@
       "status": "yes"
     },
     "send_to_bech32m": {
-      "status": "no"
+      "status": "yes"
     },
     "receive_to_p2tr": {
       "status": "no"
     },
-    "issue_link": "https://twitter.com/btcboromir/status/1460373287792521232",
+    "issue_link": "",
     "credit": {
       "name": "",
       "uri": ""
