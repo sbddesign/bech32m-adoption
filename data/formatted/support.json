@@ -181,7 +181,7 @@
       "status": "yes"
     },
     "send_to_bech32m": {
-      "status": "no"
+      "status": "yes"
     },
     "receive_to_p2tr": {
       "status": "no"
