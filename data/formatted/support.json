@@ -219,6 +219,30 @@
   },
   {
     "wallet": {
+      "name": "River.com",
+      "uri": "https://river.com/"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "evaluating",
+      "detail": "??"
+    },
+    "issue_link": "",
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
       "name": "Crypto.com",
       "uri": "https://crypto.com/"
     },
