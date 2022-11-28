@@ -70,32 +70,6 @@
   },
   {
     "wallet": {
-      "name": "FTX",
-      "uri": "https://ftx.com/"
-    },
-    "send_to_bech32": {
-      "status": "unknown"
-    },
-    "receive_to_p2wpkh_p2wsh": {
-      "status": "unknown"
-    },
-    "send_to_bech32m": {
-      "status": "unknown"
-    },
-    "receive_to_p2tr": {
-      "status": "unknown",
-      "detail": ""
-    },
-    "notes": {
-      "status": ""
-    },
-    "credit": {
-      "name": "",
-      "uri": ""
-    }
-  },
-  {
-    "wallet": {
       "name": "Bitso",
       "uri": "https://bitso.com/"
     },
