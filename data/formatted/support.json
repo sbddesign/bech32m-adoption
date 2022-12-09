@@ -193,6 +193,29 @@
   },
   {
     "wallet": {
+      "name": "Peach Bitcoin",
+      "uri": "https://peachbitcoin.com/"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "no"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "no"
+    },
+    "issue_link": "",
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
       "name": "River.com",
       "uri": "https://river.com/"
     },
