@@ -105,15 +105,14 @@
       "status": "no"
     },
     "send_to_bech32m": {
-      "status": "no"
+      "status": "yes"
     },
     "receive_to_p2tr": {
       "status": "no"
     },
-    "issue_link": "https://twitter.com/murchandamus/status/1460399767830380564",
     "credit": {
-      "name": "",
-      "uri": ""
+      "name": "Kraken",
+      "uri": "https://blog.kraken.com/post/16740/bitcoin-taproot-address-now-supported-on-kraken/"
     }
   },
   {
