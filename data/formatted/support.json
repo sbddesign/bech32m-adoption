@@ -80,8 +80,8 @@
       "status": "no"
     },
     "send_to_bech32m": {
-      "status": "unknown",
-      "detail": ""
+      "status": "yes",
+      "detail": "since at least November 2022"
     },
     "receive_to_p2tr": {
       "status": "unknown",
@@ -89,8 +89,8 @@
     },
     "issue_link": "",
     "credit": {
-      "name": "",
-      "uri": ""
+      "name": "Felix Weis",
+      "uri": "https://twitter.com/FelixWeis"
     }
   },
   {
