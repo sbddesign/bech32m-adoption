@@ -510,6 +510,29 @@
   },
   {
     "wallet": {
+      "name": "Liana",
+      "uri": "https://wizardsardine.com/liana/"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "planned",
+      "detail": "Waiting for Miniscript over Taproot support in Bitcoin Core"
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
       "name": "LND"
     },
     "send_to_bech32": {
