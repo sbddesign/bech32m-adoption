@@ -1771,6 +1771,29 @@
   },
   {
     "wallet": {
+      "name": "Foundation Passport",
+      "uri": "https://foundationdevices.com/"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "no"
+    },
+    "issue_link": "https://twitter.com/ShrtCrct6102/status/1661102603810250761",
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
       "name": "Breez",
       "uri": "https://breez.technology/"
     },
