@@ -24,6 +24,29 @@
   },
   {
     "wallet": {
+      "name": "BitMask Wallet",
+      "uri": "https://bitmask.app/"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "Taproot only"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "yes"
+    },
+    "issue_link": "https://twitter.com/cryptoquick/status/1685061519653076992",
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
       "name": "Binance.com",
       "uri": "https://www.binance.com/"
     },
