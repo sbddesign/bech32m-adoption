@@ -24,6 +24,29 @@
   },
   {
     "wallet": {
+      "name": "Coinmate.io",
+      "uri": "https://www.coinmate.io/"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "yes"
+    },
+    "issue_link": "https://coinmate.io/cz/taproot-revolucni-upgrade-bitcoinu/",
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
       "name": "BitMask Wallet",
       "uri": "https://bitmask.app/"
     },
