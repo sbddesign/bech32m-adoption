@@ -1,6 +1,28 @@
 [
   {
     "wallet": {
+      "name": "Anycoin Direct",
+      "uri": "https://www.anycoindirect.eu"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "no"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "no"
+    },
+    "credit": {
+      "name": "",
+      "uri": "https://twitter.com/AnycoinDirect/status/1691731011447464135"
+    }
+  },
+  {
+    "wallet": {
       "name": "Coinbase.com",
       "uri": "https://www.coinbase.com/"
     },
