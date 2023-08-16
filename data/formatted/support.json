@@ -1745,6 +1745,29 @@
   },
   {
     "wallet": {
+      "name": "Lamassu",
+      "uri": "https://www.lamassu.is"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "no"
+    },
+    "issue_link": "https://twitter.com/LamassuBTC/status/1459918440303673349",
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
       "name": "blockchain.com",
       "uri": "https://www.blockchain.com/"
     },
