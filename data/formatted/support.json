@@ -46,6 +46,52 @@
   },
   {
     "wallet": {
+      "name": "Coinmate.io",
+      "uri": "https://www.coinmate.io/"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "yes"
+    },
+    "issue_link": "https://coinmate.io/cz/taproot-revolucni-upgrade-bitcoinu/",
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "BitMask Wallet",
+      "uri": "https://bitmask.app/"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "Taproot only"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "yes"
+    },
+    "issue_link": "https://twitter.com/cryptoquick/status/1685061519653076992",
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
       "name": "Binance.com",
       "uri": "https://www.binance.com/"
     },
@@ -149,19 +195,17 @@
       "status": "yes"
     },
     "send_to_bech32m": {
-      "status": "no",
+      "status": "yes",
       "detail": ""
     },
     "receive_to_p2tr": {
       "status": "no",
       "detail": ""
     },
+    "issue_link": "https://en.bitcoin.it/w/index.php?title=Bech32_adoption&diff=69526&oldid=69522",
     "credit": {
       "name": "",
       "uri": ""
-    },
-    "notes": {
-      "status": "Support is planed"
     }
   },
   {
@@ -1470,7 +1514,7 @@
       "status": "no"
     },
     "send_to_bech32m": {
-      "status": "yes"
+      "status": "no"
     },
     "receive_to_p2tr": {
       "status": "no"
@@ -1721,6 +1765,29 @@
   },
   {
     "wallet": {
+      "name": "Lamassu",
+      "uri": "https://www.lamassu.is"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "no"
+    },
+    "issue_link": "https://twitter.com/LamassuBTC/status/1459918440303673349",
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
       "name": "blockchain.com",
       "uri": "https://www.blockchain.com/"
     },
@@ -1786,6 +1853,29 @@
       "status": "unknown"
     },
     "issue_link": "https://twitter.com/thebtcco/status/1575221789751660544",
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
+  },
+  {
+    "wallet": {
+      "name": "Foundation Passport",
+      "uri": "https://foundationdevices.com/"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "no"
+    },
+    "issue_link": "https://twitter.com/ShrtCrct6102/status/1661102603810250761",
     "credit": {
       "name": "",
       "uri": ""
