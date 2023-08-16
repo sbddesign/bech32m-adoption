@@ -1494,7 +1494,7 @@
       "status": "no"
     },
     "send_to_bech32m": {
-      "status": "yes"
+      "status": "no"
     },
     "receive_to_p2tr": {
       "status": "no"
