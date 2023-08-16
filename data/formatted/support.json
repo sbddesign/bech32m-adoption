@@ -173,19 +173,17 @@
       "status": "yes"
     },
     "send_to_bech32m": {
-      "status": "no",
+      "status": "yes",
       "detail": ""
     },
     "receive_to_p2tr": {
       "status": "no",
       "detail": ""
     },
+    "issue_link": "https://en.bitcoin.it/w/index.php?title=Bech32_adoption&diff=69526&oldid=69522",
     "credit": {
       "name": "",
       "uri": ""
-    },
-    "notes": {
-      "status": "Support is planed"
     }
   },
   {
