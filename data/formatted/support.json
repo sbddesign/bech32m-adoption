@@ -185,6 +185,33 @@
   },
   {
     "wallet": {
+      "name": "Edge",
+      "uri": "https://edge.app"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes",
+      "detail": ""
+    },
+    "receive_to_p2tr": {
+      "status": "no",
+      "detail": ""
+    },
+    "credit": {
+      "name": "David Coen",
+      "uri": "https://twitter.com/thedavidcoen/status/1696526932815523957"
+    },
+    "notes": {
+      "status": "P2TR receive is planned"
+    }
+  },
+  {
+    "wallet": {
       "name": "Fireblocks",
       "uri": "https://www.fireblocks.com/"
     },
