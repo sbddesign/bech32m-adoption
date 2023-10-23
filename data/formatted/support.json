@@ -1930,5 +1930,28 @@
       "name": "Murch",
       "uri": "https://github.com/breez/breez/pull/209"
     }
+  },
+  {
+    "wallet": {
+      "name": "Bitypreço",
+      "uri": "https://bitypreco.com/"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "no",
+      "detail": ""
+    },
+    "credit": {
+      "name": "",
+      "uri": ""
+    }
   }
 ]
