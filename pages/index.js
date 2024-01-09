@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { faTwitter, faGithub, faSlack } from '@fortawesome/free-brands-svg-icons'
+import { faTwitter, faGithub, faDiscord } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import PillBox from '../components/pill-box'
 import {CopyIcon, CrossIcon, MenuIcon, CheckIcon} from '@bitcoin-design/bitcoin-icons-react/filled';
@@ -454,7 +454,7 @@ export default function Home() {
                 <li className="pl-4">
                   Once you've finished your test, send us the results
                   by <a href="https://github.com/sbddesign/bech32m-adoption/issues">opening an issue</a>,
-                  opening a PR to edit the website, or mentioning it to us on <a href="https://bitcoindesign.slack.com/archives/C03ND8N72PL">Slack</a>.
+                  opening a PR to edit the website, or mentioning it to us on <a href="https://discord.gg/sfc5qJWT9K">Discord</a>.
                 </li>
               </ol>
             </div>
@@ -515,9 +515,9 @@ export default function Home() {
 
               <ul className="text-xl space-y-8 text-center md:flex items-center justify-center md:space-y-0 md:space-x-16 lg:text-2xl">
                 <li>
-                  <a href="https://bitcoindesign.slack.com/archives/C03ND8N72PL" className="flex items-center justify-center space-x-4">
-                    <FontAwesomeIcon icon={faSlack} className="w-8 h-8" />
-                    <span>Slack <span className="sr-only xl:not-sr-only">Channel</span></span>
+                  <a href="https://discord.gg/sfc5qJWT9K" className="flex items-center justify-center space-x-4">
+                    <FontAwesomeIcon icon={faDiscord} className="w-8 h-8" />
+                    <span>Discord</span>
                   </a>
                 </li>
                 <li>
