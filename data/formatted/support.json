@@ -1953,5 +1953,28 @@
       "name": "",
       "uri": ""
     }
+  },
+  {
+    "wallet": {
+      "name": "Unchained Capital",
+      "uri": "https://unchained.com/"
+    },
+    "send_to_bech32": {
+      "status": "unknown"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "unknown"
+    },
+    "send_to_bech32m": {
+      "status": "no"
+    },
+    "receive_to_p2tr": {
+      "status": "unknown",
+      "detail": ""
+    },
+    "credit": {
+      "name": "notmandatory",
+      "uri": "https://github.com/sbddesign/bech32m-adoption/issues/48"
+    }
   }
 ]
