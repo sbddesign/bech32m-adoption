@@ -367,18 +367,14 @@
       "status": "no"
     },
     "send_to_bech32m": {
-      "status": "no"
+      "status": "yes"
     },
     "receive_to_p2tr": {
       "status": "no"
     },
-    "issue_link": "https://twitter.com/paoloardoino/status/1460620727342796800",
     "credit": {
-      "name": "",
-      "uri": ""
-    },
-    "notes": {
-      "status": "Send support is planned"
+      "name": "kilrau",
+      "uri": "https://twitter.com/kilrau/status/1752252008139018670"
     }
   },
   {
