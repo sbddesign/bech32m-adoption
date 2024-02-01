@@ -418,17 +418,16 @@
       "status": "no"
     },
     "send_to_bech32m": {
-      "status": "no",
+      "status": "yes",
       "detail": ""
     },
     "receive_to_p2tr": {
       "status": "no",
       "detail": ""
     },
-    "issue_link": "https://www.luno.com/blog/en/post/luno-launches-support-for-bech32-addresses",
     "credit": {
-      "name": "",
-      "uri": ""
+      "name": "dunxen",
+      "uri": "https://twitter.com/dunxen/status/1751703331620126814"
     }
   },
   {
