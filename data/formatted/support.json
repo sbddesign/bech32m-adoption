@@ -727,7 +727,7 @@
       "uri": ""
     }
   },
-    {
+  {
     "wallet": {
       "name": "Liana",
       "uri": "https://wizardsardine.com/liana/"
@@ -1970,6 +1970,29 @@
     "credit": {
       "name": "notmandatory",
       "uri": "https://github.com/sbddesign/bech32m-adoption/issues/48"
+    }
+  },
+  {
+    "wallet": {
+      "name": "Relai",
+      "uri": "https://relai.app/"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "no"
+    },
+    "receive_to_p2tr": {
+      "status": "no"
+    },
+    "issue_link": "https://twitter.com/relai_app/status/1769016755362443726",
+    "credit": {
+      "name": "",
+      "uri": ""
     }
   }
 ]
