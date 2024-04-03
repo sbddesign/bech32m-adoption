@@ -1994,5 +1994,28 @@
       "name": "",
       "uri": ""
     }
+  },
+  {
+    "wallet": {
+      "name": "Bitcoin Keeper",
+      "uri": "https://bitcoinkeeper.app/"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "yes"
+    },
+    "issue_link": "https://github.com/bithyve/bitcoin-keeper/pull/4076",
+    "credit": {
+      "name": "Parsh",
+      "uri": "https://github.com/Parsh"
+    }
   }
 ]
