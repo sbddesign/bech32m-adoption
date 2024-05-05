@@ -2017,5 +2017,29 @@
       "name": "Parsh",
       "uri": "https://github.com/Parsh"
     }
+  },
+  {
+    "wallet": {
+      "name": "Shakepay",
+      "uri": "https://shakepay.com"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "no",
+      "detail": "Planned and ready, but waiting on more exchanges to support sending to p2tr"
+    },
+    "issue_link": "https://x.com/shakepay/status/1612877209634541572",
+    "credit": {
+      "name": "Justin Camarena",
+      "uri": "https://x.com/juscamarena"
+    }
   }
 ]
