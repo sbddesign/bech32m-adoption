@@ -1692,6 +1692,29 @@
   },
   {
     "wallet": {
+      "name": "Bitkey",
+      "uri": "https://bitkey.world"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "no"
+    },
+    "issue_link": "",
+    "credit": {
+      "name": "Ryan Lanman",
+      "uri": "https://twitter.com/ryanlanman1/status/1794152104816525432"
+    }
+  },
+  {
+    "wallet": {
       "name": "CashApp",
       "uri": "https://cash.app/"
     },
