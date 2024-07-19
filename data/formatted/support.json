@@ -1974,7 +1974,7 @@
   },
   {
     "wallet": {
-      "name": "Unchained Capital",
+      "name": "Unchained",
       "uri": "https://unchained.com/"
     },
     "send_to_bech32": {
@@ -1984,15 +1984,15 @@
       "status": "unknown"
     },
     "send_to_bech32m": {
-      "status": "no"
+      "status": "yes"
     },
     "receive_to_p2tr": {
       "status": "unknown",
       "detail": ""
     },
     "credit": {
-      "name": "notmandatory",
-      "uri": "https://github.com/sbddesign/bech32m-adoption/issues/48"
+      "name": "Tom Honzik",
+      "uri": "https://x.com/unchainedcom/status/1811468660457804224"
     }
   },
   {
