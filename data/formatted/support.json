@@ -33,15 +33,14 @@
       "status": "no"
     },
     "send_to_bech32m": {
-      "status": "no",
-      "detail": "Not a priority currently"
+      "status": "yes"
     },
     "receive_to_p2tr": {
       "status": "no"
     },
     "credit": {
       "name": "",
-      "uri": ""
+      "uri": "https://x.com/CoinbaseAssets/status/1843712761391399318"
     }
   },
   {
