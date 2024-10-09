@@ -2042,6 +2042,28 @@
   },
   {
     "wallet": {
+      "name": "Robinhood",
+      "uri": "https://robinhood.com"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "unknown"
+    },
+    "send_to_bech32m": {
+      "status": "no"
+    },
+    "receive_to_p2tr": {
+      "status": "no"
+    },
+    "credit": {
+      "name": "",
+      "uri": "https://robinhood.com/us/en/support/articles/cryptocurrency-wallets/#Supportedaddressformatsforcryptowithdrawals"
+    }
+  },
+  {
+    "wallet": {
       "name": "Mixin Messenger",
       "uri": "https://www.mixin.one/messenger"
     },
