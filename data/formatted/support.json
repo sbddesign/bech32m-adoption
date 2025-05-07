@@ -437,12 +437,12 @@
       "status": "yes"
     },
     "send_to_bech32m": {
-      "status": "no"
+      "status": "yes"
     },
     "receive_to_p2tr": {
       "status": "no"
     },
-    "issue_link": "https://np.reddit.com/r/bitcoin/comments/b66n0v/psa_gemini_is_full_on_with_native_segwit_and_uses/",
+    "issue_link": "https://github.com/sbddesign/bech32m-adoption/issues/62",
     "credit": {
       "name": "",
       "uri": ""
