@@ -2064,6 +2064,28 @@
   },
   {
     "wallet": {
+      "name": "Envoy",
+      "uri": "https://foundation.xyz/envoy/"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "yes"
+    },
+    "credit": {
+      "name": "Jacksper13",
+      "uri": "https://github.com/sbddesign/bech32m-adoption/issues/64#issuecomment-3082737119"
+    }
+  },
+  {
+    "wallet": {
       "name": "Mixin Messenger",
       "uri": "https://www.mixin.one/messenger"
     },
