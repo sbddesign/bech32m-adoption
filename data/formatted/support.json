@@ -2129,5 +2129,27 @@
       "name": "Justin Camarena",
       "uri": "https://x.com/juscamarena"
     }
+  },
+  {
+    "wallet": {
+      "name": "Gem Wallet",
+      "uri": "https://gemwallet.com/"
+    },
+    "send_to_bech32": {
+      "status": "yes"
+    },
+    "receive_to_p2wpkh_p2wsh": {
+      "status": "yes"
+    },
+    "send_to_bech32m": {
+      "status": "yes"
+    },
+    "receive_to_p2tr": {
+      "status": "no"
+    },
+    "credit": {
+      "name": "Gem Wallet",
+      "uri": "https://docs.gemwallet.com/blockchains/bitcoin/#bitcoin-address-types-bc1q-and-bc1p"
+    }
   }
 ]
