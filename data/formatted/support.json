@@ -101,15 +101,15 @@
       "status": "yes"
     },
     "send_to_bech32m": {
-      "status": "no"
+      "status": "yes"
     },
     "receive_to_p2tr": {
       "status": "no"
     },
-    "issue_link": "https://twitter.com/colemaktypo/status/1460337599499882502",
+    "issue_link": "",
     "credit": {
-      "name": "",
-      "uri": ""
+      "name": "Darosior",
+      "uri": "https://www.binance.com/en-PH/support/faq/detail/4fa57834511d44389c7778c8a9e82ffd"
     }
   },
   {
