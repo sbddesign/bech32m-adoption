@@ -118,21 +118,21 @@
       "uri": "https://www.binance.us/"
     },
     "send_to_bech32": {
-      "status": "unknown"
+      "status": "yes"
     },
     "receive_to_p2wpkh_p2wsh": {
       "status": "unknown"
     },
     "send_to_bech32m": {
-      "status": "unknown"
+      "status": "yes"
     },
     "receive_to_p2tr": {
       "status": "unknown"
     },
     "issue_link": "",
     "credit": {
-      "name": "",
-      "uri": ""
+      "name": "jaonoctus",
+      "uri": "https://x.com/jaoNoctus/status/2120942148291793039"
     }
   },
   {
