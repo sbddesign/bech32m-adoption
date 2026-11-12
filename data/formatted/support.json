@@ -259,31 +259,6 @@
   },
   {
     "wallet": {
-      "name": "Paxful.com",
-      "uri": "https://paxful.com/"
-    },
-    "send_to_bech32": {
-      "status": "yes"
-    },
-    "receive_to_p2wpkh_p2wsh": {
-      "status": "no"
-    },
-    "send_to_bech32m": {
-      "status": "evaluating",
-      "detail": "??"
-    },
-    "receive_to_p2tr": {
-      "status": "evaluating",
-      "detail": "??"
-    },
-    "issue_link": "https://paxful.com/support/en-us/articles/360011766520-can-i-withdraw-bitcoin-from-paxful-wallet-to-my-external-wallet-",
-    "credit": {
-      "name": "",
-      "uri": ""
-    }
-  },
-  {
-    "wallet": {
       "name": "Peach Bitcoin",
       "uri": "https://peachbitcoin.com/"
     },
